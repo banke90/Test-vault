@@ -17,7 +17,11 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 ## Biology at the molecular and cellular level
 
 - **Ribosome energetics.** ~5 ATP per amino acid addition → ~100 k_B T per peptide bond plus ~5–10 k_B T proofreading overhead. A few dozen Landauer bits for selecting one amino acid from 20. [Hopfield 1974; biochemistry standard] *(established)*
-- **Kinetic proofreading.** Hopfield 1974, Ninio 1975: ribosomes and DNA polymerases spend ATP to reduce error rates beyond the equilibrium Boltzmann bound. Formally analogous to Landauer: reducing entropy of correct-vs-incorrect bit requires dissipation [Hopfield 1974] *(established)*.
+- **Ribosome error rate.** ~10⁻⁴ per amino acid. Achievable only with kinetic proofreading — equilibrium binding-energy discrimination would give ~10⁻² *(established)*. → [[notes/kinetic-proofreading]]
+- **Kinetic proofreading.** Hopfield 1974, Ninio 1975: ribosomes and DNA polymerases spend ATP to reduce error rates beyond the equilibrium Boltzmann bound. Formally analogous to Landauer: reducing entropy of correct-vs-incorrect bit requires dissipation [Hopfield 1974] *(established)*. → [[notes/kinetic-proofreading]]
+- **Hopfield squaring.** Proofreading multiplies equilibrium selectivity by roughly itself: a factor-100 equilibrium becomes ~10⁴ at cost of the GTP hydrolysis per rejected substrate *(established as schematic; exact gain depends on rate constants)*.
+- **DNA polymerase III error rate.** ~10⁻⁷ per base in *E. coli* — three orders of magnitude better than ribosomal translation because replication can tolerate higher ATP cost per decision.
+- **V(D)J recombination.** The RAG1/RAG2 enzymes that diversify antibodies are evolutionarily descended from an ancient transposase — a domesticated transposon. *(established)*.
 - **Tardigrade water loss in anhydrobiosis.** Up to ~99% body water loss; reversible. [Guidetti 2011] *(established)*. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
 - **Tardigrade glass state.** CAHS, MAHS, SAHS proteins vitrify the cytoplasm; Dsup protein physically shields DNA from radicals. Unique to phylum Tardigrada. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
 - **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[notes/octopus-cognition]]
@@ -84,7 +88,19 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 - **Voynich manuscript vellum date.** Radiocarbon 1404–1438 [Hodgins 2011] *(established)*. → [[notes/agent-1-voynich-statistics-look-like-language]]
 - **Voynich Zipf and Heaps.** Word frequencies and vocabulary growth match natural-language curves [Montemurro & Zanette 2013].
 - **Finnish "15 cases".** Mostly agglutinative postpositions; six locative cases form a 2×3 spatial/directional matrix. → [[notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]]
+- **Pirahã phoneme count.** 10 or 11 phonemes depending on count — one of the smallest inventories known. Two tones. Language survives as whistled and hummed registers. *(established)*. → [[notes/does-piraha-lack-recursion]]
+- **Gordon 2004 Pirahã number study.** Speakers fail exact-match tasks above ~3 items; suggests no exact-number cognition without exact-number words. [Gordon 2004] *(established finding; interpretation contested)*.
+- **Hauser-Chomsky-Fitch 2002.** Proposed **recursion** as the unique defining feature of the human language faculty (FLN — Faculty of Language in the Narrow Sense). The 2005 Everett Pirahã paper is its most prominent empirical challenge.
 - **Mycorrhizal critique.** [Karst et al. 2023] documents citation drift on "mother tree" claims. → [[notes/plant-cognition-mycorrhizal-networks]]
+
+## History of science
+
+- **McClintock Ac/Ds.** Ac (Activator) and Ds (Dissociation) — maize transposon system, discovered 1944–1950 by Barbara McClintock. First identified transposable elements [McClintock 1950] *(established)*. → [[notes/mcclintock-and-the-forty-year-delay]]
+- **Transposon fraction of human genome.** ~45% recognisably transposon-derived; higher estimates include more degraded ancient elements [IHGSC 2001] *(established; lower bound)*.
+- **Maize genome transposons.** ~85% transposon-derived — the organism where they were first discovered has among the highest fractions known.
+- **Active human transposons.** LINE-1 (autonomous), SINE/Alu (non-autonomous, ~1M copies), HERV-K. LINE-1 activity in neuronal progenitors documented [Muotri & Gage 2010] *(established; functional significance mixed)*.
+- **McClintock Nobel year.** 1983, unshared, for the maize controlling-elements work done 30+ years earlier.
+- **Syncytin.** The protein enabling trophoblast fusion in mammalian placentas is an exapted endogenous retrovirus envelope gene — a transposon contribution to a fundamental biological structure. *(established)*.
 
 ## Sources
 
