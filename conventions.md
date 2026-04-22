@@ -2,6 +2,8 @@
 
 This is my personal note format, designed from first principles. It is not Obsidian-compatible, Jekyll-compatible, or Zettelkasten-pure. It is what I actually want from notes when I re-read them.
 
+Revised 2026-04-22 after writing ~15 notes under the original version. Changes from v0: dropped `[Kind]` field, softened filename rule, tightened TL;DR target, added companion file for raw facts, honest note on what `Last verified` requires to earn its place. The spirit unchanged.
+
 ## What a note is for
 
 Before structure, purpose. I write notes to:
@@ -23,19 +25,20 @@ Frontmatter is for machines. I'm the reader. If I want metadata, I'll put it som
 
 Tags promise cross-cutting retrieval. In practice they either sprawl (every note gets ten) or atrophy (nobody tags consistently over time). Full-text search handles most retrieval; explicit links handle the rest. I'll reintroduce tags the day I find myself wanting them — not in advance.
 
-### Filenames are phrases, not slugs
+### Filenames should be specific where useful, bucket-names where that serves
 
-`octopus-cognition.md` is a topic bucket. `octopus-arms-do-their-own-motor-planning.md` is a pointer to something specific. I'll prefer the specific when I can — a filename should tell me what the note is *about*, not just what bucket it lives in. Short enough to paste in a terminal, ~3–5 words.
+My first version of this rule said "always prefer phrases over topic-buckets." In practice I kept some bucket-style filenames (`octopus-cognition.md`, `mechanistic-interpretability.md`) because they're shorter, because they don't pretend to a specificity the note doesn't have, and because renaming breaks links. The honest rule: use a specific phrase when the note really is about one claim or one scoped question; use a short bucket when the note is a survey and a phrase would feel forced. Don't force either direction.
 
 ### Metadata lives in a visible header block
 
-Three pieces of metadata actually earn their keep:
+Two pieces of metadata earn their keep:
 
 - **Confidence.** How much should the reader trust the contents. One of: `established`, `mixed`, `speculative`, `contested`.
-- **Last verified.** When was the content last checked against reality. Not the creation date — the creation date is almost never what I want.
-- **Kind.** What sort of note this is. One of: `concept`, `claim`, `survey`, `question`, `comparison`, `log`. Helps me know what to expect.
+- **Last verified.** When was the content last checked against reality. Not the creation date — the creation date is almost never what I want. *Caveat:* `Last verified` only earns its place if I actually come back and update it. If a note sits for years with the same date, the field degenerates into a creation date with extra steps. The discipline is the point.
 
-These go in square brackets, three lines, right under the title. Human-readable, scannable.
+These go in square brackets, two lines, right under the title. Human-readable, scannable.
+
+(v0 had a `Kind` field with six values: concept, claim, survey, question, comparison, log. In practice almost every note I wrote was "survey" or "concept". The taxonomy did too little work to earn its place. Dropped.)
 
 ### Sources live next to claims
 
@@ -59,25 +62,27 @@ A researcher's most valuable notes are the questions they haven't answered. I pu
 
 Every note starts with a one-paragraph summary that can stand alone. If a reader reads nothing else, that paragraph should deliver the point. I write it last, but it sits first.
 
+Target length: **three sentences**. Five is a ceiling, not an aim. Longer TL;DRs are the note spilling into its own summary. I drifted past the target in my first round; tightening matters.
+
 ## Template
 
 ```
-# <Specific, contentful title — a claim or a scoped question, not just a topic>
+# <Specific, contentful title. A claim for argument notes, a scoped topic for surveys.>
 
 > <One-sentence distilled version. The elevator summary.>
 
 [Confidence: established | mixed | speculative | contested]
 [Last verified: YYYY-MM-DD]
-[Kind: concept | claim | survey | question | comparison | log]
 
 ## TL;DR
 
-<3–5 sentences. Readable standalone. Contains the main claim and any major caveat.>
+<Three sentences. Five is the ceiling. Readable standalone. Main claim plus
+any major caveat.>
 
 ## <Substantive section named for its content>
 
 <Body. Inline source keys like [Author Year]. Confidence flags where useful:
-*(established)*, *(speculative)*, *(contested)*.>
+*(established)*, *(speculative)*, *(contested)*, *(my guess)*.>
 
 ## <More sections as needed>
 
@@ -108,10 +113,40 @@ arXiv or publisher URL preferred.>
 - **"Last modified: auto"**. Autostamps drift and lie. A manual `Last verified` is a commitment.
 - **Categorical directory structure beyond shallow grouping.** Deep directory trees are a losing battle against how ideas actually cross-pollinate. Flat-ish is better.
 
-## What I expect to change my mind on
+## Raw facts — the companion file
 
-- **Confidence tiers.** Four might be too many or too few. I'll find out.
-- **Whether `Kind` is worth the overhead.** Maybe every note is really just a concept-note and the other kinds are ornaments.
-- **Filename style.** Long phrases might get tedious. If so, I'll loosen.
+Full notes are for things I've understood. But while researching, I learn things that aren't worth a whole note — numbers, dates, specific claims I want to look up later. Those go in `facts.md` at the vault root.
 
-I'll revisit this document when I've written ~20 more notes under it and see what stopped feeling right.
+Design:
+
+- **One bullet per fact.** Bold the key noun phrase. Then the claim, compact. Then the source as `[Author Year]` (resolved in a `## Sources` section at the bottom). Optional confidence tag.
+- **Shallow topical sections** (≤10). Don't over-organise. Grep beats taxonomy.
+- **Self-contained.** Each bullet should be readable without context from the bullets around it.
+- **Promotable.** When a fact earns a full note, write the note and leave a stub in `facts.md`: `**X.** Short fact. — [Source] → [[notes/name]]`.
+- **No tags, no frontmatter.** Same discipline as notes.
+
+Example:
+
+```
+- **ATP energy at 300 K.** One ATP hydrolysis delivers ~20 k_B T ≈ 8 × 10⁻²⁰ J.
+  Enough for ~29 Landauer bits of erasure. [biochemistry standard]
+  *(established)*. → [[notes/why-biology-runs-near-the-landauer-bound]]
+```
+
+The point is low-friction capture. If adding a fact takes more than 30 seconds of deciding, I won't do it, and the facts will stay as browser tabs.
+
+## Changed my mind on
+
+- **Kind field.** Dropped. See above.
+- **Filename rule.** Softened. See above.
+- **TL;DR length.** Tightened from "3–5 sentences" to "three, max five".
+- **`Last verified` discipline.** Added an explicit caveat that it only earns its place with ongoing maintenance.
+
+## Still on my watchlist
+
+- **Confidence tiers.** Four feels right so far but I've used `established` and `mixed` much more than the others. May collapse to three.
+- **Sources as bottom-of-note vs footnotes.** Bottom works; footnotes would be cleaner but render unevenly across tools. Keeping bottom for now.
+- **Whether the `Disagreements and cautions` and `Questions I'd like answered` sections overlap too much.** A contested claim can appear in both. Haven't fully resolved.
+- **`facts.md` as one file vs split.** One for now. Split when it crosses ~400 lines.
+
+I'll revisit this document when I've written ~20 more notes under it.
