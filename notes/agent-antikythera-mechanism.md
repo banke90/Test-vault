@@ -1,100 +1,107 @@
----
-title: The Antikythera Mechanism
-tags: [history, astronomy, archaeology, computing, ancient-technology]
-date: 2026-04-21
----
+# The Antikythera mechanism is a 2nd-century-BCE bronze computer that breaks the gradualist story of technology
 
-# The Antikythera Mechanism
+> A hand-cranked geared device pulled from a Roman shipwreck in 1901 turned out to be a sophisticated mechanical computer — predicting Sun, Moon, planets, eclipses, and even Olympiad games — whose epicyclic gearing and pin-and-slot lunar model are centuries beyond anything else surviving from the Hellenistic record and unmatched in Europe for ~1,400 years.
 
-In 1901, sponge divers pulled a corroded lump of bronze from a Roman-era shipwreck off the tiny Greek island of Antikythera. For decades it sat in a museum drawer as a curiosity — a greenish mass with what looked like gear teeth embedded in it. Over the following century, X-rays, neutron tomography, and painstaking reconstruction revealed something that should not exist: a hand-cranked mechanical computer from roughly the 2nd century BCE, built to predict the motions of the sun, moon, planets, and eclipses, with gearing so sophisticated that nothing comparable would reappear in Europe for well over a thousand years.
+[Confidence: established for the basic facts; specific dating and planetary-gearing reconstructions are mixed]
+[Last verified: 2026-04-21]
+[Kind: survey]
 
-The mechanism is an object that quietly embarrasses our neat narratives about technological progress. It suggests that a line of craft knowledge — probably small, probably carried by a handful of workshops — briefly produced instruments whose existence we would otherwise flatly deny was possible for that era.
+## TL;DR
 
-## Discovery and Context
+In 1900–1901, sponge divers found a Roman-era shipwreck off Antikythera (~70–60 BCE). Among the cargo: a corroded bronze lump that, over the next century, was revealed by X-ray and neutron tomography to be a hand-cranked mechanical computer with at least 30 (likely 37+) bronze gears, predicting solar/lunar/planetary positions, lunar phase, eclipses via the Saros cycle, the Metonic 19-year lunisolar cycle, and the 4-year Olympiad. The 2021 UCL reconstruction by **Tony Freeth** and colleagues [Freeth et al. 2021] proposes the most complete model to date for the front planetarium. The mechanism implements **epicyclic gearing** and a **pin-and-slot device** modelling the Moon's first anomaly — both centuries beyond surviving contemporary technology, and reproducing Hipparchus' lunar theory more faithfully than Ptolemy's later textual account does. Origin probably Rhodes, dating likely between ~205 and ~100 BCE. The instrument breaks the gradualist narrative of Mediterranean mechanical technology and is best understood as a rare-survivor of a craft tradition we mostly cannot see.
 
-In autumn 1900, Captain Dimitrios Kontos and a crew of sponge divers from the island of Symi, sheltering from a storm, dove off Point Glyphadia on Antikythera and stumbled onto a 1st-century BCE Roman cargo wreck at roughly 45 metres depth. The Hellenic Royal Navy organised a salvage campaign that ran through 1901 — one of the earliest underwater archaeological operations ever mounted. Divers brought up bronze and marble statues, amphorae, glassware, coins, and a lump of corroded metal that attracted little attention at first.
+## Discovery and salvage
 
-In May 1902 the Greek politician Spyridon Stais, visiting the National Archaeological Museum in Athens, noticed a gear wheel embedded in the corroded mass. His cousin Valerios Stais, the museum director, began the first study. The object cracked into several main fragments (now labelled A through G, with many smaller pieces) as the wood casing decayed further in air.
+Autumn 1900: Captain **Dimitrios Kontos** and a crew of sponge divers from Symi, sheltering from a storm, dove off Point Glyphadia on Antikythera and found a 1st-century BCE Roman cargo wreck at ~45 m. The Hellenic Royal Navy ran a salvage campaign through 1901 — one of the earliest underwater archaeological operations in history. They recovered bronze and marble statues, amphorae, glassware, coins, and a corroded metal mass that initially attracted little attention.
 
-The wreck itself has been dated to around 70–60 BCE by the coins and amphorae it carried, and it was probably en route from somewhere in the eastern Aegean (Rhodes or Pergamon are the usual suspects) to Rome, possibly carrying loot or luxury goods for a triumph. The mechanism must have been constructed before the sinking; internal astronomical evidence and inscriptions place its design somewhere between about 205 BCE and 100 BCE.
+In May 1902, the Greek politician **Spyridon Stais** noticed a gear wheel embedded in the corroded lump in the National Archaeological Museum in Athens. His cousin **Valerios Stais**, museum director, began the first study. As wood casing decayed in air, the object cracked into several main fragments (now labelled A–G with many smaller pieces).
 
-## What It Does
+The wreck dates to ~70–60 BCE based on coins and amphorae, probably travelling from the eastern Aegean (Rhodes or Pergamon) to Rome. The mechanism predates the sinking; internal astronomical and inscriptional evidence places construction between ~205 BCE and ~100 BCE *(established for ranges; precise date contested)*.
 
-The device is a box roughly the size of a shoebox (originally about 33 × 18 × 10 cm, housed in a wooden case), operated by a side crank. Turning the crank drives a train of bronze gears that move pointers across dials on both faces. The surviving fragments preserve maybe a third of the original structure; the rest is reconstructed from tooth counts, gear positions, and thousands of tiny Greek inscriptions that functioned as a built-in user manual.
+## What it does
 
-**Front face.** A large central dial shows two concentric rings: the Greek zodiac (360 degrees) and the Egyptian civil calendar (365 days). The Egyptian calendar ring was rotatable, allowing the user to correct for the lack of leap days. Pointers indicated the position of the Sun and Moon against the zodiac, and — according to the 2021 UCL reconstruction led by Tony Freeth — five further pointers tracked Mercury, Venus, Mars, Jupiter, and Saturn, each on its own concentric ring. A small rotating ball, half black and half silver, showed the Moon's phase.
+Box ~33 × 18 × 10 cm in a wooden case, side-cranked. Turning the crank drives a train of bronze gears moving pointers across dials on both faces. Surviving fragments preserve maybe a third of the original; the rest is reconstructed from tooth counts, gear positions, and thousands of tiny Greek inscriptions that functioned as a built-in user manual.
 
-**Back face.** Two large spiral dials dominated.
+**Front face.** Central dial with two concentric rings: Greek zodiac (360°) and Egyptian civil calendar (365 days). The Egyptian ring was rotatable to correct for the missing leap day. Pointers showed Sun and Moon position against the zodiac. The 2021 Freeth reconstruction adds five further pointers for Mercury, Venus, Mars, Jupiter, Saturn, each on its own concentric ring. A small ball, half black/half silver, showed the Moon's phase.
 
-- The upper spiral is the **Metonic dial**, a five-turn spiral covering 235 synodic months (the Metonic cycle: 19 tropical years is extremely close to 235 lunations, so this is the classical device for reconciling lunar and solar calendars). A secondary small dial showed the 76-year **Callippic cycle** (four Metonic cycles minus one day) and another showed the 4-year **Olympiad** cycle, naming the Panhellenic games — Olympic, Pythian, Nemean, Isthmian. The Olympiad dial is the only one that tracks a purely social, non-astronomical cycle.
-- The lower spiral is the **Saros dial**, a four-turn spiral with 223 cells covering the Saros eclipse cycle. Cells where an eclipse was possible were marked with glyphs indicating solar (Σ, for Helios) or lunar (Σ for Selene) eclipses, predicted times, and sometimes the likely color or wind conditions — which may reflect an astrological overlay or simply empirical Babylonian observation notes. A subsidiary **Exeligmos dial** (three Saros cycles, 54 years) corrected the roughly 8-hour offset between successive Saros cycles.
+**Back face.** Two large spiral dials:
 
-So with a single crank, a user could dial in a date and read off: where the Sun and Moon were in the sky, where each of the five visible planets was, the phase of the Moon, the current month in both Greek lunar and Egyptian solar calendars, whether an eclipse was due and roughly when, and which set of games was being held that year. It is a pocket cosmos.
+- **Metonic dial** (upper): five-turn spiral, 235 cells = 235 synodic months ≈ 19 tropical years. The Metonic cycle reconciles lunar and solar calendars. Subsidiary dials for the **Callippic cycle** (76 years = 4 Metonic − 1 day) and the **Olympiad** cycle (4-year Panhellenic games — Olympic, Pythian, Nemean, Isthmian). Olympiad is the only purely social, non-astronomical cycle on the device.
+- **Saros dial** (lower): four-turn spiral, 223 cells = 223 synodic months ≈ Saros eclipse cycle (~18 years 11 days). Cells where eclipses were possible carry glyphs marking solar (Σ for Helios) or lunar (Σ for Selene), predicted times, and sometimes colour or wind notes — possibly astrological, possibly Babylonian observational notes. A subsidiary **Exeligmos dial** (3 Saros = 54 years) corrects the ~8-hour offset between successive Saros cycles.
 
-## The Gearing
+So with one crank you could dial in a date and read off: Sun and Moon position, planet positions, lunar phase, current month in Greek lunar and Egyptian solar calendars, whether an eclipse was due and roughly when, which set of games was being held that year. A pocket cosmos.
 
-At least 30 gear wheels have been directly identified in the surviving fragments, and the full reconstruction posits 37 or more — though some recent estimates go higher, depending on how the front planetarium is modelled. The teeth are small, hand-cut triangles, about a millimetre high, and tooth counts are carefully chosen to approximate irrational astronomical ratios. To pick one example: the ratio 254/19, which converts the 19-year Metonic cycle into sidereal lunar months, is realised in the mechanism by a gear train that multiplies out to the same ratio — a clever piece of numerical engineering.
+## The gearing
 
-Two tricks in the gearing are particularly remarkable:
+At least 30 gear wheels directly identified; full reconstruction posits 37+. Teeth are ~1 mm hand-cut triangles. Tooth counts approximate irrational astronomical ratios — e.g. the 254/19 ratio (sidereal lunar months per Metonic cycle) is realised by a multi-stage gear train *(established)*.
 
-**Epicyclic gears.** Some gears are mounted not on a fixed axle but on a carrier that itself rotates. This is a genuine epicycle in metal, not just a calculation trick — and it predates the earliest clear European descriptions of epicyclic gearing by more than a millennium.
+Two particularly remarkable mechanical tricks:
 
-**The pin-and-slot mechanism.** To model the Moon's variable apparent speed (the "first lunar anomaly" — the Moon moves faster near perigee and slower near apogee because its orbit is elliptical), the mechanism uses a pin on one gear that engages a slot on a slightly offset neighbouring gear. As the pair rotate together, the pin slides in and out of the slot, producing a velocity that speeds up and slows down in a near-sinusoidal pattern. This is a mechanical analogue of Hipparchus' lunar epicyclic theory, and it is accurate to something like 1 part in 200. Strikingly, this means the Antikythera mechanism implements Hipparchus' first lunar anomaly more faithfully than Ptolemy's own later textual account of Hipparchus' theory does. A physical instrument preserving a theoretical tradition more cleanly than the written sources is a strange and lovely inversion.
+**Epicyclic gears.** Gears mounted on a carrier that itself rotates — a genuine mechanical epicycle, not just a calculation trick. This predates the earliest clear European descriptions of epicyclic gearing by more than a millennium *(established)*.
 
-The differential gear that Derek de Solla Price famously proposed in the 1970s turned out to be wrong — later CT scans showed a different configuration — but his key insight that this was a serious mechanical computer, not a toy or a sundial, was correct and ahead of its time.
+**Pin-and-slot mechanism for the lunar anomaly.** To model the Moon's variable apparent speed (the **first lunar anomaly** — faster near perigee, slower near apogee, due to elliptical orbit), the mechanism uses a pin on one gear engaging a slot on a slightly offset neighbouring gear. Rotating together, the pin slides in and out of the slot, producing a near-sinusoidal velocity modulation — a mechanical analogue of Hipparchus' lunar epicyclic theory, accurate to roughly 1 part in 200 [Gourtsoyannis 2010] *(established)*.
 
-## Dating and Origins
+Strikingly, this means the mechanism implements Hipparchus' first lunar anomaly *more faithfully* than Ptolemy's later textual account of Hipparchus' theory does. A physical instrument preserving a theoretical tradition more cleanly than the written sources is a strange and lovely inversion.
 
-No one knows who built it. Several lines of evidence point to the eastern Aegean, probably Rhodes:
+The differential gear that **Derek de Solla Price** famously proposed in the 1970s turned out to be wrong — later CT scans showed a different configuration — but his core insight that this was a serious mechanical computer rather than a toy or sundial was correct and ahead of its time.
 
-- The list of astronomical events inscribed on the front (the *parapegma*) is calibrated for a latitude of roughly 33.3 to 37.0 degrees north — consistent with Rhodes, though not uniquely so.
-- The ship's cargo includes Rhodian amphorae.
-- Cicero, writing in the 1st century BCE, describes two planetary-model devices made by Archimedes and brought to Rome, and a similar heavenly model made in his own time by the Stoic philosopher **Posidonius** on Rhodes. Cicero's accounts do not prove that the Antikythera mechanism came from Posidonius' circle, but they strongly suggest that Rhodes had an active tradition of such instruments.
+## Dating and origins
 
-Dating is trickier. The shipwreck sank around 70–60 BCE, providing a hard upper bound. Astronomical internal evidence — the specific arrangement of eclipses predicted by the Saros dial, and the choice of starting epoch for the lunar and solar cycles — has been used to back-calculate the calibration date. Christian Carman and James Evans argued in 2014 that the eclipse predictions work best if the mechanism was initialised in **205 BCE**, which is suggestively close to Archimedes' death in 212 BCE. Other authors prefer dates around 150–100 BCE based on inscriptional paleography and the alignment with Hipparchus' lunar theory, which matured in the later 2nd century BCE.
+No-one knows who built it. Several lines of evidence point to the eastern Aegean, probably Rhodes:
 
-One attractive possibility is that the 205 BCE epoch was a starting reference even though the object itself was manufactured later — the way a modern calendar can start from a historical zero point. The mechanism may represent a matured tradition that began with Archimedes, was refined by Hipparchus' time, and was still being produced (perhaps in small numbers for wealthy patrons) a century after that.
+- The astronomical event list inscribed on the front (the *parapegma*) is calibrated for latitude ~33.3°–37.0° N — consistent with Rhodes, but not uniquely so.
+- The shipwreck cargo includes Rhodian amphorae.
+- **Cicero**, writing in the 1st century BCE, describes two planetary-model devices made by **Archimedes** and brought to Rome, plus a similar heavenly model made in his own time by the Stoic **Posidonius** on Rhodes. Cicero's accounts don't prove the Antikythera mechanism came from Posidonius' workshop, but they strongly suggest Rhodes had an active tradition.
 
-## Why It Matters
+Dating is harder. The wreck date (~70–60 BCE) is a hard upper bound. **Christian Carman and James Evans** [Carman & Evans 2014] argued from eclipse-prediction evidence that the mechanism was initialised in **205 BCE** — suggestively close to Archimedes' death in 212 BCE. Other scholars prefer ~150–100 BCE based on inscriptional palaeography and Hipparchus' lunar theory's maturity.
 
-The usual story of mechanical technology is gradualist: water clocks, primitive astrolabes, gradually more refined clockwork, culminating in the escapement-driven clocks of 14th-century Europe. The Antikythera mechanism breaks that story. Its gearing quality, tooth cutting, epicyclic arrangement, and pin-and-slot modelling are *centuries* beyond anything attested in the surviving Hellenistic or Roman record, and nothing of comparable mechanical sophistication is known to have been made in Europe or the Mediterranean for roughly 1,400 years after it.
+One reconciling possibility: the 205 BCE epoch was a starting reference (like a calendar zero point) even though manufacture was later. The mechanism may represent a matured tradition begun by Archimedes, refined by Hipparchus' time, and still being produced for wealthy patrons a century after that *(speculative but plausible)*.
 
-This gap is almost certainly an accident of preservation rather than a real gap in capability. Bronze is expensive and readily recycled; wood rots; patents did not exist; craft knowledge was guild-held and rarely written. We know from Cicero, Pappus, Heron of Alexandria, and Islamic-era authors like al-Biruni that geared astronomical devices continued to be made in various forms — the Byzantine sundial-calendar (c. 500 CE) has gears; Islamic geared astrolabes from the 11th century onward survive. The Antikythera mechanism is almost certainly not a one-off, but a rare surviving exemplar of a lineage we mostly cannot see.
+## Why it matters
 
-Its implications are worth stating plainly:
+The standard story of mechanical technology is gradualist: water clocks → primitive astrolabes → refined clockwork → 14th-century European escapements. The Antikythera mechanism breaks that story. Gear quality, tooth cutting, epicyclic arrangement, pin-and-slot modelling — all *centuries* beyond anything else attested in surviving Hellenistic or Roman record, with no comparable mechanical sophistication for ~1,400 years afterward in Europe or the Mediterranean.
 
-1. **Craft knowledge and theoretical knowledge had already merged** in the Hellenistic world. The mechanism's designer had to understand epicyclic astronomy (abstract theory), numerical approximation of period ratios (number theory), and gear-tooth cutting (metallurgy and craft). These are not separate cultures in 150 BCE.
-2. **What we lose is often the middle.** We have Aristotle and Euclid (high theory) and lots of pottery (low craft). The Antikythera mechanism belongs to a missing middle tier: sophisticated applied science. Most of it is simply gone.
-3. **Analog computation is older than we remember.** Before digital computation, mechanisms *were* computation. The mechanism embodies a specific algorithm — one whose gears physically enact the ratios the algorithm requires. There is a clean sense in which running the crank is *running a program*, in bronze.
+This is almost certainly **an accident of preservation**, not a real technological gap. Bronze is expensive and recycled; wood rots; craft knowledge was guild-held and rarely written. Cicero, Pappus, Heron of Alexandria, Islamic-era authors like al-Biruni — all describe geared astronomical devices in continuous if discontinuous traditions. The Byzantine sundial-calendar (~500 CE) has gears; Islamic geared astrolabes from the 11th century survive. Antikythera is almost certainly a rare-surviving exemplar of a lineage we mostly cannot see *(my reading; widely shared)*.
 
-## Open Questions
+Three implications worth stating plainly:
 
-- **Planetary gearing.** Only fragments of the front planetarium survive. The 2021 UCL reconstruction (Freeth et al.) proposes a specific scheme using nested epicyclic gear trains with period relations derived from the method of Parmenides, yielding cycles like 462 years for Venus and 442 years for Saturn. It is consistent with all surviving physical evidence and with the Greek inscriptions on the front cover, but it remains a reconstruction. Alternative schemes have been proposed (e.g. by Michael Wright, who built a working physical model in the 2000s).
-- **How many were made?** We have one. Were there ten? A hundred? A thousand? The existence of a detailed user's guide inscribed directly on the plates, and of apparently standardised eclipse glyphs, suggests serial production rather than a unique prototype.
-- **What did it cost, and who owned it?** A device this intricate must have required skilled labor over months. Was it commissioned for a wealthy patron, a temple, a teaching institution, or a civic showpiece?
-- **Is there an Archimedes connection?** Cicero's account of Archimedes' sphere is tantalising but short on mechanical detail. The 205 BCE epoch hypothesis sharpens the question without settling it.
-- **How will new imaging change the picture?** Ongoing work with higher-resolution neutron tomography and X-ray phase-contrast imaging continues to reveal new inscriptions and gear details. The 2005 Antikythera Mechanism Research Project reading of the inscriptions multiplied the known Greek text several-fold. There may still be fragments on the sea floor; return expeditions to the wreck have been ongoing since 2014.
-- **Was it accurate enough to use, or was it symbolic?** Modern replicas show the mechanism works in principle, but the tiny scale and hand-cut teeth mean accumulated error after many rotations would be noticeable. It may have been as much a teaching device or a display of cosmic mastery as a working almanac.
+1. **Theoretical and craft knowledge were already merged in the Hellenistic world.** Designing this required epicyclic astronomy (theory), period-ratio number theory (mathematics), and gear-tooth cutting (craft). These are not separate cultures in 150 BCE.
+2. **What we lose is the middle.** We have Aristotle and Euclid (high theory) and lots of pottery (low craft). Antikythera belongs to a missing middle tier — sophisticated applied science. Most of it is gone.
+3. **Analog computation is older than we remember.** Before digital, mechanisms *were* computation. Running the crank is, in a defensible sense, *running a program* in bronze.
 
-There is something philosophically strange about a civilisation that built the Antikythera mechanism also building essentially no public infrastructure that depended on the same skills. The knowledge existed and was deployable, but it fed into luxury objects and philosophical demonstrations rather than, say, textile machinery or pumps. The instrument is a reminder that "technology" is not a single thing that advances or retreats as a unit — it is a patchwork of parallel traditions, each with their own economic and cultural conditions for survival. Some patches simply drop out. The Antikythera mechanism is what one of those dropped-out patches looked like before it went dark.
+## Disagreements and cautions
+
+- **Planetary gearing is partly reconstruction.** Only fragments of the front planetarium survive. Freeth et al.'s 2021 scheme is the most complete proposal, consistent with surviving evidence and the cover inscriptions, but alternative reconstructions (notably **Michael Wright**, who built a working physical model in the 2000s) differ in detail. Treat planetary specifics as best-guess, not established.
+- **Dating remains contested.** Carman & Evans 2014 argue 205 BCE; others place the mechanism's design closer to 150–100 BCE. The uncertainty is probably at least ±50 years.
+- **Archimedes connection is suggestive, not proven.** Cicero's account is short on mechanical detail; the 205 BCE epoch is consistent with an Archimedean tradition but doesn't establish it.
+- **"World's first computer" is a marketing phrase**, not a technical claim. The device is an analog mechanical calculator of fixed function. It is sui generis in its survival, but the broader category — geared mechanical computation — has prior and contemporary examples we have lost.
+- **Accuracy in practice is uncertain.** Modern replicas show the design works in principle, but accumulated error from tiny hand-cut teeth would have been visible after many rotations. It may have been a teaching/display device as much as a working almanac.
+
+## Questions I'd like answered
+
+1. **How many were made?** We have one. The detailed user-guide inscriptions and standardised eclipse glyphs hint at serial production, but evidence for batch manufacture is indirect.
+2. **What did it cost, and who owned it?** Months of skilled labour. Patron, temple, teaching institution, civic showpiece?
+3. **Is there an Archimedes connection, in any concrete sense?** The 205 BCE epoch sharpens the question without settling it.
+4. **What new fragments lie on the seafloor?** Return expeditions to the wreck have been ongoing since 2014. New fragments could change the planetary-gearing picture substantially.
+5. **How will higher-resolution imaging change reconstruction?** Continued neutron tomography and X-ray phase-contrast work has historically multiplied the legible Greek text — there is more to recover.
+6. **What other Hellenistic or Roman mechanical artefacts survive in unrecognised form** in museum drawers worldwide? The Antikythera mechanism sat unrecognised for years; how many others are there?
 
 ## Sources
 
-- [Antikythera mechanism — Wikipedia](https://en.wikipedia.org/wiki/Antikythera_mechanism)
-- [Antikythera wreck — Wikipedia](https://en.wikipedia.org/wiki/Antikythera_wreck)
-- Freeth, T. et al. (2021). "A Model of the Cosmos in the ancient Greek Antikythera Mechanism." *Scientific Reports*. [nature.com](https://www.nature.com/articles/s41598-021-84310-w)
-- [UCL news: Experts recreate a mechanical Cosmos for the world's first computer (2021)](https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer)
-- Freeth, T. et al. (2008). "Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism." *Nature* / [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/18668103/)
-- [The Antikythera Mechanism — Communications of the ACM](https://cacm.acm.org/research/the-antikythera-mechanism/)
-- [Britannica: Antikythera mechanism](https://www.britannica.com/topic/Antikythera-mechanism)
-- [Woods Hole Oceanographic Institution — Antikythera Shipwreck](https://www.whoi.edu/ocean-learning-hub/ocean-topics/ocean-human-lives/underwater-archaeology/antikythera-shipwreck/)
-- Gourtsoyannis, E. (2010). "Hipparchus vs. Ptolemy and the Antikythera Mechanism: Pin–Slot device models lunar motions." *Advances in Space Research*. [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0273117709006036)
-- Carman & Evans (2014). "On the epoch of the Antikythera mechanism and its eclipse predictor." *Archive for History of Exact Sciences*.
-- [Scientific American: An Ancient Greek Astronomical Calculation Machine Reveals New Secrets](https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/)
-- [Smithsonian: Decoding the Antikythera Mechanism](https://www.smithsonianmag.com/history/decoding-antikythera-mechanism-first-computer-180953979/)
+- [Carman & Evans 2014] Carman, C., Evans, J. "On the epoch of the Antikythera mechanism and its eclipse predictor." *Archive for History of Exact Sciences*.
+- [Freeth et al. 2021] Freeth, T. et al. "A Model of the Cosmos in the ancient Greek Antikythera Mechanism." *Scientific Reports*. https://www.nature.com/articles/s41598-021-84310-w
+- [Freeth et al. 2008] Freeth, T. et al. "Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism." *Nature*. https://pubmed.ncbi.nlm.nih.gov/18668103/
+- [Gourtsoyannis 2010] Gourtsoyannis, E. "Hipparchus vs. Ptolemy and the Antikythera Mechanism: Pin–Slot device models lunar motions." *Advances in Space Research*. https://www.sciencedirect.com/science/article/abs/pii/S0273117709006036
+- UCL news 2021: https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer
+- Wikipedia: https://en.wikipedia.org/wiki/Antikythera_mechanism (and https://en.wikipedia.org/wiki/Antikythera_wreck)
+- Britannica: https://www.britannica.com/topic/Antikythera-mechanism
+- Communications of the ACM: https://cacm.acm.org/research/the-antikythera-mechanism/
+- Scientific American: https://www.scientificamerican.com/article/an-ancient-greek-astronomical-calculation-machine-reveals-new-secrets/
+- Smithsonian: https://www.smithsonianmag.com/history/decoding-antikythera-mechanism-first-computer-180953979/
 
-## Related
+## Links
 
-- [[landauer-thermodynamics-computation]] — the Antikythera mechanism is a pre-electronic reminder that computation has a physical substrate; running the crank dissipates energy and executes an algorithm in metal rather than in transistors.
-- [[assembly-theory-origin-of-life]] — the mechanism is a high-assembly-index artefact whose very existence demonstrates a sustained lineage of craft copying and refinement; nothing this intricate appears without a tradition behind it.
-- [[collective-intelligence]] — the instrument encodes centuries of astronomical observations from multiple cultures (Babylonian Saros data, Greek geometric theory) into a single compact object, a distilled product of collective knowledge rather than any one mind.
+- [[landauer-thermodynamics-computation]] — Antikythera is a pre-electronic reminder that computation has a physical substrate. Running the crank dissipates energy and executes an algorithm in metal. The Landauer floor applies in principle, though gear-friction losses are vastly above it.
+- [[assembly-theory-origin-of-life]] — the mechanism is a high-assembly-index artefact whose very existence implies a sustained craft lineage. Nothing this intricate appears without iterative refinement upstream — exactly the AT intuition.
+- [[collective-intelligence]] — the instrument distils centuries of astronomical observation across multiple cultures (Babylonian Saros, Greek geometry) into a compact object. A material crystallisation of collective knowledge rather than any single mind.
+- [[mechanistic-interpretability]] — there is a satisfying parallel: reverse-engineering a 2,200-year-old mechanism from CT scans, and reverse-engineering a transformer from activations. Different artefacts, similar epistemic situation.

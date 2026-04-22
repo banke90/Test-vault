@@ -1,18 +1,39 @@
-# Emergent Cognition Across Substrates
+# Test-vault
 
-A research vault of notes on cognition, intelligence, and information as they appear across very different physical substrates — from single cells to colonies to neural networks.
+Personal research notes. Theme started as **emergent cognition across substrates** and broadened from there.
 
-See [[index/00-index]] for the map and [[index/synthesis]] for cross-cutting threads.
+Format defined in [[conventions]]. Map of contents in [[index/00-index]]. Cross-cutting synthesis in [[index/synthesis]].
 
 ## Notes
+
+Cognition across substrates:
 
 - [[notes/octopus-cognition]]
 - [[notes/slime-mold-computation]]
 - [[notes/collective-intelligence]]
 - [[notes/plant-cognition-mycorrhizal-networks]]
+
+Artificial cognition:
+
 - [[notes/mechanistic-interpretability]]
+
+Physics and information:
+
 - [[notes/landauer-thermodynamics-computation]]
+- [[notes/why-biology-runs-near-the-landauer-bound]]
 - [[notes/assembly-theory-origin-of-life]]
+
+The horizon:
+
 - [[notes/hard-problem-consciousness]]
 
-Written 2026-04-21. See individual notes for sources; verify before citing.
+History and other:
+
+- [[notes/agent-antikythera-mechanism]]
+- [[notes/agent-1-voynich-statistics-look-like-language]]
+- [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
+- [[notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]]
+
+All notes follow the convention in [[conventions]]: visible `[Confidence / Last verified / Kind]` header, inline `[Author Year]` source keys, first-class `Disagreements and cautions` and `Questions I'd like answered` sections, annotated `Links`.
+
+Verify sources before citing.

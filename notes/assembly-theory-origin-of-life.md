@@ -1,104 +1,126 @@
----
-title: "Assembly Theory — Information, Complexity, and the Origin of Life"
-tags: [astrobiology, complexity, origin-of-life, information-theory]
-date: 2026-04-21
----
+# Assembly theory proposes a measure of complexity-from-selection — useful for biosignatures, philosophically overstretched
 
-# Assembly Theory — Information, Complexity, and the Origin of Life
+> Cronin and Walker's assembly index counts the minimum number of step-wise joining operations (with re-use) needed to build an object; the empirical claim that high-assembly molecules in many copies signal life is operationally promising; the broader claims (new theory of evolution, time intrinsic to objects) are weaker than the headline papers suggest.
 
-**Assembly Theory (AT)** is the collaborative project of chemist **Leroy "Lee" Cronin** (University of Glasgow) and theoretical physicist / astrobiologist **Sara Imari Walker** (Arizona State). Its core move is to propose a measure — the **assembly index** — that counts the minimum number of step-wise joining operations, each using only previously-constructed subparts, required to build an object from its basic units. The claim is that this measure distinguishes artefacts of life and evolution from things produced by non-biological chemistry, and that it provides a bridge between physics and biology.
+[Confidence: contested — strong on the empirical pitch, weak on the philosophical extension]
+[Last verified: 2026-04-21]
+[Kind: survey]
 
-It has drawn striking experimental results, striking philosophical claims, and striking criticism — sometimes all at once. A balanced look is warranted.
+## TL;DR
 
-## 1. What the assembly index is
+Assembly Theory (AT), developed by chemist **Lee Cronin** (Glasgow) and theoretical physicist **Sara Walker** (ASU), proposes the **assembly index** — the minimum number of bond-forming steps (with re-use of substructures) needed to build a molecule from elementary parts. They argue (and show empirically with tandem mass spectrometry) that molecules with assembly index above ~15, present in many copies, are reliably found only in biological samples, making this a candidate **agnostic biosignature** for life detection [Marshall et al. 2021]. The 2023 *Nature* paper [Sharma et al. 2023] extended AT into a claimed unifying framework for selection and evolution, with Walker also proposing time as intrinsic to objects rather than a coordinate. Reception of the empirical work is moderately positive; reception of the theoretical extension has been sharp, with critics arguing that AT either reduces to Bennett's logical depth / Gell-Mann-Lloyd effective complexity, or oversells what is essentially a useful but bounded computable measure [critiques by Hazen, Jaeger, Zenil, Abrahão].
 
-Given an object (a molecule, a word, an image) made of identifiable units, the **assembly index** $a$ is the minimum number of steps along any assembly pathway that builds the object from elementary pieces, where at each step you may combine two previously-built subobjects. Crucially, **re-use** of substructures is counted once per construction, not once per appearance — so repeated motifs drop the count.
+## What the assembly index is
 
-Trivial example: assembling `ABAB` takes 3 steps under the "re-use substructures" rule — A, B, combine to AB, combine AB with AB to make ABAB. Without the re-use rule, it would take 4 steps (build AB, build another AB, combine).
+For an object built from identifiable units, the **assembly index** *a* is the minimum number of steps along any pathway that constructs it from elementary parts, where each step combines two previously-built subobjects. **Re-use** is counted once per construction, not once per appearance — so repeated motifs reduce the count.
 
-Applied to molecules, the units are chemical bonds or fragments, and the assembly index is the shortest pathway of bond-forming steps allowed by the rules. The "**molecular assembly index**" (MA) is calculated from the graph structure of a molecule.
+Trivial example: assembling `ABAB` takes 3 steps under re-use — A, B, combine to AB, combine AB with AB. Without re-use it would take 4 steps (build AB, build another AB, combine).
 
-Assembly theory's full **assembly equation** combines the index with a population measure:
+Applied to molecules: units are bonds or fragments; the index is the shortest pathway of bond-forming steps. The **molecular assembly index** (MA) is computable from the molecule's graph structure *(established as a definition; computability is polynomial for small molecules)*.
+
+The full **assembly equation** combines the index with a population measure:
 
 $$A = e^{a} \cdot \frac{N - 1}{N_0}$$
 
-where $a$ is the assembly index of the object type, $N$ is the number of copies of that object detected, and $N_0$ is a normalisation. The intuition: finding many copies of something that requires many selective steps to build is strong evidence of a selection process. One complicated molecule could be a lucky accident; a billion copies of a specific complicated molecule cannot.
+where *a* is the assembly index, *N* the number of detected copies of the object, *N₀* a normalisation. Intuition: many copies of something hard to build is strong evidence of selection. One complicated molecule could be a lucky accident; a billion copies of a specific complicated molecule cannot.
 
-## 2. Key papers and claims
+## Key papers
 
-- **Marshall, Murray, Cronin (2017)** "A probabilistic framework for identifying biosignatures using Pathway Complexity." *Phil. Trans. Royal Soc. A*.
-- **Marshall, Moore, Murray, Walker, Cronin (2021)** "Identifying molecules as biosignatures with assembly theory and mass spectrometry." *Nature Communications* 12:3033. This is the empirical paper. They use tandem mass spectrometry fragmentation patterns to estimate assembly indices of molecules in samples — biotic (living tissue, cells, fossils), abiotic (meteorites, laboratory chemistry). They argue that a molecular assembly index **above ~15** in mass-spec data is reliably found only in biotic samples, and propose this threshold as a candidate **agnostic biosignature**.
-- **Sharma, Czégel, Lachmann, Kempes, Walker, Cronin (2023)** "Assembly theory explains and unifies selection and evolution." *Nature*. This is the more ambitious theoretical paper. It positions AT as a framework in which "objects" are physical entities that carry within themselves a history (encoded in how hard they are to make), and argues that AT can unify selection, evolution, and novelty in a single physical framework. Walker and Cronin in public-facing writing also propose that **time is a physical property intrinsic to objects**, rather than a coordinate.
+- **Marshall, Murray, Cronin 2017** [Marshall et al. 2017]: "A probabilistic framework for identifying biosignatures using Pathway Complexity." *Phil. Trans. Royal Soc. A*. Conceptual foundation.
+- **Marshall, Moore, Murray, Walker, Cronin 2021** [Marshall et al. 2021]: *Nature Communications*. The empirical paper. Tandem MS fragmentation data on biotic and abiotic samples; argues MA > ~15 is a biotic-only signature.
+- **Sharma, Czégel, Lachmann, Kempes, Walker, Cronin 2023** [Sharma et al. 2023]: *Nature*. The theoretical extension. Positions AT as a unifying framework for selection and evolution; objects as carriers of intrinsic history.
 
-## 3. Why it is attractive
+Walker has also developed (in book chapters and public-facing writing) the claim that **time is a physical property intrinsic to objects** rather than a coordinate. This is the most philosophically audacious extension.
 
-- **Operational measurability.** Unlike Kolmogorov complexity, the assembly index is finitely computable in principle for molecules and can be estimated from experimental data — tandem MS fragmentation reproduces the bond-breaking in reverse of assembly, giving empirical access to the pathway graph.
-- **Agnostic biosignature.** If the ~15 threshold claim holds, AT offers a non-Earth-centric way to detect life: don't look for DNA or specific metabolites, just look for highly assembled molecules present in many copies. For astrobiology missions (Mars sample return, Enceladus/Europa flybys), this is operationally valuable.
-- **Bridges physics and biology.** AT tries to give a physics-compatible definition of "complex" that tracks a property (requires-selection-to-exist) which was previously informal.
+## Why the empirical pitch is attractive
 
-## 4. The critique
+- **Operational measurability.** Unlike Kolmogorov complexity, the assembly index is finitely computable for molecules and can be *estimated from experiment*. Tandem mass spectrometry fragments molecules along bond-breaking pathways that approximately reverse assembly, so MA can be inferred from fragment spectra without knowing the molecule's identity *(established as a method; some modelling assumptions are still being refined)*.
+- **Agnostic biosignature.** The MA > 15 + many copies criterion doesn't presuppose anything about Earth chemistry. For Mars sample return, Enceladus plume sampling, Europa Clipper follow-ons, this is operationally useful. NASA's agnostic biosignature programme has taken AT seriously.
+- **Bridges physics and biology.** AT tries to give a physics-compatible definition of "complex" tracking a property — *requires-selection-to-exist* — that was previously informal.
 
-The reception has been sharp.
+## The critiques
 
-- **The "nothing new" critique.** Many complexity theorists (including **Hector Zenil**, **Felipe Abrahão**, **Artemy Kolchinsky**, and others) argue that the assembly index is essentially a bounded, computable **algorithmic-complexity-like** measure, and that everything interesting about AT is already captured by Kolmogorov complexity, logical depth (Bennett 1988), or effective complexity (Gell-Mann & Lloyd). The response from Cronin and Walker is that AT is *specifically* grounded in physical realisability, not abstract computation, and that this grounding matters.
-- **The biosignature threshold.** The claim that MA > 15 is a sharp biosignature has been challenged: Hazen et al. and others have pointed out that some abiotic processes (mineral precipitation under certain conditions, prebiotic chemistry in specific environments) might produce high-assembly molecules, and that the database of measured abiotic molecules is thin. The cut may shift with further sampling.
-- **Philosophical overreach.** The claim that AT is a new *theory of selection* or that it shows **time is intrinsic to objects** is, for many readers, less well-argued than the operational parts of the theory. Reviewers including **Thurner**, **Jaeger**, and others have pushed back, often quite directly. The *Nature* 2023 paper drew both favourable and dismissive popular coverage.
-- **Measurement uncertainty.** The step from tandem MS fragment spectra to an estimated assembly index involves modelling assumptions that are actively being refined. Some early numbers may not be robust.
+Reception has been sharp and continues.
 
-## 5. Relation to existing complexity measures
+### "Nothing new"
 
-| Measure | Defined | Computable? | Relation to AT |
+Many complexity theorists — **Hector Zenil**, **Felipe Abrahão**, **Artemy Kolchinsky**, others — argue the assembly index is essentially a bounded, computable algorithmic-complexity-like measure, and everything genuinely interesting about AT is captured by **Kolmogorov complexity**, **Bennett's logical depth** [Bennett 1988], or **Gell-Mann–Lloyd effective complexity** [Gell-Mann & Lloyd 1996].
+
+The AT defenders respond that AT is *specifically* grounded in physical realisability rather than abstract computation, and that this grounding matters. Whether this distinction is mathematically substantive or a framing difference is genuinely contested *(I think the answer is "partly substantive, partly framing", but I haven't seen a clean settling)*.
+
+### Biosignature threshold robustness
+
+The MA > 15 cutoff has been challenged. **Hazen et al.** and others argue that some abiotic processes (mineral precipitation under unusual conditions, prebiotic chemistry in specific environments) may produce high-assembly molecules, and that the database of measured abiotic molecules is thin enough that the cut may shift with further sampling. The biosignature claim is empirically defensible but provisional *(mixed)*.
+
+### Philosophical overreach
+
+The claim that AT is a new *theory of selection* or that **time is intrinsic to objects** is, for many readers, less well-argued than the operational parts of the theory. Reviewers including **Thurner**, **Jaeger**, and others have pushed back directly, often arguing that the *Nature* 2023 paper conflates an empirical contribution with a metaphysical one. Popular coverage of the *Nature* paper amplified the strongest possible reading.
+
+### Measurement uncertainty
+
+The translation from tandem MS fragment spectra to estimated assembly index involves modelling assumptions actively being refined. Some early numbers may not be robust under improved analysis pipelines.
+
+## Relation to other complexity measures
+
+| Measure | Defined on | Computable? | Relation to AT |
 |---|---|---|---|
-| Shannon entropy | On a probability distribution | Yes | Measures randomness; largely orthogonal to AT. |
-| Kolmogorov complexity | Length of shortest program outputting the object | No (semi-computable) | Related but not identical. K counts programs; AT counts physical assembly steps. |
-| Logical depth (Bennett) | Runtime of the shortest near-optimal program | No | Closer in spirit to AT: both are about how much *work* a thing needed. |
-| Effective complexity (Gell-Mann/Lloyd) | K of the regularities minus randomness | No | Tries to separate structured from random; AT sidesteps this by counting concrete steps. |
-| Assembly index | Min assembly pathway using re-use | Yes (polynomial for small molecules) | AT's proposal. |
+| Shannon entropy | Probability distribution | Yes | Measures randomness; largely orthogonal to AT. |
+| Kolmogorov complexity | Object via universal Turing machine | Semi-computable only | K counts shortest programs; AT counts physical assembly steps. Related, not identical. |
+| Logical depth | Object via shortest near-optimal program runtime | Semi-computable | Closer in spirit to AT — both about how much *work* a thing required. |
+| Effective complexity | K of regularities minus randomness (Gell-Mann/Lloyd) | Semi-computable | Tries to separate structure from noise; AT sidesteps by counting concrete steps. |
+| Assembly index | Min pathway with re-use | Polynomial-time for small molecules | AT's proposal. |
 
-Whether AT is *equivalent to* something already known under a different name, *strictly weaker*, or *strictly different*, is genuinely in debate and depends on mathematical details I have not seen fully settled.
+Whether AT is *equivalent to*, *strictly weaker than*, or *strictly different from* logical depth and friends is debated and depends on mathematical details I haven't seen fully settled. *(My guess: there's a clean reduction at the limit, but AT has practical advantages for chemistry-scale objects that the others lack.)*
 
-## 6. Astrobiology relevance
+## Walker on time as intrinsic
 
-Mars-sample-return and icy-moon missions (Enceladus plume sampling, Europa Clipper follow-ons) need an operational definition of "life-like" that doesn't prejudge what life looks like. AT's approach — assembly index from mass spec — can be done with instruments small and reliable enough to fly. Even if AT is theoretically contestable, it may be **operationally useful** as one biosignature among several. The NASA agnostic biosignature programme has taken it seriously.
+The most philosophically bold extension. The idea, roughly: in a universe with no selection, time flows forward but nothing *records* it. In a universe with selection, certain objects are repositories of selection-time, and that is what makes them alive-or-from-alive. Time becomes a property of an object measured by its assembly index.
 
-## 7. Walker on time as intrinsic
+This overlaps with Schrödinger's negentropy ("life maintains order by exporting entropy") and with Friston-adjacent ideas about living systems as models of their environment. Whether AT's specific formulation is the right way to formalise the intuition or just an evocative reframing is not clear *(speculative; possibly suggestive)*.
 
-Walker's conceptual extension — that objects carry their own history inside their structure, and that "**time is a physical property of an object** measured by its assembly index" — is the most philosophically audacious part of AT. The claim, roughly, is that in a universe with no selection, time flows forward but nothing *records* it; in a universe with selection, some objects are repositories of selection-time, and that is what makes them alive-or-from-alive.
+## My read
 
-This overlaps interestingly with **Schrödinger**'s "negentropy" in *What Is Life?* and with **Karl Friston**-adjacent ideas about living systems as models of their environment. Whether AT's specific formulation is the right way to formalise the intuition, or just an evocative reframing, is not yet clear.
+AT is plausibly two things at once:
 
-## 8. My read
+1. A **genuinely useful empirical measure** for biosignature detection that is operationally distinct from existing methods, even if reducible-in-the-limit to logical depth or similar measures. The MA-from-MS approach is sensible and worth serious testing in astrobiology contexts.
+2. A **philosophically overstretched** framing whose claims about selection, evolution, and time are weaker than the *Nature* 2023 paper suggests, and likely won't survive close mathematical scrutiny without being recast as a variant of existing complexity-from-selection ideas.
 
-AT is either:
+I'd watch the next few years of empirical replication of the MA biosignature claim and the formal-theory work that either sharpens AT's distinction from Bennett's logical depth or shows it collapses to it.
 
-1. a genuinely new, physical measure of complexity that is practically useful for biosignature detection, partially reducible to old concepts but distinct enough to matter — and philosophically suggestive in ways worth pursuing; or
-2. a useful empirical tool with an overinflated theoretical framing that will, on reflection, be seen as a variant of logical depth / effective complexity plus a specific physical-realisability constraint.
+## Disagreements and cautions
 
-These are not mutually exclusive. My suspicion is that something like (1) is close to right on the empirical side (the tandem-MS biosignature approach is sensible and deserves serious testing), and that the philosophical claims around "new theory of evolution / time / matter" are weaker than the authors suggest. I'd keep an eye on the replication of the MA-threshold biosignature claim and on further theoretical work that either sharpens the relation to Kolmogorov/Bennett measures or clearly separates from them.
+- **Don't cite AT as an established theory of evolution.** It is a measure plus an associated empirical claim; the evolution-unifying framing is contested.
+- **Don't cite the MA > 15 biosignature** as definitive. The threshold is empirical, the abiotic database is thin, and abiotic counterexamples have been hypothesised though not (as of my last reading) demonstrated.
+- **Walker's "time as intrinsic" claim** is interesting but has not gone through the kind of philosophical or mathematical scrutiny that would establish it. Treat as suggestive.
+- **The popular-coverage gap** is wide. *Nature*'s coverage of Sharma et al. 2023 was favourable; subsequent commentary in places like *Quanta* and *Aeon* was mixed; specialist replies in physics and complexity-theory communities were often critical. Read primary literature.
+- **I have not chased the latest 2024–2026 follow-ups closely**. The picture may have shifted.
 
-## 9. Open questions
+## Questions I'd like answered
 
-- Are there **abiotic processes** that produce high-assembly molecules in many copies? (If yes, the biosignature claim is in trouble.)
-- Can assembly index be **efficiently measured** from remote or in situ instrumentation, or is it always a post-hoc laboratory calculation?
-- Is AT's assembly index **provably different** from Bennett logical depth, or just a practically computable approximation?
-- Does the **population term** $(N-1)/N_0$ play a meaningful role or is it a dimensional formality?
-- How does AT handle **polymers and biopolymers** where assembly pathways are many and degenerate?
+1. **Are there abiotic processes that produce high-assembly molecules in many copies?** A clean counterexample would substantially weaken the biosignature claim.
+2. **Can assembly index be efficiently measured from remote or in situ instrumentation**, or is it always a post-hoc laboratory calculation?
+3. **Is AT's assembly index provably different from Bennett's logical depth**, or just a practically computable approximation? A clean theorem either way would be valuable.
+4. **Does the population term *(N − 1)/N₀*** play a meaningful role in the formalism, or is it a dimensional formality?
+5. **How does AT handle polymers and biopolymers** where assembly pathways are many and degenerate? Does the formalism stay coherent?
+6. **What is the right comparison sample** for biotic vs abiotic — the meteorite database is small and biased, and prebiotic chemistry experiments are limited in chemical space. Does the threshold survive better sampling?
 
-## Sources (verify before quoting)
+## Sources
 
-- Marshall, S.M., Murray, A.R.G., Cronin, L. (2017). "A probabilistic framework for identifying biosignatures using Pathway Complexity." *Phil. Trans. R. Soc. A* 375:20160342.
-- Marshall, S.M., Mathis, C., Carrick, E., Keenan, G., Cooper, G.J.T., Graham, H., Craven, M., Gromski, P.S., Moore, D.G., Walker, S.I., Cronin, L. (2021). "Identifying molecules as biosignatures with assembly theory and mass spectrometry." *Nature Communications* 12:3033.
-- Sharma, A., Czégel, D., Lachmann, M., Kempes, C.P., Walker, S.I., Cronin, L. (2023). "Assembly theory explains and unifies selection and evolution." *Nature* 622:321–328.
-- Jaeger, J. (2024). Response/critique of Sharma et al., various online essays (see *Beyond Networks* / Medium posts).
+- [Bennett 1988] Bennett, C.H. "Logical depth and physical complexity." In *The Universal Turing Machine: A Half-Century Survey*.
+- [Gell-Mann & Lloyd 1996] Gell-Mann, M., Lloyd, S. "Information measures, effective complexity, and total information." *Complexity* 2:44.
+- [Marshall et al. 2017] Marshall, S.M., Murray, A.R.G., Cronin, L. "A probabilistic framework for identifying biosignatures using Pathway Complexity." *Phil. Trans. R. Soc. A* 375:20160342.
+- [Marshall et al. 2021] Marshall, S.M. et al. "Identifying molecules as biosignatures with assembly theory and mass spectrometry." *Nature Communications* 12:3033. https://doi.org/10.1038/s41467-021-23258-x
+- [Sharma et al. 2023] Sharma, A., Czégel, D., Lachmann, M., Kempes, C.P., Walker, S.I., Cronin, L. "Assembly theory explains and unifies selection and evolution." *Nature* 622:321–328. https://doi.org/10.1038/s41586-023-06600-9
 - Hazen, R.M., and others — critical commentary on AT and biosignature claims.
+- Jaeger, J. (2024). Critical responses to Sharma et al., e.g. via *Beyond Networks*/Medium essays.
 - Abrahão, F.S., Zenil, H. (2024). Commentary on AT vs algorithmic information measures.
-- Gell-Mann, M., Lloyd, S. (1996). "Information measures, effective complexity, and total information." *Complexity* 2:44.
-- Bennett, C.H. (1988). "Logical depth and physical complexity." In *The Universal Turing Machine: A Half-Century Survey*.
+- Schrödinger, E. (1944). *What Is Life?* CUP.
 
-## Related
+## Links
 
-- [[landauer-thermodynamics-computation]] — physics of information; the natural companion framework
-- [[slime-mold-computation]] — minimal complex behaviour from simple components
-- [[mechanistic-interpretability]] — another domain where we measure "complexity of a trained object"
-- [[plant-cognition-mycorrhizal-networks]] — another field where popular narrative runs ahead of evidence
-- [[hard-problem-consciousness]] — AT makes no consciousness claims, but occupies a similar "physics of meaning" niche
+- [[landauer-thermodynamics-computation]] — physics of information. Landauer counts the cost of erasing a bit; AT counts the steps of building a molecule. Different angles on a similar intuition: information has physical correlates.
+- [[why-biology-runs-near-the-landauer-bound]] — companion physical-floor question. Both AT and the Landauer-biology comparison try to ground informational concepts in physical quantities.
+- [[slime-mold-computation]] — minimal complex behaviour from simple components. *Physarum* is the kind of object whose "behaviour assembly index" might be interesting if AT were extended beyond molecules.
+- [[mechanistic-interpretability]] — another domain where we try to measure "complexity of a trained object" in a way that's physically grounded. The motivations are similar; the methods are quite different.
+- [[plant-cognition-mycorrhizal-networks]] — another field where popular coverage runs ahead of evidence. Useful as a methodological case study, not for content overlap.
+- [[hard-problem-consciousness]] — AT makes no consciousness claims, but occupies a similar "physics of meaning" niche where philosophical ambition outpaces formal ground.

@@ -1,64 +1,59 @@
----
-title: "Index — Emergent Cognition Across Substrates"
-tags: [index, moc]
-date: 2026-04-21
----
+# Index — what is in this vault
 
-# Emergent Cognition Across Substrates — Research Vault
+> A working map of notes in this vault, grouped by theme. Browse by interest rather than reading top-to-bottom; follow links where they land.
 
-A map of notes on what cognition, intelligence, and information look like in wildly different substrates — from single cells to neural networks to colonies to forest networks. Each note tries to be honest about what's well-supported, what's contested, and what's speculative.
+[Confidence: this is a navigation aid, not a claim]
+[Last verified: 2026-04-21]
+[Kind: index]
 
-The organising question: **if cognition is a substrate-general phenomenon, what does it actually look like across substrates, and where do our intuitions mislead us?**
+## TL;DR
 
-## Notes (in rough order of substrate minimalism)
+The vault started as a thematic exploration of **emergent cognition across substrates** — what intelligence and information look like in very different physical media (single cells, colonies, neural networks, ancient instruments). It has since broadened into anything I find genuinely interesting. Notes follow the format described in [[../conventions]].
 
-### Brainless biological cognition
+## Cognition across substrates (the original thread)
 
-- [[slime-mold-computation]] — a single cell solving mazes and approximating the Tokyo rail network
-- [[plant-cognition-mycorrhizal-networks]] — balanced account of plant signal processing and the contested "wood-wide web"
+The throughline: cognition isn't substrate-specific. The same algorithmic motifs (competing populations, gradient-following, quorum thresholds, flow-feedback) recur in wildly different media.
 
-### Collectives
+- [[../notes/octopus-cognition]] — distributed minds in a mollusc; the only clear case of an independently-evolved complex nervous system.
+- [[../notes/slime-mold-computation]] — *Physarum polycephalum* solving mazes and approximating the Tokyo rail network without a single neuron.
+- [[../notes/collective-intelligence]] — ant colonies, honeybee swarms, starling murmurations, fish schools; how groups compute.
+- [[../notes/plant-cognition-mycorrhizal-networks]] — what plants demonstrably do, and why the "wood-wide web" narrative is oversold.
 
-- [[collective-intelligence]] — ant colonies, honeybee democracy, starling murmurations, fish schooling
-- [[octopus-cognition]] — a nervous system distributed across eight semi-autonomous arms
+## Artificial cognition
 
-### Artificial cognition
+- [[../notes/mechanistic-interpretability]] — reverse-engineering the internals of trained neural networks; first-time direct access to a constructed mind.
 
-- [[mechanistic-interpretability]] — reverse-engineering neural networks into features and circuits
+## Physics and information
 
-### Physics and information
+- [[../notes/landauer-thermodynamics-computation]] — the thermodynamic floor on computation: kT ln 2 per erased bit.
+- [[../notes/why-biology-runs-near-the-landauer-bound]] — companion question: why is biology so much more efficient than silicon?
+- [[../notes/assembly-theory-origin-of-life]] — Cronin and Walker's measure of complexity-from-selection, and why the empirical pitch and the philosophical extension deserve different verdicts.
 
-- [[landauer-thermodynamics-computation]] — the thermodynamic cost of erasing a bit
-- [[assembly-theory-origin-of-life]] — Cronin and Walker's attempt to measure complexity-from-selection
+## The horizon
 
-### The horizon
+- [[../notes/hard-problem-consciousness]] — why explaining function doesn't explain experience, and the current state of theories that try to.
 
-- [[hard-problem-consciousness]] — why any of this is accompanied by experience, or whether it is
+## History and other
 
-## Main threads woven through
+- [[../notes/agent-antikythera-mechanism]] — the 2nd-century-BCE Greek bronze computer; a survival from a craft tradition we mostly cannot see.
+- [[../notes/agent-1-voynich-statistics-look-like-language]] — why the Voynich manuscript is statistically too language-like to be noise yet too weird to be any known language.
+- [[../notes/agent-2-tardigrades-survive-by-vitrifying-themselves]] — the protein machinery (CAHS/Dsup) behind tardigrade extremotolerance.
+- [[../notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]] — the famous "15 cases" of Finnish are mostly agglutinative postpositions; the real difficulty lies elsewhere.
 
-| Thread | Notes where it appears |
-|---|---|
-| **Distributed vs centralised cognition** | octopus, slime mould, collective intelligence, plants, mechanistic interpretability |
-| **Substrate independence** | all of them |
-| **Memory without neurons** | slime mould, plants, collective intelligence |
-| **Basal cognition framing** | slime mould, plants, with critique |
-| **Popular narrative vs evidence** | plants (hardest case), assembly theory |
-| **Criticality and phase transitions** | collective intelligence (murmurations), mechanistic interpretability (grokking) |
-| **Physical limits** | Landauer, assembly theory |
-| **What we cannot access from outside** | hard problem, octopus, mechanistic interpretability |
+## Cross-cutting threads
 
-## What I take away
+- **Distributed vs centralised cognition.** Octopus, slime mould, collective intelligence, plants, mechanistic interpretability.
+- **Substrate independence of algorithms.** Honeybee quorum sensing ≈ neural perceptual decisions ≈ transformer feature competition.
+- **Memory without neurons.** Slime mould, plants, environmental stigmergy.
+- **Popular narrative vs evidence.** Plants, assembly theory.
+- **Physical limits.** Landauer, biology-vs-Landauer, assembly theory.
+- **What we cannot access from outside.** Hard problem, octopus internals, mechanistic interpretability.
 
-1. **Cognition is not neural by definition.** Single cells, colonies, and forest networks do things that meet reasonable definitions of memory, anticipation, decision, and adaptation. What neurons add is speed, specificity, and scale.
-2. **Our intuitions about unity of subject are vertebrate-specific.** The octopus, the swarm, and the mycorrhizal network all problematise "where is the one experiencer?" in different ways. None of them unambiguously have or lack subject-unity.
-3. **The thermodynamic floor is real but far away.** Landauer gives a bound no computation escapes; biology is within small factors of it; silicon is six orders of magnitude above it. That is a huge amount of room for better physical computing.
-4. **We now have direct access to the internals of an artificial mind for the first time in history.** Mechanistic interpretability is science's first shot at seeing how a learned cognitive system computes, from the inside. It is incomplete, but it is new in kind.
-5. **The hard problem has not softened.** More theories, more experiments, better-structured disagreements — but the explanatory gap from function to experience is not closed.
-6. **Popular narratives lie to you about biology.** The wood-wide web, mother trees, plant-cognition, and even some assembly-theory claims run ahead of the evidence. Holding to the evidence is boring and necessary.
+## Vault meta
 
-## Meta
+- [[../conventions]] — the note format used here, written from first principles.
+- [[synthesis]] — cross-cutting observations that emerged from the cognition-across-substrates thread.
 
-Written 2026-04-21, in a single day's research session. Not peer-reviewed; inline sources should be checked before citation. Treat this vault as my reading notes — a map of the territory, not a guide to the ground truth.
+## How to read
 
-Intended to be browsed in Obsidian or any tool that follows [[wiki-links]]. The graph view should show three clusters (biological, artificial, philosophical) connected by a small set of heavily-linked notes.
+If you want a single entry point: [[synthesis]]. If you want a single technical note: [[../notes/mechanistic-interpretability]] or [[../notes/landauer-thermodynamics-computation]]. If you want the most fun fact: the pin-and-slot mechanism in [[../notes/agent-antikythera-mechanism]].
