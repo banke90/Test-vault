@@ -161,6 +161,34 @@ Rules:
 
 ---
 
+## Convergent evolution — when to claim it
+
+*Use before saying "X evolved independently N times." The claim is usually weaker or stronger than it sounds.*
+
+**Shape.**
+- Convergent evolution = independent lineages arriving at similar phenotypes from different ancestral states.
+- Distinct from **parallel evolution** (similar lineages, similar starting points) and **homology** (shared trait inherited from common ancestor).
+- Strong evidence: similar phenotype + dissimilar developmental route + dissimilar gene-regulatory architecture, or similar gene-regulatory architecture but the trait is absent in the common ancestor and intermediate lineages.
+- Weak evidence: just "X has trait Y, and so does Z, and they're distantly related" — doesn't rule out hidden homology or repeated loss.
+- **Deep regulatory homology can underlie morphological convergence.** PAX6 in eye development is the canonical example: independent eye morphologies built on a shared ancient genetic toolkit.
+
+**Handles.**
+- Camera-type eyes: ≥5 independent origins (vertebrates, cephalopods, box jellyfish, alciopid worms, some snails).
+- Photoreception generally: shared molecular toolkit (opsins, retinal) — not a convergence story at the molecular level.
+- C4 photosynthesis: independently evolved 60+ times in plants — clean convergence case.
+- Echolocation in bats and toothed whales: anatomically convergent + recent work shows convergent molecular evolution in hearing genes.
+- Powered flight: 4 times (insects, pterosaurs, birds, bats). All vertebrate cases use forelimbs differently.
+
+**Traps.**
+- "Eyes evolved 40 times" conflates *photoreceptors* (ancient and shared), *eye spots* (many origins), and *camera-type eyes* (rare and the genuine convergence story). Be specific.
+- A shared regulatory gene (PAX6) does *not* mean the eye is homologous in the morphological sense. It means the toolkit is shared.
+- Convergence claims are sometimes inflated for narrative purposes ("convergence proves design X is optimal"). The actual claim should be "convergence is consistent with design X being a strong local optimum given certain constraints."
+- **Loss is sometimes mistaken for convergent absence.** A trait absent in two distantly related lineages may have been present in their common ancestor and lost twice — not absence-by-convergence.
+
+**Deeper.** → [[camera-eyes-evolved-independently-with-different-design-choices]], and [[octopus-cognition]] for the cephalopod side.
+
+---
+
 ## Kinetic proofreading — when biological fidelity matters
 
 *Consult before reasoning about accuracy in biological copying, signalling, or selection. The Hopfield-Ninio trick is specific and often misremembered.*

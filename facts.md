@@ -4,6 +4,16 @@ Raw facts, numbers, and specific claims I want to be able to look up later. One 
 
 Format rules in [[conventions]] under "Raw facts — the companion file".
 
+## Cosmology and information
+
+- **Bekenstein bound.** S ≤ 2π k_B R E / (ħc) for any system of radius R and total energy E. [Bekenstein 1973] *(established)*. → [[notes/bekenstein-bound-and-holographic-information]]
+- **Bekenstein–Hawking entropy.** A black hole has entropy S_BH = k_B A / (4 ℓ_P²) — proportional to *area*, not volume. ℓ_P ≈ 1.6 × 10⁻³⁵ m.
+- **Planck length.** ℓ_P = √(ħG/c³) ≈ 1.6 × 10⁻³⁵ m.
+- **Hawking temperature.** T_H = ħc³ / (8π G M k_B) for a Schwarzschild black hole.
+- **Holographic principle.** Number of independent degrees of freedom in any region ≤ A / (4 ℓ_P²). ['t Hooft 1993; Susskind 1995] *(established as theoretical-physics consensus; exact scope debated)*.
+- **AdS/CFT.** Quantum gravity in 5D AdS₅ × S⁵ ≡ N=4 super-Yang-Mills on the AdS boundary. [Maldacena 1997] *(established as a working duality for the cases studied)*.
+- **Page curve resolution.** Black hole information paradox substantially resolved 2019–2020 by gravitational path integral / island formula. [Penington 2020; Almheiri et al. 2020] *(established for the specific models analysed)*.
+
 ## Physics and thermodynamics
 
 - **k_B T at 300 K.** ≈ 4.1 × 10⁻²¹ J ≈ 0.025 eV. Standard.
@@ -25,6 +35,16 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 - **Tardigrade water loss in anhydrobiosis.** Up to ~99% body water loss; reversible. [Guidetti 2011] *(established)*. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
 - **Tardigrade glass state.** CAHS, MAHS, SAHS proteins vitrify the cytoplasm; Dsup protein physically shields DNA from radicals. Unique to phylum Tardigrada. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
 - **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[notes/octopus-cognition]]
+
+## Eyes and vision (comparative)
+
+- **Camera-type eyes evolved independently** at least 5 times: vertebrates, cephalopods, box jellyfish, alciopid annelids, some snails. *(established)*. → [[notes/camera-eyes-evolved-independently-with-different-design-choices]]
+- **Vertebrate retina is inverted.** Photoreceptors point away from incoming light; axons exit through the optic disc producing the blind spot. Developmental constraint from evagination of the diencephalon.
+- **Cephalopod retina is everted.** Photoreceptors face the light; no blind spot. Developmental route via invagination of surface ectoderm.
+- **Box jellyfish eye count.** 24 eyes total in 4 rhopalia of 6 each; 2 of the 6 in each rhopalium are camera-type with a lens. No conventional brain. [Garm et al. 2007] *(established and remarkable)*.
+- **PAX6 deep homology.** Master regulator of eye development conserved across vertebrates, cephalopods, insects. Ectopic *eyeless* expression induces eyes in *Drosophila* legs [Halder, Callaerts & Gehring 1995] *(established that the genetic toolkit is shared; "all eyes share an ancestor" reading is more nuanced)*.
+- **Müller cells as fibre optics.** Vertebrate retinal Müller glial cells channel light efficiently to photoreceptors despite the inverted layering [Franze et al. 2007] *(established; partial defence of the inverted design)*.
+- **Photoreceptor types.** Vertebrate = ciliary (rods, cones); cephalopod = rhabdomeric (microvillar). Deep developmental-evolutionary distinction predating bilaterians.
 
 ## Octopus, specifically
 
@@ -104,7 +124,9 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Sources
 
+- [Almheiri et al. 2020] arXiv:1905.08762.
 - [Ballerini et al. 2008] *PNAS* 105:1232.
+- [Bekenstein 1973] *Phys. Rev. D* 7:2333.
 - [Bennett 1973] *IBM J. Res. Dev.* 17:525.
 - [Bennett 1982] *Int. J. Theor. Phys.* 21:905.
 - [Bérut et al. 2012] *Nature* 483:187.
@@ -118,20 +140,26 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 - [Couzin et al. 2005] *Nature* 433:513.
 - [Couzin et al. 2011] *Science* 334:1578.
 - [Elhage et al. 2022] *Toy Models of Superposition*, Anthropic.
+- [Franze et al. 2007] *PNAS* 104:8287.
 - [Freeth et al. 2021] *Scientific Reports*, https://www.nature.com/articles/s41598-021-84310-w
+- [Garm et al. 2007] *J. Exp. Biol.* 210:3616.
 - [Gourtsoyannis 2010] *Advances in Space Research*.
 - [Guidetti 2011] — tardigrade anhydrobiosis review.
+- [Halder, Callaerts & Gehring 1995] *Science* 267:1788.
+- [Hawking 1975] *Commun. Math. Phys.* 43:199.
 - [Hochner 2012] *Current Biology* 22:R887.
 - [Hodgins 2011] — Voynich vellum carbon dating.
 - [Hopfield 1974] *PNAS* 71:4135.
 - [Karst et al. 2023] *Nature Ecology & Evolution* 7:501.
 - [Landauer 1961] *IBM J. Res. Dev.* 5:183.
 - [Liscovitch-Brauer et al. 2017] *Cell* 169:191.
+- [Maldacena 1997] arXiv:hep-th/9711200.
 - [Marshall et al. 2021] *Nature Communications* 12:3033.
 - [Medeiros et al. 2021] *iScience* 24:102223.
 - [Montemurro & Zanette 2013] — Voynich statistical analysis.
 - [Nakagaki et al. 2000] *Nature* 407:470.
 - [Olsson et al. 2022] *In-context Learning and Induction Heads*, Anthropic.
+- [Penington 2020] arXiv:1905.08255.
 - [Pophale et al. 2023] *Nature* 619:129.
 - [Ramirez & Oakley 2015] *J. Exp. Biol.* 218:1513.
 - [Saigusa et al. 2008] *Phys. Rev. Lett.* 100:018101.
@@ -139,7 +167,9 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 - [Seeley et al. 2012] *Science* 335:108.
 - [Stubbs & Stubbs 2016] *PNAS* 113:8206.
 - [Sumbre et al. 2001] *Science* 293:1845.
+- [Susskind 1995] arXiv:hep-th/9409089.
 - [Templeton et al. 2024] *Scaling Monosemanticity*, Anthropic.
 - [Tero et al. 2010] *Science* 327:439.
+- ['t Hooft 1993] arXiv:gr-qc/9310026.
 - [Vogel & Dussutour 2016] *Proc. R. Soc. B* 283:20162382.
 - [Wang et al. 2022] *Interpretability in the Wild*, arXiv:2211.00593.

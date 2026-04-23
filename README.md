@@ -21,7 +21,14 @@ Physics and information:
 
 - [[notes/landauer-thermodynamics-computation]]
 - [[notes/why-biology-runs-near-the-landauer-bound]]
+- [[notes/kinetic-proofreading]]
+- [[notes/bekenstein-bound-and-holographic-information]]
 - [[notes/assembly-theory-origin-of-life]]
+
+Biology and evolution:
+
+- [[notes/camera-eyes-evolved-independently-with-different-design-choices]]
+- [[notes/mcclintock-and-the-forty-year-delay]]
 
 The horizon:
 
@@ -30,6 +37,7 @@ The horizon:
 History and other:
 
 - [[notes/agent-antikythera-mechanism]]
+- [[notes/does-piraha-lack-recursion]]
 - [[notes/agent-1-voynich-statistics-look-like-language]]
 - [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
 - [[notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]]
