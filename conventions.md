@@ -113,27 +113,17 @@ arXiv or publisher URL preferred.>
 - **"Last modified: auto"**. Autostamps drift and lie. A manual `Last verified` is a commitment.
 - **Categorical directory structure beyond shallow grouping.** Deep directory trees are a losing battle against how ideas actually cross-pollinate. Flat-ish is better.
 
-## Raw facts — the companion file
+## Companion files
 
-Full notes are for things I've understood. But while researching, I learn things that aren't worth a whole note — numbers, dates, specific claims I want to look up later. Those go in `facts.md` at the vault root.
+Full notes are for narratives I've understood. Three companion files at the vault root carry other kinds of knowledge that don't want to be narratives:
 
-Design:
+- **[[facts]]** — atomic propositional facts. Numbers, dates, specific claims. One bullet each. Bolded noun phrase, inline `[Author Year]`, optional confidence tag, optional `→ [[notes/name]]` link. Shallow topical sections (≤10). Grep beats taxonomy. *Verified by re-reading the source.*
+- **[[ops]]** — operational procedures. Commands, workflows, how-to. `[Last worked: YYYY-MM-DD]` tags, no confidence tags. *Verified by running it.*
+- **[[primers]]** — dense reference cards for complex systems. Shape + handles + traps + deeper-link per entry. One screen each. For consultation before making decisions about direction, design, or interpretation. *Not for learning; for consulting when you already know the territory.*
 
-- **One bullet per fact.** Bold the key noun phrase. Then the claim, compact. Then the source as `[Author Year]` (resolved in a `## Sources` section at the bottom). Optional confidence tag.
-- **Shallow topical sections** (≤10). Don't over-organise. Grep beats taxonomy.
-- **Self-contained.** Each bullet should be readable without context from the bullets around it.
-- **Promotable.** When a fact earns a full note, write the note and leave a stub in `facts.md`: `**X.** Short fact. — [Source] → [[notes/name]]`.
-- **No tags, no frontmatter.** Same discipline as notes.
+The three have different maintenance disciplines and different failure modes. Keeping them separate is the point.
 
-Example:
-
-```
-- **ATP energy at 300 K.** One ATP hydrolysis delivers ~20 k_B T ≈ 8 × 10⁻²⁰ J.
-  Enough for ~29 Landauer bits of erasure. [biochemistry standard]
-  *(established)*. → [[notes/why-biology-runs-near-the-landauer-bound]]
-```
-
-The point is low-friction capture. If adding a fact takes more than 30 seconds of deciding, I won't do it, and the facts will stay as browser tabs.
+If something doesn't fit any of the three, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
 
 ## Changed my mind on
 
