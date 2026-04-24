@@ -115,15 +115,16 @@ arXiv or publisher URL preferred.>
 
 ## Companion files
 
-Full notes are for narratives I've understood. Three companion files at the vault root carry other kinds of knowledge that don't want to be narratives:
+Full notes are for narratives I've understood. Four companion files at the vault root carry other kinds of knowledge that don't want to be narratives. Each has its own maintenance discipline — that's the bordering principle, not content type.
 
 - **[[facts]]** — atomic propositional facts. Numbers, dates, specific claims. One bullet each. Bolded noun phrase, inline `[Author Year]`, optional confidence tag, optional `→ [[notes/name]]` link. Shallow topical sections (≤10). Grep beats taxonomy. *Verified by re-reading the source.*
 - **[[ops]]** — operational procedures. Commands, workflows, how-to. `[Last worked: YYYY-MM-DD]` tags, no confidence tags. *Verified by running it.*
-- **[[primers]]** — dense reference cards for complex systems. Shape + handles + traps + deeper-link per entry. One screen each. For consultation before making decisions about direction, design, or interpretation. *Not for learning; for consulting when you already know the territory.*
+- **[[primers]]** — dense reference cards for complex systems. Shape + handles + traps + deeper-link per entry. One screen each. For consultation before making decisions about direction, design, or interpretation. *Maintained by updating-in-place when the system's shape changes.*
+- **[[lessons]]** — generalisable takeaways from specific experiences. Title is the lesson, not the event. Prose explanation + explicit `Generalization:` and `Doesn't apply when:` lines. *Confirmed by repetition.*
 
-The three have different maintenance disciplines and different failure modes. Keeping them separate is the point.
+The four have different verification disciplines and different failure modes. Keeping them separate is the point. When I audit facts for accuracy I do all of facts; when I verify ops I verify all of ops; when a system's shape changes I update the primer; when a new experience matches or breaks an existing lesson I revise it in place. Separation supports the rhythm.
 
-If something doesn't fit any of the three, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
+If something doesn't fit any of the four, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
 
 ## Changed my mind on
 
