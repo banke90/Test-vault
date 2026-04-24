@@ -126,6 +126,12 @@ The four have different verification disciplines and different failure modes. Ke
 
 If something doesn't fit any of the four, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
 
+### Views (not companion files)
+
+The `index/` directory holds views of existing content — `00-index.md` for navigation, `synthesis.md` for cross-cutting threads, `questions.md` for an aggregation of per-note open questions. A view is distinct from a companion file: its *content lives elsewhere* (in the source notes), and it is regenerated-on-drift rather than continuously maintained.
+
+The test: *where does the content live?* If it lives in this file, it's a companion file or a note. If it lives elsewhere and this file is a projection, it's a view and belongs under `index/`. This distinction matters for maintenance rhythm — see [[lessons]] under "Cross-indexing is a view motion, not a companion-file motion."
+
 ## Changed my mind on
 
 - **Kind field.** Dropped. See above.

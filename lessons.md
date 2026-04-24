@@ -112,6 +112,36 @@ The test that made me split: if I asked "when should I re-check this?", the answ
 
 ---
 
+## Cross-indexing is a view motion, not a companion-file motion
+
+*Wrote `index/questions.md` aggregating "Questions I'd like answered" sections across notes. Caught myself about to treat it as a fifth companion file, then realised its discipline was fundamentally different.*
+[Confirmed: 1 session · Last revisited: 2026-04-22]
+
+The content of a cross-index does not live in the index — it lives in the source notes. Regenerating the index is a batch operation, done when drift becomes visible enough to notice. Companion files like `facts` and `lessons` are the opposite: content *lives* there, and maintenance is continuous in-place revision. Conflating the two leads to either over-engineering (treating a view as if it needs versioning) or under-engineering (letting a view rot because you never planned when to regenerate).
+
+The give-away: if I asked myself "where does the content live?" — if the answer is "not here, this is a view of other things", it's a navigation aid, not a companion file. That rules out `questions.md`, `by-confidence.md`, `recently-updated.md`, and similar tempting additions. They belong under `index/` as views, not at vault root as companion files.
+
+**Generalization:** When tempted to add a new top-level file, ask where the content lives. If it lives elsewhere and the file is a view, put it under `index/` and regenerate on drift. Only promote to a companion file if content originates there.
+
+**Doesn't apply when:** The view is so central to daily navigation that giving it a terminal-root path genuinely earns its place. Then it's a UX choice, not a content choice. Uncommon.
+
+---
+
+## Speculative claims require more argumentation than established ones
+
+*Wrote a compact argument note on Voynich with `[Confidence: speculative]`. Noticed that the work-per-sentence was higher than for `[Confidence: established]` content because I couldn't shortcut to citations.*
+[Confirmed: 1 session · Last revisited: 2026-04-22]
+
+Established claims can lean on the field's consensus: "X is the case [Author Year]" carries weight *because* the citation is a shortcut for many people having already argued. Speculative claims have no such shortcut. The reader has no reason to believe me unless I walk through the argument explicitly — which evidence favours the claim, which alternatives are ruled out and how, and what would change my mind.
+
+The Voynich note ran ~1000 words for one speculative claim. A comparable established claim would have been ~400. The extra weight went into ruling out natural-language-cipher, ruling out hoax, ruling out lost-language, and giving the positive case for procedural generation. Each was necessary for the claim to carry.
+
+**Generalization:** Budget 2–3× more words for a speculative claim than an established one of comparable scope. If the argument doesn't fit, the claim probably isn't as well-founded as I think.
+
+**Doesn't apply when:** The speculation is frankly flagged as *(my guess)* or *(speculative)* inline, with no attempt to persuade. Those have the same cost as any other flagged thought. The rule applies to speculative *arguments*, not speculative asides.
+
+---
+
 ## Write TL;DRs last
 
 *Convention said TL;DRs should be 3–5 sentences. My first round consistently landed at 5–7 without noticing. The agent-written notes in the same format were tighter. The difference was that I was writing TL;DRs first; the tighter ones were written after the rest of the note was settled.*
