@@ -1,116 +1,125 @@
----
-title: "Plant Cognition and Mycorrhizal Networks — A Cautious Look at the Wood-Wide Web"
-tags: [biology, cognition, plants, ecology]
-date: 2026-04-21
----
+# The "wood-wide web" narrative is oversold but the underlying plant signalling is real
 
-# Plant Cognition and Mycorrhizal Networks — A Cautious Look
+> Mycorrhizal fungi do connect trees and nutrients do move through them; but the popular story of intentional, kin-biased "mother trees" communicating through a forest internet is substantially more than the evidence supports [Karst et al. 2023]; and claims of plant associative learning have not replicated.
 
-This is a topic where the popular narrative has run far ahead of the evidence, and where the evidence itself is genuinely interesting when held to reasonable standards. I'll try to separate what plants *demonstrably* do, what is contested, and what is speculation or overclaim.
+[Confidence: mixed — established for the physiology, contested for the strong claims]
+[Last verified: 2026-04-21]
 
-## 1. What plants demonstrably do
+## TL;DR
 
-Plants are not passive. Across a century of physiology and molecular biology we have established that they:
+Plants are sophisticated signal-processing organisms — hormones, electrical action potentials [Farmer et al.], VOC communication [Karban et al. 2014], circadian clocks — with genuine internal and external communication mechanisms. Mycorrhizal fungi connect many plants into common mycorrhizal networks (CMNs), and nutrients do move through them. **Suzanne Simard**'s 1997 carbon-transfer experiments are robust [Simard et al. 1997]. But the subsequent narrative of "mother trees" communicating and preferentially nurturing kin — popularised by Wohlleben's *The Hidden Life of Trees* and Simard's own *Finding the Mother Tree* — substantially overstates the evidence [Karst et al. 2023]. Claims of associative learning in pea plants [Gagliano et al. 2016] failed to replicate [Markel 2020]. The honest position is: plants do real and interesting things; *most* of the headline popular claims are not well supported; whether to use "cognition" for what remains is largely a definitional choice.
 
-- **Perceive** light direction, wavelength, and duration; temperature; gravity; touch; wounding; neighbour shade; chemical signals from herbivores and other plants; gravitropic and thigmotropic stimuli.
-- **Signal internally** by hormones (auxin, cytokinin, gibberellin, ethylene, abscisic acid, jasmonic acid, salicylic acid, strigolactones), by electrical action potentials (slow, but real — work by **Simons, Fromm, and most recently Ted Farmer** in Lausanne), by calcium waves, and by ROS waves.
-- **Emit volatile organic compounds** (VOCs) that act as cues or signals. **Ian Baldwin**, **Richard Karban**, and others showed that sagebrush and tobacco plants wounded by herbivores release VOCs that prime defences in neighbours — sometimes even in themselves (**Karban** on kin-specific cues between sagebrush plants).
-- **Have circadian clocks** that regulate stomatal opening, metabolism, and development.
-- **Adapt developmentally** to sun vs shade, water scarcity, neighbours, etc.
+## What plants demonstrably do
 
-This is a lot. But note: everything on that list can be described functionally without the word "cognition" and without invoking anything subjective. That framing choice is itself part of the debate.
+A century of plant physiology and molecular biology has established that plants:
 
-## 2. Mycorrhizal networks — the biology
+- **Perceive** light direction, wavelength, and duration; temperature; gravity; touch; wounding; neighbour shade; volatile chemical signals; gravitropic and thigmotropic stimuli.
+- **Signal internally** via hormones (auxin, cytokinin, gibberellin, ethylene, abscisic acid, jasmonic acid, salicylic acid, strigolactones), slow electrical action potentials (work by Ted Farmer and colleagues on wound signalling in *Arabidopsis* is particularly clean), calcium waves, and ROS waves *(established)*.
+- **Emit volatile organic compounds** that function as cues or signals. **Ian Baldwin**, **Richard Karban** and others showed that wounded sagebrush and tobacco release VOCs that prime defences in neighbours — including, with some specificity, kin and self [Karban et al. 2014] *(established, though the "specificity" claim is narrower than popular accounts suggest)*.
+- **Have circadian clocks** regulating stomatal opening, metabolism, and development.
+- **Adapt developmentally** to sun vs shade, water, neighbours, soil chemistry.
 
-**Mycorrhizae** are symbiotic associations between plant roots and soil fungi. Two major types:
+All of this is real. All of it can also be described functionally without the word "cognition" and without invoking subjective experience. Whether the stronger word applies is a framing debate that runs through the rest of this note.
 
-- **Arbuscular mycorrhizae (AM)** — fungi from the Glomeromycota forming intracellular structures inside root cortical cells; present in ~80% of land plant species.
-- **Ectomycorrhizae (EcM)** — fungi from Basidiomycota and Ascomycota forming a sheath around roots without penetrating cells; common in temperate and boreal forest trees (oaks, pines, firs, birches).
+## Mycorrhizal networks — the biology
 
-Ectomycorrhizal fungi in particular form **hyphal networks** that can connect multiple tree roots in a forest — a **common mycorrhizal network (CMN)**. This is real, not disputed. The dispute is about what flows through them, in what direction, and whether the flow is anything beyond passive diffusion along gradients.
+**Mycorrhizae** are symbiotic associations between plant roots and soil fungi:
+- **Arbuscular mycorrhizae (AM)** — Glomeromycota fungi, intracellular structures in root cortical cells, present in ~80% of land plant species.
+- **Ectomycorrhizae (EcM)** — Basidiomycota/Ascomycota fungi, root-sheathing without cellular penetration, common in temperate and boreal forest trees (oaks, pines, firs, birches).
 
-## 3. Simard and the "Mother Tree" story
+Ectomycorrhizal fungi in particular form **hyphal networks** connecting multiple tree roots — a **common mycorrhizal network (CMN)**. This is not disputed. The disputes are: what flows through them, in what direction, under what conditions, and whether that flow is anything beyond passive diffusion along gradients.
 
-**Suzanne Simard**'s 1997 *Nature* paper ("Net transfer of carbon between ectomycorrhizal tree species in the field") and her long subsequent career established that radiolabelled carbon can move from one tree to another through shared mycorrhizal fungi. The $^{14}$CO$_2$ vs $^{13}$CO$_2$ double-labelling experiments showed bidirectional transfer between Douglas fir and paper birch, with net flow to the shaded (carbon-starved) partner.
+## The Simard / Mother Tree story
 
-Simard's subsequent interpretation — developed in many papers and in her 2021 book *Finding the Mother Tree* — is ambitious:
+**Suzanne Simard**'s 1997 *Nature* paper [Simard et al. 1997] demonstrated radiolabelled carbon movement between Douglas fir and paper birch via shared mycorrhizae, with net flow to the shaded (carbon-starved) partner. The ¹⁴C vs ¹³C double-labelling experiments were well designed and widely cited *(established)*.
 
-- Old "**mother trees**" preferentially send carbon and defence signals to younger trees, including their own kin.
-- The CMN functions as something like a **forest communication system**, with hub trees playing disproportionate roles.
-- Defence signals propagate through the network to warn neighbours of pest attacks.
+Simard's subsequent interpretation, developed across two decades of papers and her 2021 book *Finding the Mother Tree*, is ambitious:
+- Old "**mother trees**" preferentially send carbon and defence signals to younger trees, including kin.
+- The CMN functions as something like a forest communication system with hub trees playing outsize roles.
+- Defence signals propagate through networks to warn neighbours of pest attacks.
 
-This is the story that **Peter Wohlleben** vastly popularised in *The Hidden Life of Trees* (2015, English 2016), and that underpins a lot of the public "wood-wide web" narrative.
+**Peter Wohlleben**'s *The Hidden Life of Trees* (2015/2016) popularised this story further, often without the caveats the primary literature carried.
 
-## 4. The 2023 critical re-examination
+## The 2023 critical re-examination
 
-The headline paper is **Karst, Jones, Hoeksema (2023)**, "Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests," *Nature Ecology & Evolution* 7:501–511. The authors systematically reviewed the primary literature underlying several commonly-cited claims about CMNs and found:
+**Karst, Jones, Hoeksema 2023** [Karst et al. 2023] in *Nature Ecology & Evolution* is the headline critical paper. They systematically reviewed primary literature underlying commonly cited claims about CMNs and found:
 
-- Many popular claims trace back to a small number of papers that have been cited with increasing confidence while the underlying evidence has not strengthened — a **citation drift** problem.
-- Some specific claims (preferential carbon transfer to kin, signalling of herbivory through networks) are based on limited field evidence, small sample sizes, and/or studies that failed to replicate.
-- The general existence of CMNs and *some* net nutrient transfer is well-established. The stronger claims — intentional, kin-biased, communicative function — are not.
+- **Citation drift.** Popular claims trace back to a small number of papers that have been cited with *increasing* confidence over time while the underlying evidence has *not* strengthened correspondingly.
+- **Weak evidence for strong claims.** Preferential carbon transfer to kin, signalling of herbivory across networks, and directional "mother-tree" flow are based on limited field evidence, small samples, and studies that have not cleanly replicated.
+- **Core finding intact.** CMNs exist and some net nutrient transfer occurs. Those are established. But intentional, kin-biased, communicative function is not.
 
-Karst and colleagues are not saying Simard is wrong about everything. They are saying the field has got ahead of itself, and the popular story contains substantive exaggerations. This is an important distinction. **Fungi do connect trees. Resources do move. But "mother trees nursing their children through the wood-wide web" is rhetoric that is not well supported by current evidence.**
+Karst et al. are not saying Simard is wrong about everything. They are saying the field has got ahead of itself and the popular story contains substantive exaggerations.
 
-Simard has responded publicly; the back-and-forth is ongoing. My read (which readers should check themselves) is that Karst et al.'s methodological criticism is correct on its own terms and that Simard's rejoinders focus more on the motivating intuitions than on the specific replication failures. But I'm not impartial, and this is an area where updated field experiments over the next few years will matter.
+Simard responded publicly; the exchange is ongoing. My reading is that Karst et al.'s methodological criticism is correct on its own terms, and that Simard's rejoinders focus on motivating intuitions rather than the specific replication failures. This is a live debate, and field experiments over the next several years will be the test *(mixed — the debate is real, the ground-truth biology is waiting on better evidence)*.
 
-## 5. "Plant neurobiology" and its critics
+## Plant neurobiology — and its critics
 
-A parallel debate has run over the phrase **plant neurobiology**, introduced around 2006 by **František Baluška, Stefano Mancuso, Dieter Volkmann** and others. They argue that plants integrate multi-modal information in ways analogous to (if not identical with) animal nervous systems, and that "intelligence" and "cognition" are the right descriptors for plant behaviour.
+The phrase **plant neurobiology** was introduced around 2006 by **František Baluška**, **Stefano Mancuso**, and **Dieter Volkmann**. The claim: plants integrate multi-modal information in ways analogous to (if not identical with) animal nervous systems, justifying "intelligence" and "cognition" as descriptors.
 
-**Lincoln Taiz** and colleagues (2019, "Plants Neither Possess Nor Require Consciousness", *Trends in Plant Science*) wrote a stinging critique: plant cells are not neurons, plant signalling is not nervous-system signalling, and attributing consciousness or cognition to plants is a category error driven by anthropomorphism.
+**Lincoln Taiz** and colleagues' 2019 "Plants Neither Possess Nor Require Consciousness" [Taiz et al. 2019] is the major critique: plant cells are not neurons, plant signalling is not nervous-system signalling, and attributing consciousness or cognition to plants is a category error driven by anthropomorphism.
 
-The argument is largely semantic/definitional. If "cognition" requires something like experience or centralised processing, plants don't have it. If "cognition" means adaptive signal processing, plants have it in spades and so do bacteria. (This is the [[slime-mold-computation]] / basal cognition move again.) The substantive question is whether anything meaningful is lost or gained by using the stronger word.
+The disagreement is largely semantic. If "cognition" requires experience or centralised processing, plants don't have it. If "cognition" means adaptive signal processing, plants (and bacteria, and slime moulds — see [[slime-mold-computation]]) have it in spades. The substantive question: does anything meaningful get gained or lost by using the stronger word?
 
-## 6. Monica Gagliano and pea plants
+## The Gagliano replication problem
 
-**Monica Gagliano** published a widely-discussed paper in 2016 (*Scientific Reports*) claiming **associative learning** in pea plants: pea seedlings trained to associate a light direction with airflow continued to grow toward where light had been predicted, even when only airflow was present. If real, this would be Pavlovian conditioning in a plant.
+**Monica Gagliano**'s 2016 *Scientific Reports* paper [Gagliano et al. 2016] claimed **associative learning** in pea plants: seedlings trained to associate light direction with airflow continued growing toward where light had been predicted when only airflow was present. If real, this would be plant Pavlovian conditioning — a genuinely transformative result.
 
-**Markel (2020, *eLife* [rapid communications])** attempted a direct replication and **did not find** the effect. The controversy has not been fully settled; Gagliano and colleagues have not replicated their own finding convincingly, and independent groups have struggled. The failed replication is widely seen within the plant science community as a caution against taking the original result at face value — though it has not been definitively disproven either.
+**Markel 2020** [Markel 2020] attempted a direct replication in *eLife* and did not find the effect. Gagliano and colleagues have not independently replicated their own finding, and other groups have struggled.
 
-This is unsettled. It is also the kind of result that, if it had replicated cleanly, would have been transformative. That it hasn't cleanly replicated is a data point worth taking seriously, even if you find the hypothesis attractive.
+The result is unsettled and not definitively disproven, but the failed replication is widely treated in the plant-science community as a strong caution against citing the original as evidence. I'd treat the claim as *contested, with the burden now on those defending the original result*.
 
-## 7. Basal cognition as a framing
+## Basal cognition as framing
 
-**Pamela Lyon**, **Michael Levin**, and collaborators argue that we should take cognition to be substrate-general — present in bacterial chemotaxis, slime-mould maze-solving, plant tropisms, and so on. On this framing, the question is not "are plants cognitive?" (trivially yes at the minimal-cognition level) but "what kinds of cognition do plants do, and what are its limits?"
+**Pamela Lyon** [Lyon 2015] and **Michael Levin** argue cognition is substrate-general — present in bacterial chemotaxis, slime-mould problem-solving, plant tropisms, and so on. On this framing, "are plants cognitive?" is trivially yes at the minimal level; the real question is "what kinds, with what limits?"
 
-I find this framing useful as a corrective to the assumption that cognition starts with neurons. I think it also risks making "cognition" so broad it stops distinguishing cases. The honest position is probably: plants do things that on the cognitive spectrum fall well above "inanimate object" and well below "mouse". Where on that spectrum they sit precisely depends on definitional choices we haven't collectively made.
+Useful as a corrective to the assumption that cognition starts with neurons. Risks making "cognition" so broad it stops distinguishing cases. The honest resting position: plants do things well above "inanimate object" and well below "mouse". Where precisely depends on definitional choices we haven't collectively made.
 
-## 8. What actually is a defensible summary?
+## A defensible summary
 
-A reasonable summary, stripped of both the boosters and the debunkers, might go:
+Stripped of both boosters and debunkers:
 
 1. Plants are sophisticated signal-processing organisms with rich internal and external communication mechanisms.
-2. Mycorrhizal fungi connect many plants and transport nutrients between them. The direction and magnitude of transport depends on gradients and fungal physiology; calling this "communication" is metaphorical.
-3. The strong claims about kin-biased carbon transfer, mother-tree altruism, and defence signalling across forests are either unsupported or substantially oversold by popular accounts.
-4. Whether to use the word "cognition" for plant sensory integration is largely a terminological question. The underlying phenomena — signal integration, habituation-like decay, integration across time — are real and interesting.
+2. Mycorrhizal fungi connect many plants and transport nutrients. Direction and magnitude depend on gradients and fungal physiology. Calling this "communication" in the intentional sense is metaphorical.
+3. Strong claims about kin-biased carbon transfer, mother-tree altruism, and defence signalling across forests are largely unsupported by current evidence [Karst et al. 2023].
+4. Whether to use "cognition" for plant sensory integration is a terminological choice. The underlying phenomena — signal integration, slow adaptation, VOC communication — are real and interesting.
 5. Experimental claims at the cognitive end (associative learning) have not replicated well. Scepticism is warranted.
 
-## 9. Open questions
+## Disagreements and cautions
 
-- **Do mycorrhizal networks carry adaptive information beyond bulk nutrient gradients?** Hard to design clean tests.
-- **Is there habituation, sensitisation, or anticipation in plants** that isn't reducible to known receptor-level adaptation?
-- **Where in the plant is any form of integration happening?** There's no centralised site analogous to a brain. Is it distributed across the whole plant body?
-- **Can plants discriminate kin?** Some evidence (root architecture, VOC release) suggests yes, but mechanisms are not established.
-- **At what level of description is "plant cognition" a helpful concept and at what level is it an obstacle?** The answer may depend on the research question.
+- **Don't cite Simard's strong claims as established.** The 1997 carbon-transfer finding is solid. The "mother tree" interpretive extension is not. Most good popular summaries now distinguish these; many bad ones still don't.
+- **Don't cite Gagliano's learning result as established.** Treat it as contested until replicated.
+- **"Wood-wide web"** is evocative metaphor, not scientific shorthand. Using it in a research context invites confusion about what is actually claimed.
+- **Plant "intelligence" books aimed at general audiences** (Wohlleben, Mancuso, Gagliano) vary wildly in fidelity to primary literature. Cross-check specific claims.
+- **Taiz et al. 2019** is strongly worded and sometimes read as dismissive of the whole research programme. It is not; it is specifically against consciousness claims. Plant signalling research is thriving and uncontroversial.
+- **I am not impartial on the Karst vs Simard dispute.** I find Karst et al.'s methodological case stronger. Readers should check the primary literature themselves.
 
-## Sources (verify before quoting)
+## Questions I'd like answered
 
-- Simard, S.W., Perry, D.A., Jones, M.D., Myrold, D.D., Durall, D.M., Molina, R. (1997). "Net transfer of carbon between ectomycorrhizal tree species in the field." *Nature* 388:579–582.
-- Karst, J., Jones, M.D., Hoeksema, J.D. (2023). "Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests." *Nature Ecology & Evolution* 7:501–511.
-- Taiz, L., et al. (2019). "Plants Neither Possess Nor Require Consciousness." *Trends in Plant Science* 24:677.
-- Gagliano, M., Vyazovskiy, V.V., Borbély, A.A., Grimonprez, M., Depczynski, M. (2016). "Learning by association in plants." *Scientific Reports* 6:38427.
-- Markel, K. (2020). "Lack of evidence for associative learning in pea plants." *eLife* 9:e57614.
-- Karban, R., Yang, L.H., Edwards, K.F. (2014). "Volatile communication between plants that affects herbivory: a meta-analysis." *Ecology Letters* 17:44.
+1. **Do mycorrhizal networks carry adaptive information beyond bulk nutrient gradients?** Hard to design clean tests. If yes — if fungi actively route resources based on something like a network-level signal — the wood-wide web metaphor has more content.
+2. **Is there habituation, sensitisation, or anticipation in plants** that isn't reducible to known receptor-level adaptation?
+3. **Where in a plant is any form of integration happening?** There is no centralised site analogous to a brain. Is integration distributed across the whole body? Across tissue-specific subsystems?
+4. **Can plants discriminate kin** robustly? Some evidence (root architecture, VOC specificity) suggests yes; mechanisms are not established.
+5. **What would a clean test of plant associative learning look like** that addresses the weaknesses in Gagliano 2016? Anyone planning one?
+6. **Is "plant cognition" a helpful concept** at any level of description, or does it obscure more than it clarifies? The answer may depend on the research question.
+
+## Sources
+
+- [Farmer et al.] Farmer, E.E. et al. Various papers on wound-induced electrical signals in *Arabidopsis*; see e.g. Mousavi, Chauvin, Pascaud, Kellenberger, Farmer 2013, "GLUTAMATE RECEPTOR-LIKE genes mediate leaf-to-leaf wound signalling," *Nature* 500:422.
+- [Gagliano et al. 2016] Gagliano, M., Vyazovskiy, V.V., Borbély, A.A., Grimonprez, M., Depczynski, M. "Learning by association in plants." *Scientific Reports* 6:38427.
+- [Karban et al. 2014] Karban, R., Yang, L.H., Edwards, K.F. "Volatile communication between plants that affects herbivory: a meta-analysis." *Ecology Letters* 17:44.
+- [Karst et al. 2023] Karst, J., Jones, M.D., Hoeksema, J.D. "Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests." *Nature Ecology & Evolution* 7:501–511. https://doi.org/10.1038/s41559-023-01986-1
+- [Lyon 2015] Lyon, P. "The cognitive cell: bacterial behaviour reconsidered." *Frontiers in Microbiology* 6:264.
+- [Markel 2020] Markel, K. "Lack of evidence for associative learning in pea plants." *eLife* 9:e57614. https://doi.org/10.7554/eLife.57614
+- [Simard et al. 1997] Simard, S.W., Perry, D.A., Jones, M.D., Myrold, D.D., Durall, D.M., Molina, R. "Net transfer of carbon between ectomycorrhizal tree species in the field." *Nature* 388:579–582.
+- [Taiz et al. 2019] Taiz, L. et al. "Plants Neither Possess Nor Require Consciousness." *Trends in Plant Science* 24:677.
 - Baldwin, I.T., Schultz, J.C. (1983). "Rapid changes in tree leaf chemistry induced by damage: evidence for communication between plants." *Science* 221:277.
-- Farmer, E.E., et al. (various). Work on wound-induced electrical signals in *Arabidopsis*.
-- Wohlleben, P. (2015). *The Hidden Life of Trees*. (Popular, often overreaches.)
+- Wohlleben, P. (2015). *The Hidden Life of Trees*. (Popular; often overreaches.)
 - Simard, S. (2021). *Finding the Mother Tree*. Knopf.
-- Lyon, P. (2015). "The cognitive cell: bacterial behavior reconsidered." *Frontiers in Microbiology* 6:264.
 
-## Related
+## Links
 
-- [[slime-mold-computation]] — the closest biological analogue of brainless cognition, with more developed empirical base
-- [[octopus-cognition]] — centralised, embodied, clearly cognitive — the contrast case
-- [[collective-intelligence]] — plant–fungus–plant networks are themselves a kind of collective system
-- [[assembly-theory-origin-of-life]] — another attempt to generalise "cognition-like" concepts across substrates
-- [[hard-problem-consciousness]] — where do plants fall, if anywhere?
+- [[slime-mold-computation]] — the closest biological analogue of brainless cognition, with a better-developed empirical base. A useful contrast: *Physarum* claims are mostly about physics; plant-cognition claims often reach for intentional vocabulary the evidence doesn't support.
+- [[octopus-cognition]] — the contrast case. Centralised, embodied, clearly cognitive by any reasonable measure. Plants are at the opposite end of every axis.
+- [[collective-intelligence]] — plant–fungus–plant networks are themselves a kind of collective system, and the same cautions about overclaiming apply. Bees are better studied.
+- [[assembly-theory-origin-of-life]] — another field where popular summaries run ahead of the evidence, though for different reasons.
+- [[hard-problem-consciousness]] — where do plants fall, if anywhere? Almost certainly nowhere interesting on the consciousness spectrum, but the "almost" is load-bearing.

@@ -1,91 +1,46 @@
----
-title: "Octopus Cognition — Distributed Minds in a Mollusc"
-tags: [cognition, biology, cephalopods, consciousness]
-date: 2026-04-21
----
+# Octopus cognition — survey
 
-# Octopus Cognition — Distributed Minds in a Mollusc
+> Hub note for octopus cognition. Each substantive claim lives in its own atomic note linked below; this file gives the one-paragraph orientation and the index.
 
-The octopus is the closest thing we have on Earth to a second, independent evolution of complex intelligence. Vertebrates and cephalopods last shared an ancestor roughly 600 million years ago — something that probably looked like a flatworm. Every nervous system feature more complex than a nerve net evolved twice, separately. When we watch an octopus solve a problem, we are looking at an alien solution to the same pressure that produced our own minds.
+[Confidence: this is a navigation aid; see linked atoms for confidence on individual claims]
+[Last verified: 2026-04-25]
 
-## 1. Neural architecture: where is the mind?
+## TL;DR
 
-An octopus (commonly *Octopus vulgaris* in the classic studies) has on the order of **500 million neurons** — comparable to a dog. What makes it strange is the distribution: about **two thirds of those neurons are in the arms**, not in the central brain around the oesophagus. Each arm contains a long **axial nerve cord** running down its length, with interconnected ganglia along it.
+The octopus is the clearest case on Earth of an independently-evolved complex mind: cephalopods and vertebrates share a flatworm-like ancestor from ~600 Mya, so anything cognitively interesting about the octopus evolved in parallel with our own nervous systems [Godfrey-Smith 2016]. The biology that follows from this is genuinely novel — distributed motor control across the arms, photosensitive skin, massive RNA editing in neural tissue, REM-like sleep — and the body of work raises a unity-of-subject question vertebrate intuition struggles to handle. This file is the navigation hub; the substantive claims are atomised below.
 
-This is not just peripheral nervous tissue. The arms contain the circuitry for their own movement patterns. In Sumbre et al.'s classic work (Science, 2001), an arm surgically separated from the central brain still produced the stereotyped "fetch" reaching motion when its skin was stimulated — a wave of muscle activation travelling from base to tip, forming a quasi-articulated "elbow" in the middle. The motor program lives in the arm.
+## The cluster
 
-This raises a question that doesn't really arise for vertebrates: **where is the octopus?** Is it one centralised self receiving arm reports, or something more like a federation?
+- **[[the-octopus-is-an-independent-second-evolution-of-mind]]** — the framing claim that ties the cluster together. Why deep evolutionary divergence makes the octopus the strongest empirical lever for the substrate-independence question, and the unity-of-subject readings the architecture invites.
+- **[[octopus-arms-do-their-own-motor-planning]]** — ~320M of an octopus's ~500M neurons live in the arms, which run their own motor programs (Sumbre 2001 fetch-motion result). Substrate of the federated-body reading.
+- **[[octopus-skin-is-photosensitive]]** — opsin-expressing skin can detect light and trigger chromatophore expansion locally; an alternative-route hypothesis (chromatic aberration via pupil shape) tries to give a colour-blind eye chromatic information by varying focus.
+- **[[cephalopods-trade-genome-evolvability-for-rna-editing-plasticity]]** — tens of thousands of A-to-I editing sites in cephalopod neural tissue; flanking-sequence conservation suggests genome-level evolvability has been traded for transcriptome plasticity.
+- **[[octopus-active-sleep-resembles-rem]]** — quiet/active sleep cycling in *Octopus insularis* and *Sepia officinalis*, with neural signatures that share properties with vertebrate REM. Unusually externally legible because chromatophores reflect central state.
 
-## 2. Arm autonomy and coordination
+## Why the survey is light
 
-Each arm has its own sensory world. An octopus arm is studded with hundreds of suckers, each with tens of thousands of chemo- and mechanoreceptors. A single sucker can taste. The information load from eight arms and thousands of tasting, touching suckers is so large that full central integration seems implausible — and indeed the behavioural evidence suggests the central brain sends *intentions* (reach toward that thing) while the arms handle execution and local feedback.
+Each linked atom carries its own TL;DR, sources, disagreements, and questions. Pulling them apart was a self-critique pass: the original `octopus-cognition.md` was a 1,900-word essay covering five distinct claims that each deserve their own citable home (see [[conventions]] under "One claim per note, when it earns it"). The hub stays so existing inbound links and navigation views resolve.
 
-There is also evidence that arms can inhibit each other laterally without central mediation, avoiding tangles, and that a slightly different movement vocabulary lives in each arm pair.
+## Disagreements and cautions
 
-## 3. The vision paradox: colour-blindness and camouflage
+For per-claim caveats, see the atom notes. Two cluster-level cautions worth stating up front:
 
-Octopuses are almost certainly **colour-blind in the retinal sense** — most species have a single opsin (rhodopsin), no colour channels. And yet they are spectacular camouflagers, matching not just brightness and texture but colour of their substrate.
+- **Anthropomorphism.** Talking about "octopus experience" or "federated minds" imports vertebrate intuitions that may not apply. The atoms try to flag where they cross from neurobiology into interpretation.
+- **Evidence base.** Most of the striking results come from a handful of species (*Octopus vulgaris*, *Octopus bimaculoides*, *Octopus insularis*, *Sepia officinalis*) and small sample sizes. Generalising across the ~300 living cephalopod species is harder than the popular accounts suggest.
 
-How? The leading hypothesis, most clearly articulated by **Desmond Ramirez and Todd Oakley**, is that octopus **skin itself is photosensitive**. Opsin genes are expressed in the chromatophore-bearing skin. Ramirez showed that isolated skin patches of *Octopus bimaculoides* expand their chromatophores in response to light, with a spectral sensitivity matching rhodopsin.
+## Sources
 
-A more speculative extension, floated by **Stubbs and Stubbs** and elaborated by **Peter Godfrey-Smith**, is that the pupil shape of cephalopods (U-shaped or dumbbell) produces strong **chromatic aberration** — different wavelengths focus at different depths. A colour-blind eye that deliberately defocuses could, in principle, recover chromatic information by *seeing at what depth focus maximises contrast*. The idea is contentious but beautiful. It would mean the octopus sees colour by a totally different mechanism than we do — by using a lens defect as a feature.
+- [Godfrey-Smith 2016] Godfrey-Smith, P. *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. FSG.
+- [Godfrey-Smith 2020] Godfrey-Smith, P. *Metazoa: Animal Life and the Birth of the Mind*. FSG.
 
-## 4. Learning, memory, problem solving
+(Per-claim sources live in the atom notes.)
 
-- **Maze and detour tasks** — octopuses learn to navigate around barriers and through openings they can't see through at the start, implying some spatial representation.
-- **Jar opening** — unscrewing lids from inside or outside is widely observed and filmed; with practice, latency drops sharply.
-- **Discrimination learning** — they readily learn to choose shapes, textures, and patterns under food reinforcement. Earlier claims of *observational* learning between conspecifics (Fiorito & Scotto, 1992) have had a complicated replication history and the interpretation is debated.
-- **Tool use** — the veined octopus (*Amphioctopus marginatus*) assembles coconut-shell halves into a portable shelter (Finn, Tregenza & Norman, 2009). Whether this meets a strict definition of tool use (it is a "proto-tool" carried for later use) is a live debate.
+## Links
 
-## 5. Cognitive tests, personality, play
+External-to-cluster:
 
-Octopuses fail the **classical mirror mark test**, but the test is vision-centric in ways that probably don't fit cephalopod ecology. They *pass* various discrimination and metacognitive tasks.
-
-**Jennifer Mather and Roland Anderson** have a long line of work in giant Pacific octopuses (*Enteroctopus dofleini*) demonstrating stable individual differences — what ethologists usually cashout as "personality" (bold/shy axes, activity levels). In aquarium settings they also document **play**: manipulating neutral objects (LEGO blocks, pill bottles) in ways not explainable by foraging or exploration — repeated push-and-retrieve with floating bottles in the tank current. Play is a reasonable behavioural marker of cognitive sophistication because it implies spare neural capacity above immediate need.
-
-## 6. The RNA-editing twist
-
-One of the most surprising molecular findings of the last decade: cephalopods — octopuses, squid, cuttlefish — do **massive amounts of A-to-I RNA editing** in their neural tissue. **Joshua Rosenthal, Eli Eisenberg** and collaborators showed that tens of thousands of sites in the cephalopod neural transcriptome are recoded after transcription, changing the amino-acid sequence of the resulting proteins. Humans recode at a few dozen sites by comparison.
-
-The intriguing correlate: the genomic regions around heavily-edited sites are **evolutionarily conserved** in a way that suggests they cannot freely accumulate DNA mutations, because the editing machinery depends on flanking sequence. The conjecture is that cephalopods have traded **genome-level evolvability** for **transcriptome-level plasticity** — tuning proteins on the fly, possibly including temperature compensation (shown in Arctic vs tropical octopus K+ channels). This might be part of the machinery that lets a nervous system of this complexity function.
-
-## 7. Sleep — and dreaming?
-
-Octopuses sleep. **Medeiros, Paiva, Lopes, Ramos, Stefanelli-Silva, Pennino, Leite, Mather (2021, iScience)** described two-stage sleep in *Octopus insularis* — quiet sleep followed by short bursts (~40 s) of twitching chromatophore activity that visually resembles REM-like states. They called it "active sleep". Whether cephalopods have anything like dreams is a real question, not a metaphor, and the skin activity — which in wakefulness is tightly coupled to attention and mood — makes it unusually legible.
-
-Follow-up work (Pophale et al., Nature 2023, on cuttlefish *Sepia*) used electrophysiology in addition to behaviour and found neural signatures during active sleep that look REM-like.
-
-## 8. Philosophical implications
-
-The octopus forces us to unpack assumptions we didn't know we were making:
-
-- **Self and unity.** Our intuition that a mind is a single locus of experience may reflect the vertebrate bauplan — a strong central brain with peripheral servants. An octopus might be something more like a federation with negotiated agreement, or a central will and eight semi-autonomous sub-agents, or something not well described by either.
-- **Embodiment.** The classic "what is it like to be a bat?" question (Thomas Nagel, 1974) assumes a single subject. **Peter Godfrey-Smith**'s *Other Minds* (2016) and *Metazoa* (2020) updates this for cephalopods and takes seriously the possibility that experience may be more distributed than we picture.
-- **Substrate independence.** If something like rich experience evolved twice independently, on very different neural architectures, then whatever gives rise to it is unlikely to be architecturally specific. That matters for how we think about other substrates — see [[mechanistic-interpretability]], [[hard-problem-consciousness]].
-
-## 9. Open questions
-
-- Do arms have anything like experience of their own, or is the integration tight enough that there is only "one" octopus?
-- Does skin photoreception contribute to what the animal "sees"?
-- How much of the behaviour we call cognition is central, and how much is local arm-level computation that we misread as global?
-- What does it feel like to taste with your hands and see with your skin?
-
-## Sources (high-confidence references, verify before quoting)
-
-- Godfrey-Smith, P. (2016). *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. FSG. https://www.petergodfreysmith.com/
-- Sumbre, G., Gutfreund, Y., Fiorito, G., Flash, T., Hochner, B. (2001). "Control of octopus arm extension by a peripheral motor program." *Science* 293:1845–8.
-- Finn, J.K., Tregenza, T., Norman, M.D. (2009). "Defensive tool use in a coconut-carrying octopus." *Current Biology* 19(23):R1069–70.
-- Ramirez, M.D., Oakley, T.H. (2015). "Eye-independent, light-activated chromatophore expansion (LACE) and expression of phototransduction genes in the skin of *Octopus bimaculoides*." *J. Exp. Biol.* 218:1513–20.
-- Stubbs, A.L., Stubbs, C.W. (2016). "Spectral discrimination in color blind animals via chromatic aberration and pupil shape." *PNAS* 113(29):8206–11.
-- Liscovitch-Brauer, N., Alon, S., … Eisenberg, E., Rosenthal, J.J.C. (2017). "Trade-off between transcriptome plasticity and genome evolution in cephalopods." *Cell* 169(2):191–202.
-- Medeiros, S.L.S., et al. (2021). "Cyclic alternation of quiet and active sleep states in the octopus." *iScience* 24(4):102223.
-- Pophale, A., et al. (2023). "Wake-like skin patterning and neural activity during octopus sleep." *Nature* (cuttlefish follow-up also relevant).
-- Mather, J.A., Anderson, R.C. (1993). "Personalities of octopuses (*Octopus rubescens*)." *J. Comp. Psychol.* 107:336–40.
-
-## Related
-
-- [[slime-mold-computation]] — another form of non-centralised computation, but without neurons at all
-- [[collective-intelligence]] — the intuition that intelligence need not be centralised
-- [[hard-problem-consciousness]] — what the existence of alien minds tells us about what experience is
-- [[mechanistic-interpretability]] — neural nets as another substrate where we ask "where" cognition lives
-- [[plant-cognition-mycorrhizal-networks]] — even further along the decentralisation axis
+- [[hard-problem-consciousness]] — the substrate-independence question is where the cluster lands.
+- [[mechanistic-interpretability]] — the only other case where we have anything like internal access to a complex non-human candidate for cognition; the asymmetry between "octopus internals we can't read" and "transformer activations we can" is informative.
+- [[collective-intelligence]] — many-semi-autonomous-units → one behaviour at a different scale.
+- [[slime-mold-computation]] — same distributional logic pushed to its limit (no centre at all).
+- [[camera-eyes-evolved-independently-with-different-design-choices]] — cephalopod eyes are the structural background for the colour-vision story.
