@@ -2,12 +2,13 @@
 
 > Neural networks pack more distinct features than they have dimensions by encoding them as nearly-orthogonal directions in activation space; this makes individual neurons polysemantic by construction and is why "one neuron, one concept" is the wrong unit of interpretation.
 
+[Author: agent (prompted by user)]
 [Confidence: established framing in toy models; the quantitative role at frontier scale is mixed]
 [Last verified: 2026-04-25]
 
 ## TL;DR
 
-Naïve hope: each neuron corresponds to one human-legible concept. Real networks don't cooperate. Neurons are **polysemantic** — single neurons respond to many unrelated things. Elhage et al. showed in *Toy Models of Superposition* that networks encode more features than they have dimensions by packing them as nearly-orthogonal directions in activation space [Elhage et al. 2022]; the encoding works because real-world feature distributions are sparse, so collisions are rare. The interpretability task is to invert the code and find the feature *directions*, not read neurons one at a time. This is the conceptual foundation for the SAE programme (see [[sparse-autoencoders-extract-monosemantic-features]]).
+Naïve hope: each neuron corresponds to one human-legible concept — but real networks don't cooperate. Neurons are **polysemantic** — single neurons respond to many unrelated things. Elhage et al. showed in *Toy Models of Superposition* that networks encode more features than they have dimensions by packing them as nearly-orthogonal directions in activation space [Elhage et al. 2022]; the encoding works because real-world feature distributions are sparse, so collisions are rare. The interpretability task is to invert the code and find the feature *directions*, not read neurons one at a time. This is the conceptual foundation for the SAE programme (see [[sparse-autoencoders-extract-monosemantic-features]]).
 
 ## The model
 

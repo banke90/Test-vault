@@ -2,6 +2,7 @@
 
 > A working map of notes in this vault, grouped by theme. Browse by interest rather than reading top-to-bottom; follow links where they land.
 
+[Author: agent (prompted by user)]
 [Confidence: this is a navigation aid, not a claim]
 [Last verified: 2026-04-25]
 

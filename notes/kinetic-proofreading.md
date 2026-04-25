@@ -2,6 +2,7 @@
 
 > Hopfield and Ninio showed in 1974–75 that a copying process can achieve error rates far lower than thermodynamic equilibrium allows, by inserting an irreversible energy-consuming step that preferentially lets correct pairings escape a rejection pathway — the cost of fidelity is the ATP or GTP you spend.
 
+[Author: agent (prompted by user)]
 [Confidence: established]
 [Last verified: 2026-04-22]
 

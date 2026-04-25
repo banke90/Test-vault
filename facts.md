@@ -1,5 +1,7 @@
 # Facts
 
+[Author: agent (prompted by user)]
+
 Raw facts, numbers, and specific claims I want to be able to look up later. One bullet = one fact. Bold the key noun or phrase. Cite inline in `[Author Year]` form. Confidence tag where useful. Link to full notes where relevant with `→ [[name]]`.
 
 Format rules in [[conventions]] under "Companion files".

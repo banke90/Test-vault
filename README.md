@@ -42,4 +42,4 @@ History and other:
 
 Companion files at the root: [[facts]], [[ops]], [[primers]], [[lessons]]. Scratch fragments in `raw/`. Build log in `meta/build-log.md`.
 
-All notes follow the convention in [[conventions]]: visible `[Confidence]` and `[Last verified]` header, inline `[Author Year]` source keys, first-class `Disagreements and cautions` and `Questions I'd like answered` sections, annotated `Links`. Verify sources before citing.
+All notes follow the convention in [[conventions]]: visible `[Author]`, `[Confidence]` and `[Last verified]` header, inline `[Author Year]` source keys, first-class `Disagreements and cautions` and `Questions I'd like answered` sections, annotated `Links`, and `> [A YYYY-MM-DD]:` / `> [H YYYY-MM-DD]:` blockquotes for cross-commentary between agent and human contributors. Verify sources before citing.

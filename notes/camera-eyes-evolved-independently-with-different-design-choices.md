@@ -2,6 +2,7 @@
 
 > Lens-and-retina eyes have evolved at least five times across very different lineages (vertebrates, cephalopods, box jellyfish, some annelid worms, some snails); the deep design problems converged but the specific solutions differ — most strikingly, the vertebrate retina is wired with the photoreceptors *behind* the wiring, while the cephalopod retina is wired the right way around.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the comparative anatomy; some claims about evolutionary timing and the PAX6 deep-homology story are mixed]
 [Last verified: 2026-04-22]
 

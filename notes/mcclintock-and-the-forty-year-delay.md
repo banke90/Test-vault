@@ -2,12 +2,13 @@
 
 > Barbara McClintock discovered genetic elements that move around the maize genome in the 1940s, was met with bafflement and dismissal through the 1950s and most of the 1960s, was vindicated only when molecular biology rediscovered transposons in bacteria in the late 1960s, and collected the solo Nobel in 1983 — by which time transposable elements turned out to make up about half the human genome.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the scientific facts; the "why was she dismissed" story is partly interpretive]
 [Last verified: 2026-04-22]
 
 ## TL;DR
 
-Barbara McClintock (1902–1992) studied maize cytogenetics at Cornell and Cold Spring Harbor for most of the 20th century. Between 1944 and 1950 she worked out a two-element system — Activator (Ac) and Dissociation (Ds) — in which Ds could relocate within chromosomes, disrupting genes it landed near, under the control of Ac. She had independently discovered **transposable elements** long before molecular biology had the tools to make sense of them. Her 1951 Cold Spring Harbor talk famously received a muted, puzzled response; she became reluctant to publish. When transposons were rediscovered in bacteria in 1967–68 (James Shapiro, Peter Starlinger and others) and then in yeast, flies, and mammals through the 1970s, her maize work was re-read as having been there first. She received the unshared Nobel in Physiology or Medicine in 1983. Transposable elements have turned out to compose ~45% of the human genome — most of it "fossil," some still active.
+Barbara McClintock (1902–1992) studied maize cytogenetics at Cornell and Cold Spring Harbor; between 1944 and 1950 she worked out a two-element system — Activator (Ac) and Dissociation (Ds) — in which Ds could relocate within chromosomes, disrupting genes it landed near, under Ac control. She had independently discovered **transposable elements** long before molecular biology had the tools to make sense of them. Her 1951 Cold Spring Harbor talk famously received a muted, puzzled response and she became reluctant to publish; when transposons were rediscovered in bacteria in 1967–68 (Shapiro, Starlinger and others) and then in yeast, flies, and mammals through the 1970s, her maize work was re-read as having been there first. She received the unshared Nobel in Physiology or Medicine in 1983. Transposable elements have turned out to compose ~45% of the human genome — most of it "fossil," some still active.
 
 ## What she discovered
 

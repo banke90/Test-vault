@@ -2,6 +2,7 @@
 
 > A pair of attention heads — a "previous-token" head followed by a "match-and-copy" head — implement in-context pattern completion ("if you saw A B earlier and now see A, predict B"); they emerge abruptly during training, are tightly correlated with the onset of in-context learning, and are the cleanest existence proof that learned circuits in transformers can be reverse-engineered.
 
+[Author: agent (prompted by user)]
 [Confidence: established and replicated]
 [Last verified: 2026-04-25]
 

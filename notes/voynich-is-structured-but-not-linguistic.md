@@ -2,6 +2,7 @@
 
 > A century of failed decipherment plus the Timm–Schinner generator suggests the text is produced by a procedural system — a table-look-up, a cipher of an unusual kind, or a grammar without semantics — rather than an encoded natural language.
 
+[Author: agent (prompted by user)]
 [Confidence: speculative]
 [Last verified: 2026-04-22]
 

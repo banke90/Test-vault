@@ -2,12 +2,13 @@
 
 > Bekenstein showed in 1972–73 that black-hole entropy scales with horizon *area*, not volume; 't Hooft and Susskind extended this to the holographic principle — physics in any region of space is fully captured by degrees of freedom on its boundary; Maldacena's AdS/CFT made the picture concrete in a class of theories. The strangest implication for information physics is that the universe stores far less information than we'd naively think.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed — Bekenstein bound and area scaling are established; holographic principle is widely accepted in theoretical physics but its scope and exact form remain debated]
 [Last verified: 2026-04-22]
 
 ## TL;DR
 
-The **Bekenstein bound** [Bekenstein 1973] caps the entropy of any region of radius R containing energy E by S ≤ 2π R E / (ħ c k_B). For a black hole, this saturates at the **Bekenstein–Hawking entropy** S_BH = A / (4 ℓ_P²), where A is the horizon area and ℓ_P the Planck length — entropy proportional to *area*, not volume. The **holographic principle** ['t Hooft 1993; Susskind 1995] generalises: the maximum information in any region is bounded by area, suggesting that gravitating physics has fewer fundamental degrees of freedom than the volumetric count would imply. Maldacena's **AdS/CFT correspondence** [Maldacena 1997] gives the cleanest concrete realisation: a 5-dimensional gravitational theory in anti-de Sitter space is dual to a 4-dimensional non-gravitational quantum field theory on its boundary. The black hole information paradox (Hawking 1975) — whether information falling in is preserved — has been substantially resolved in the last decade via the **Page curve / island formula** results [Penington 2020; Almheiri et al. 2020]. Together these are the deepest current statements about how much information physical reality can hold.
+The **Bekenstein bound** [Bekenstein 1973] caps the entropy of any region of radius R containing energy E by S ≤ 2π R E / (ħ c k_B); for a black hole this saturates at the **Bekenstein–Hawking entropy** S_BH = A / (4 ℓ_P²) — entropy proportional to *area*, not volume. The **holographic principle** ['t Hooft 1993; Susskind 1995] generalises: the maximum information in any region is bounded by area, suggesting gravitating physics has fewer fundamental degrees of freedom than the volumetric count would imply. Maldacena's **AdS/CFT correspondence** [Maldacena 1997] gives the cleanest concrete realisation: a 5D gravitational theory in anti-de Sitter space is dual to a 4D non-gravitational quantum field theory on its boundary. The black hole information paradox (Hawking 1975) — whether information falling in is preserved — has been substantially resolved in the last decade via the **Page curve / island formula** results [Penington 2020; Almheiri et al. 2020]. Together these are the deepest current statements about how much information physical reality can hold.
 
 ## Bekenstein's argument
 

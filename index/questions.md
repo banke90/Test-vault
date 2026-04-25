@@ -2,6 +2,7 @@
 
 A cross-index of "Questions I'd like answered" sections from individual notes, grouped by theme. Not a separate companion file — just a navigation view of existing content.
 
+[Author: agent (prompted by user)]
 [Last regenerated: 2026-04-25]
 
 ## How this gets maintained

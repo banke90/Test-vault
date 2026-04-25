@@ -2,6 +2,7 @@
 
 > *Physarum polycephalum* is a single multinucleate cell that solves shortest-path problems and builds efficient transport networks through flow-dependent tube reinforcement — a physical relaxation process that qualifies as computation on some reasonable definitions and not on others.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed — the experimental results are solid; the "cognition" framing is a choice]
 [Last verified: 2026-04-21]
 

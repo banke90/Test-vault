@@ -2,6 +2,7 @@
 
 > Explaining how the brain discriminates, integrates, and reports — the "easy" problems — does not automatically explain why any of that is accompanied by experience; no current theory closes that gap, and the question may require concepts we don't yet have.
 
+[Author: agent (prompted by user)]
 [Confidence: survey of a field with no consensus; individual theory descriptions are established, the overall diagnosis is my own reading]
 [Last verified: 2026-04-21]
 

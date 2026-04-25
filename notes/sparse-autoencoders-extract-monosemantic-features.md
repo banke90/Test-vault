@@ -2,6 +2,7 @@
 
 > A wide autoencoder with a sparsity penalty, trained on a model's hidden activations, learns latent dimensions that often correspond to single human-legible concepts — the dominant tool of the 2023–2025 interpretability wave, with known limits in faithfulness, coverage, and feature-splitting.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the empirical results; mixed for whether SAE features faithfully cover the model's real computation]
 [Last verified: 2026-04-25]
 

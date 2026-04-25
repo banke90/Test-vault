@@ -2,6 +2,7 @@
 
 > A hand-cranked geared device pulled from a Roman shipwreck in 1901 turned out to be a sophisticated mechanical computer — predicting Sun, Moon, planets, eclipses, and even Olympiad games — whose epicyclic gearing and pin-and-slot lunar model are centuries beyond anything else surviving from the Hellenistic record and unmatched in Europe for ~1,400 years.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the basic facts; specific dating and planetary-gearing reconstructions are mixed]
 [Last verified: 2026-04-21]
 

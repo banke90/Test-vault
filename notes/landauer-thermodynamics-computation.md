@@ -2,6 +2,7 @@
 
 > Logical irreversibility forces physical irreversibility, so deleting a bit has an entropy price — this closes Maxwell's demon, sets the thermodynamic floor on computation, and explains why biology runs close to physics' limit while silicon does not.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the central claim; contested on philosophical boundaries]
 [Last verified: 2026-04-21]
 

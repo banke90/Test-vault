@@ -2,6 +2,7 @@
 
 > The last common ancestor of cephalopods and vertebrates lived ~600 Mya and had no complex nervous system, so everything interesting about octopus cognition evolved in parallel with ours — making the octopus the single best case study for what complex cognition looks like when it doesn't inherit the vertebrate body plan.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the deep evolutionary divergence; speculative for the unity-of-subject reading]
 [Last verified: 2026-04-25]
 

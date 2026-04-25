@@ -2,6 +2,7 @@
 
 > Tardigrades tolerate near-total water loss, radiation, and vacuum mainly because disordered "TDP" proteins vitrify the cell interior into an amorphous solid that locks biomolecules in place until rehydration.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed]
 [Last verified: 2026-04-22]
 

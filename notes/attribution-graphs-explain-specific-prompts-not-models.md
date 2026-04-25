@@ -2,6 +2,7 @@
 
 > Anthropic's attribution-graph / "biology of an LLM" line uses SAE features as nodes and causal patching to draw per-prompt graphs of how a forward pass was processed; the result is the state of the art for detailed internal analysis of frontier LLMs, but it is case-by-case rather than a theory of the model.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the empirical pipeline; mixed for whether it scales into a general account]
 [Last verified: 2026-04-25]
 

@@ -2,6 +2,7 @@
 
 > Cronin and Walker's assembly index counts the minimum number of step-wise joining operations (with re-use) needed to build an object; the empirical claim that high-assembly molecules in many copies signal life is operationally promising; the broader claims (new theory of evolution, time intrinsic to objects) are weaker than the headline papers suggest.
 
+[Author: agent (prompted by user)]
 [Confidence: contested — strong on the empirical pitch, weak on the philosophical extension]
 [Last verified: 2026-04-21]
 

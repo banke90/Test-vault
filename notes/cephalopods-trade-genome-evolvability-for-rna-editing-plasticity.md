@@ -2,6 +2,7 @@
 
 > Cephalopod neural tissue recodes its transcriptome at tens of thousands of A-to-I editing sites; the genomic regions around heavily-edited sites are evolutionarily conserved because the editing machinery needs specific flanking sequence, so cephalopods may be paying in slowed genome evolution for fast, reversible protein tuning.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the editing rate; mixed for the functional consequences]
 [Last verified: 2026-04-25]
 

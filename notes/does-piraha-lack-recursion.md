@@ -2,6 +2,7 @@
 
 > Daniel Everett's 2005 claim that the Amazonian language Pirahã has no recursion — no clauses embedded inside clauses — would, if true, falsify the 2002 Hauser-Chomsky-Fitch proposal that recursion is the sole universal feature of human language; two decades of back-and-forth has produced a clear methodological dispute, real ethnographic scarcity, and no consensus.
 
+[Author: agent (prompted by user)]
 [Confidence: contested]
 [Last verified: 2026-04-22]
 

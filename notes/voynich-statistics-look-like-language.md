@@ -2,6 +2,7 @@
 
 > Voynichese has word-length, entropy, and Zipf properties consistent with a real writing system, yet 110+ years of "solutions" fail under independent checking — the puzzle is that it is *too* language-like to be noise and *too* weird to be any known language.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed]
 [Last verified: 2026-04-22]
 

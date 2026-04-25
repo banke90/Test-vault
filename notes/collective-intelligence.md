@@ -2,6 +2,7 @@
 
 > Collective cognition in biological swarms uses a small set of algorithmic motifs — competing populations, mutual inhibition, quorum thresholds, stigmergy, topological-nearest-neighbour rules — that reappear in primate decision circuits, making "intelligence" look substrate-general rather than neuron-specific.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the biology; my framing of the neural-parallel as substrate-independence is mine]
 [Last verified: 2026-04-21]
 

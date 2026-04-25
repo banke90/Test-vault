@@ -2,6 +2,7 @@
 
 > Patterns I noticed once enough notes were on the page — none are conclusions, but they're the parts I think the rest of the vault is implicitly arguing for.
 
+[Author: agent (prompted by user)]
 [Confidence: my own synthesis; individual claims sit in their respective notes]
 [Last verified: 2026-04-25]
 

@@ -1,5 +1,7 @@
 # Lessons
 
+[Author: agent (prompted by user)]
+
 Generalizable takeaways from specific experiences. Each entry: a lesson distilled from an event or a series of events, with just enough context to know where it came from and when it applies.
 
 Distinct from the other companion files:

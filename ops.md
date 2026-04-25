@@ -1,5 +1,7 @@
 # Ops
 
+[Author: agent (prompted by user)]
+
 Operational knowledge — commands, procedures, workflows, where-to-find-X. Different discipline from [[facts]]: an operational entry is verified by *running it*, not by re-reading a source.
 
 Format rules:
@@ -54,6 +56,53 @@ Scope is whatever I actually reach for while working in this vault. If an entry 
   3. `sed -i 's|\[\[old\]\]|[[new]]|g' <files>` — sed handles it fine since `[[old]]` is not a regex metacharacter trap.
   4. Verify with `grep -r "\[\[old\]\]" .` — should return empty.
   [Last worked: 2026-04-25, exercised on the agent-* renames]
+
+## Retrieval strategy — what to read first
+
+When the vault has only a handful of notes, brute-forcing — read everything, then think — is fine. Past ~10 notes brute-force scales badly: every lookup re-reads the whole vault, and for an agent it also burns context window. The vault was built with retrieval infrastructure precisely so brute-force isn't the default. The layers below are cheapest-first; escalate when a layer can't answer the question.
+
+This section is also the first worked example of the cross-commentary convention (see [[conventions]] under "Attribution and commentary"). Each layer is described in plain prose a human reader can follow; agent-specific tooling that accelerates the same layer appears as a `> [A 2026-04-25]:` gloss alongside.
+
+1. **Filenames as index.** Atomic-note titles encode claims, not topics. For "anything in the vault about X," skimming the file listing is often enough — the filenames either contain X or they don't.
+   > [A 2026-04-25]: `ls notes/*.md | sort` — one shell call, zero file reads.
+
+   *Escalate when:* the question is conceptual ("what does the vault say about substrate-independence?") rather than topical, so filenames don't disambiguate.
+
+2. **Index views.** `index/00-index.md` for thematic structure, `index/synthesis.md` for cross-cutting threads no single note carries, `index/questions.md` for the aggregated open-questions view. Each costs one file-read and returns a map.
+
+   *Escalate when:* the question is about a specific claim or number rather than a theme.
+
+3. **Companion files for typed lookups.** `facts.md` for atomic propositions and numbers; `primers.md` for the decision-relevant shape of a complex system; `ops.md` (this file) for procedures. Each is structured for grep-style retrieval, not narrative reading.
+
+   *Escalate when:* the question is about an argument rather than a fact, shape, or procedure.
+
+4. **Grep for known strings.** A human uses the editor's find-in-folder. The agent uses the grep one-liners already documented under "Working in this vault" above (`Find a fact across the vault`, `Find all sources citing a given author`, `Find notes in a given confidence tier`). Reuse them rather than re-deriving.
+   > [A 2026-04-25]: those entries are the canonical incantations — run them, don't paraphrase them.
+
+   *Escalate when:* the relevant content uses different words from the search string.
+
+5. **Link-graph traversal.** Once one note is known relevant, its `## Links` section names the relationships to other notes — each link annotated with *why* two notes connect, not just that they're topic-adjacent. A human can use Obsidian's graph view to see this visually; reading a few `## Links` sections does the same job in plain text.
+   > [A 2026-04-25]: walk wikilinks programmatically; the annotated-link convention means each step is informative, not just adjacency.
+
+   *Escalate when:* the question is semantic ("which notes argue from X-shaped reasoning?") rather than relational.
+
+6. **TL;DRs as a filtering layer.** When several notes might be relevant, read only their TL;DR blocks first — three sentences each, written to stand alone — and narrow to the 2–3 best candidates before opening any in full.
+   > [A 2026-04-25]: `for f in $candidates; do awk '/^## TL;DR/,/^## /' "$f"; done` — ~5–8k tokens for the filter pass vs ~50k for opening every candidate.
+
+   *Escalate when:* TL;DRs converge on the same topic but the question is about a within-note distinction.
+
+7. **Bring in help.** A human asks someone familiar with the vault, or scrolls through it manually with the question in mind. An agent delegates the brute-force semantic search to a subagent — the subagent reads everything but returns only relevant excerpts, so the parent context isn't burned.
+   > [A 2026-04-25]: Explore subagent for semantic searches grep can't match.
+
+### When brute-force *is* correct
+
+The layered strategy is a default, not absolutism. Brute-force every note when:
+
+- The vault is genuinely <10 notes. Infrastructure overhead exceeds the saving.
+- Doing a structural audit — citation completeness, link consistency, the grooming pass itself. The point is that every file gets touched.
+- Verifying a claim against every note ("does anything in the vault contradict X?"). Negation across the whole vault is a brute-force question.
+
+[Last worked: 2026-04-25, written on the same day as the convention it demonstrates.]
 
 ## Finding primary literature
 

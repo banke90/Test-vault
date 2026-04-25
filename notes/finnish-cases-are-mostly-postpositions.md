@@ -2,6 +2,7 @@
 
 > Finnish inflection is agglutinative — most of the "cases" are regular suffix-slots that do the work English prepositions do, so the scary count overstates the cognitive load.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed]
 [Last verified: 2026-04-22]
 

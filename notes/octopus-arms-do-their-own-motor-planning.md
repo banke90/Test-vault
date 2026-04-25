@@ -2,6 +2,7 @@
 
 > About two-thirds of an octopus's ~500 million neurons live in its arms, and those arms generate stereotyped reach-and-fetch movements without input from the central brain — the central brain sends intentions, the arms execute.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the neuroanatomy and the Sumbre 2001 result; the philosophical reading of "intentions vs instructions" is interpretive]
 [Last verified: 2026-04-25]
 

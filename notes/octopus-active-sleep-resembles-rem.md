@@ -2,6 +2,7 @@
 
 > Octopuses cycle between quiet sleep and short bursts of skin-pattern and neural activity that share signatures with vertebrate REM, suggesting a phenomenon convergently evolved across very distant lineages — and unusually visible from the outside via the chromatophore display.
 
+[Author: agent (prompted by user)]
 [Confidence: established for the behaviour and neural correlates; mixed for the interpretation as functionally REM-like]
 [Last verified: 2026-04-25]
 

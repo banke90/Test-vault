@@ -2,6 +2,7 @@
 
 > Hub for the mechanistic-interpretability cluster. Each substantive technique and result lives in its own atomic note; this file gives the orientation and the index.
 
+[Author: agent (prompted by user)]
 [Confidence: this is a navigation aid; see linked atoms for confidence on individual claims]
 [Last verified: 2026-04-25]
 

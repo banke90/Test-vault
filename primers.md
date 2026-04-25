@@ -1,5 +1,7 @@
 # Primers
 
+[Author: agent (prompted by user)]
+
 Dense reference cards for complex systems I need to orient in before making decisions about direction, design, or interpretation. Each primer compresses a system's *decision-relevant shape* — invariants, tradeoffs, handles, traps — onto one screen. Not for learning; for consulting once I already know the territory exists.
 
 Distinct from [[facts]] (atomic propositions) and [[ops]] (runnable procedures). Distinct from [[notes]] (narrative treatment). A primer is the shape you carry in your head so you can decide under pressure.

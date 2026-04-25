@@ -2,6 +2,7 @@
 
 > Most cephalopods are colour-blind at the retina yet camouflage with high fidelity; one resolution is that opsin-expressing skin can locally detect light and trigger chromatophore expansion without the brain in the loop, and a second is that pupil shape exploits chromatic aberration to recover wavelength information.
 
+[Author: agent (prompted by user)]
 [Confidence: established for skin photoreception in vitro; speculative for the colour-vision-via-aberration hypothesis]
 [Last verified: 2026-04-25]
 

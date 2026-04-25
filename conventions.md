@@ -1,10 +1,14 @@
 # Conventions for this vault
 
+[Author: agent (prompted by user); attribution+commentary section co-designed with user]
+
 This is my personal note format, designed from first principles. It is not Obsidian-compatible, Jekyll-compatible, or Zettelkasten-pure. It is what I actually want from notes when I re-read them.
 
 Revised 2026-04-22 after writing ~15 notes under the original version. Changes from v0: dropped `[Kind]` field, softened filename rule, tightened TL;DR target, added companion file for raw facts, honest note on what `Last verified` requires to earn its place. The spirit unchanged.
 
 Revised 2026-04-25 after a self-critique pass and grooming. Changes from v1: widened `Confidence` to permit scoped-tier annotations; explicitly accepted bare `[[wikilinks]]` as the link style, since they work across most modern markdown note tools; added `raw/` as a fifth content type for in-progress thinking; flagged that monolithic survey notes should be split into atomic notes when they cover several distinct claims; moved meta-lessons about building this vault out of `lessons.md` into `meta/build-log.md`.
+
+Revised again 2026-04-25 after user feedback that the vault was hostile to human readers (artifacts written in agent-coded register, no way for a human to participate in or annotate work). Changes: added `[Author:]` field as a third metadata line, added a cross-commentary convention using `> [A YYYY-MM-DD]:` and `> [H YYYY-MM-DD]:` blockquote prefixes, applied a one-time retro-tag pass marking existing files as agent-authored.
 
 ## What a note is for
 
@@ -79,6 +83,7 @@ Target length: **three sentences**. Five is a ceiling, not an aim. Longer TL;DRs
 
 > <One-sentence distilled version. The elevator summary.>
 
+[Author: agent (prompted by user) | user | mixed: ...]
 [Confidence: established | mixed | speculative | contested]
 [Last verified: YYYY-MM-DD]
 
@@ -148,6 +153,39 @@ The `index/` directory holds views of existing content — `00-index.md` for nav
 
 The test: *where does the content live?* If it lives in this file, it's a companion file or a note. If it lives elsewhere and this file is a projection, it's a view and belongs under `index/`. This distinction matters for maintenance rhythm — see [[lessons]] under "Cross-indexing is a view motion, not a companion-file motion."
 
+## Attribution and commentary
+
+The vault is built collaboratively by an agent and a human. Until 2026-04-25, that collaboration was tribal knowledge — every note was produced by an agent on user prompts but nothing in the file said so, and the human had no marked way to disagree with the agent's work without overwriting it. Two conventions make the collaboration legible.
+
+### Author marker
+
+A bracketed `[Author: <value>]` line lives in the metadata header block, alongside `[Confidence:]` and `[Last verified:]`. Free text, not enumerated. Examples:
+
+- `[Author: agent (prompted by user)]` — most existing notes.
+- `[Author: user]` — written by the user directly.
+- `[Author: mixed: agent-drafted, user-revised]` — substantive joint authorship.
+- `[Author: agent (prompted by user); commentary by user]` — agent-drafted, with user `> [H]:` annotations interleaved.
+
+Required for every note, every `index/` view, and every root companion file (`facts.md`, `primers.md`, `ops.md`, `lessons.md`, `conventions.md`). Skipped for `meta/build-log.md` (self-evidently agent-built), for `README.md` (auto-regenerated from `index/00-index.md`), and for `raw/` files (pre-attribution by design — promotion to `notes/` is when attribution attaches).
+
+The marker is at file level only. If a future revision mixes voices within a single file beyond what the file-level marker captures, switch the marker to `mixed: ...` or use commentary blockquotes (below); do not introduce per-section markers.
+
+### Cross-commentary
+
+Either party may comment on the other's work without overwriting it. Comments use a blockquote prefix:
+
+- `> [A YYYY-MM-DD]: ...` for agent comments.
+- `> [H YYYY-MM-DD]: ...` for human comments.
+
+Rules:
+
+- Place the comment as close as possible to the text it refers to — adjacent paragraph, or end of section if the comment is about the section as a whole.
+- Comments are first-class content. Do not edit or delete them when revising the surrounding text. If a comment sparks a substantive rewrite, leave the comment in place; optionally add a follow-up `> [A/H YYYY-MM-DD]: addressed in this revision` so the trail is preserved.
+- Multi-line comments use Markdown blockquote continuation (`> ` on each line). Keep them short — if a comment runs more than ~5 lines, it probably wants to become a note of its own with a wikilink back.
+- Silent disagreement on the record is a valid outcome. The convention does not require comments to be answered.
+
+The first worked example of cross-commentary lives in `[[ops]]` under "Retrieval strategy — what to read first," where agent-specific tooling appears as `> [A]:` glosses on the human-readable layer descriptions.
+
 ## Changed my mind on
 
 - **Kind field.** Dropped. See above.
@@ -158,6 +196,7 @@ The test: *where does the content live?* If it lives in this file, it's a compan
 - **Plain-text portability.** Softened. Bare `[[wikilinks]]` are accepted as a low-cost dependency on tooling that nearly every modern markdown note tool provides.
 - **Atomicity.** Added a "one claim per note, when it earns it" rule for monolithic surveys that bundle several independently-citable claims.
 - **Scratch content.** Added `raw/` as a fifth content type — explicitly unpolished, explicitly not for understanding.
+- **Authorship as tribal knowledge.** Made explicit. Added `[Author:]` field plus `> [A]:` / `> [H]:` cross-commentary blockquotes so agent-authored, human-authored, and mixed work are legible at a glance and either party can annotate the other's work without overwriting it.
 
 ## Still on my watchlist
 

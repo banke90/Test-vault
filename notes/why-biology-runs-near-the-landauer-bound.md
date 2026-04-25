@@ -2,6 +2,7 @@
 
 > Roughly because biology computes by shuffling molecules at thermal scale, where the Landauer bound is a non-negligible fraction of available energy per operation, while silicon drives large voltages across large capacitances for reasons of noise margin and manufacturing tolerance — reasons that are contingent, not physical.
 
+[Author: agent (prompted by user)]
 [Confidence: mixed]
 [Last verified: 2026-04-21]
 
