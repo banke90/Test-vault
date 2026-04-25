@@ -4,7 +4,6 @@
 
 [Confidence: mixed]
 [Last verified: 2026-04-21]
-[Kind: question]
 
 ## TL;DR
 

@@ -4,11 +4,10 @@
 
 [Confidence: mixed — the experimental results are solid; the "cognition" framing is a choice]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 
-*Physarum polycephalum* is a plasmodial slime mould, an amoebozoan — not plant, not fungus, not animal — that spends most of its life as one enormous multinucleate cell crawling across forest floors. Put it in a maze with food at two locations and over a few hours it retracts from dead ends and leaves a single tube along the shortest path [Nakagaki et al. 2000]. Lay oat flakes in the geographic positions of Tokyo's rail network and it approximates the real network's efficiency/fault-tolerance tradeoff [Tero et al. 2010]. It habituates to aversive chemicals [Boisseau et al. 2016], anticipates periodic stimuli [Saigusa et al. 2008], and transmits learned behaviour by fusing with a naïve partner [Vogel & Dussutour 2016]. None of this requires a nervous system. Whether it requires the word "cognition" is a framing choice with real stakes.
+*Physarum polycephalum* is a plasmodial slime mould — one enormous multinucleate amoebozoan cell that solves mazes by retracting from dead ends [Nakagaki et al. 2000] and approximates Tokyo's rail-network efficiency/fault-tolerance tradeoff when oat flakes mark the stations [Tero et al. 2010]. It also habituates to aversive chemicals [Boisseau et al. 2016], anticipates periodic stimuli [Saigusa et al. 2008], and transmits learned behaviour by fusing with naïve partners [Vogel & Dussutour 2016]. None of this requires a nervous system. Whether it requires the word "cognition" is a framing choice with real stakes.
 
 ## What the organism actually is
 

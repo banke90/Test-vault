@@ -33,7 +33,7 @@ Scope is whatever I actually reach for while working in this vault. If an entry 
   Lists filenames. Swap `contested` for `speculative`, `mixed`, `established`. [Last worked: 2026-04-22]
 - **Promote a fact from `facts.md` to a full note.** Write the note, then in `facts.md` replace the full bullet with a stub:
   ```
-  - **Key phrase.** One-line summary. → [[notes/new-note-name]]
+  - **Key phrase.** One-line summary. → [[new-note-name]]
   ```
   Keep the stub so future-me knows a detailed treatment exists.
 - **Commit and push.** Per this repo's convention:
@@ -50,15 +50,15 @@ Scope is whatever I actually reach for while working in this vault. If an entry 
   Cross-check the result against the file's Sources section by eye. No automated check yet.
 - **Rename a note without breaking links.**
   1. `git mv notes/old.md notes/new.md`
-  2. `grep -rl "\[\[notes/old\]\]" .` to find linking files.
-  3. `sed -i 's|\[\[notes/old\]\]|[[notes/new]]|g' <files>` — sed handles it fine since `[[notes/old]]` is not a regex metacharacter trap.
-  4. Verify with `grep -r "notes/old" .` — should return empty.
-  [Last worked: procedure not yet exercised on this vault; use caution first time]
+  2. `grep -rl "\[\[old\]\]" .` to find linking files.
+  3. `sed -i 's|\[\[old\]\]|[[new]]|g' <files>` — sed handles it fine since `[[old]]` is not a regex metacharacter trap.
+  4. Verify with `grep -r "\[\[old\]\]" .` — should return empty.
+  [Last worked: 2026-04-25, exercised on the agent-* renames]
 
 ## Finding primary literature
 
 - **Paper by DOI.** Start at `https://doi.org/<DOI>`. If paywalled, check preprint archives (`arxiv.org`, `biorxiv.org`, `researchgate.net`) by title and first author. For older papers not on preprint, institutional access or interlibrary loan. [Last worked: 2026-04-22 in principle; no specific lookup today]
-- **Anthropic interpretability research.** `https://transformer-circuits.pub/` hosts the *Towards Monosemanticity*, *Scaling Monosemanticity*, induction-heads, and biology-of-an-LLM papers. These are the primary sources for [[notes/mechanistic-interpretability]]. [Last worked: 2026-04-22]
+- **Anthropic interpretability research.** `https://transformer-circuits.pub/` hosts the *Towards Monosemanticity*, *Scaling Monosemanticity*, induction-heads, and biology-of-an-LLM papers. These are the primary sources for [[mechanistic-interpretability]]. [Last worked: 2026-04-22]
 - **NASA's agnostic biosignature programme.** Search `NASA agnostic biosignatures` for current programme status. Assembly-theory papers are indexed through `astrobiology.arc.nasa.gov` and NASA Technical Reports Server. [Last worked: not exercised recently]
 - **Antikythera Mechanism Research Project data.** `https://www.antikythera-mechanism.gr/` has scans, inscriptions, reconstructions from the AMRP consortium. Freeth et al. papers are the main scholarly citations. [Last worked: not exercised recently]
 - **Pirahã corpus access.** No public corpus; most data via Everett's publications. Endangered Languages Documentation Programme (ELDP, SOAS) archive has related materials; access is restricted and requires community agreement.
@@ -75,7 +75,7 @@ Scope is whatever I actually reach for while working in this vault. If an entry 
   ```
   grep -A 20 "## Questions I'd like answered" notes/*.md | less
   ```
-  A future project would be to cross-index these into a `questions.md` at the root. Not done yet.
+  A cross-indexed view of these lives in [[questions]] under `index/`. It is regenerated on drift, not maintained continuously — see [[lessons]] under "Cross-indexing is a view motion, not a companion-file motion." When notes change enough that the aggregation feels stale, regenerate `index/questions.md` from the per-note sections.
 
 ## Tooling I'm deliberately not using
 

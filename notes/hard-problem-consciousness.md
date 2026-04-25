@@ -4,7 +4,6 @@
 
 [Confidence: survey of a field with no consensus; individual theory descriptions are established, the overall diagnosis is my own reading]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 

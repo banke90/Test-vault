@@ -4,6 +4,8 @@ This is my personal note format, designed from first principles. It is not Obsid
 
 Revised 2026-04-22 after writing ~15 notes under the original version. Changes from v0: dropped `[Kind]` field, softened filename rule, tightened TL;DR target, added companion file for raw facts, honest note on what `Last verified` requires to earn its place. The spirit unchanged.
 
+Revised 2026-04-25 after a self-critique pass and grooming. Changes from v1: widened `Confidence` to permit scoped-tier annotations; explicitly accepted bare `[[wikilinks]]` as the link style, since they work across most modern markdown note tools; added `raw/` as a fifth content type for in-progress thinking; flagged that monolithic survey notes should be split into atomic notes when they cover several distinct claims; moved meta-lessons about building this vault out of `lessons.md` into `meta/build-log.md`.
+
 ## What a note is for
 
 Before structure, purpose. I write notes to:
@@ -33,8 +35,8 @@ My first version of this rule said "always prefer phrases over topic-buckets." I
 
 Two pieces of metadata earn their keep:
 
-- **Confidence.** How much should the reader trust the contents. One of: `established`, `mixed`, `speculative`, `contested`.
-- **Last verified.** When was the content last checked against reality. Not the creation date — the creation date is almost never what I want. *Caveat:* `Last verified` only earns its place if I actually come back and update it. If a note sits for years with the same date, the field degenerates into a creation date with extra steps. The discipline is the point.
+- **Confidence.** How much should the reader trust the contents. One of `established`, `mixed`, `speculative`, `contested` — or, when a note's claims fall in different tiers, an annotated form like `mixed — the neurobiology is solid, the philosophical implications are open` or `established for the basic facts; specific reconstructions are mixed`. The annotated form is a feature, not a deviation: a single tier often misrepresents a note that surveys both well-replicated and contested material.
+- **Last verified.** When was the content last checked against reality. Not the creation date — the creation date is almost never what I want. *Caveat:* `Last verified` only earns its place if I actually come back and update it. If a note sits for years with the same date, the field degenerates into a creation date with extra steps. The discipline is the point. *Initial-drop note:* on first writing, `Last verified` is the creation date and the field is provisional until I revisit.
 
 These go in square brackets, two lines, right under the title. Human-readable, scannable.
 
@@ -57,6 +59,12 @@ A researcher's most valuable notes are the questions they haven't answered. I pu
 ### Links are compare/contrast, not adjacency
 
 "Related" sections are usually a list of topic-adjacent pages. That's the wrong motion. A link should say *what* connects the notes — "compare the pin-and-slot mechanism here to the epicyclic gear in X" — not just "this is also about gears." One line per link, annotated with the relationship.
+
+### One claim per note, when it earns it
+
+A monolithic survey can hide several distinct claims under one title. When a note actually covers, say, neural architecture *and* a vision paradox *and* an RNA-editing finding *and* sleep behaviour, the unit of reuse is each of those, not the bundle. The fix is to split the note into atoms — one claim per file, named for the claim — and keep the survey as a thin hub linking to the atoms with one-line annotations of the relationship. I do this when a single note grows past ~1,500 words *and* its sections could be cited independently.
+
+This is not a default. Notes that are genuinely about one tightly-scoped thing should not be artificially broken up. The test: would each section be cited from elsewhere on its own? If yes, atomise.
 
 ### TL;DR is a hard rule, not a nicety
 
@@ -108,23 +116,31 @@ arXiv or publisher URL preferred.>
 
 ## What I'm deliberately not doing
 
-- **Dataview queries, plugins, graph views.** This vault should work in a plain text editor with no tooling. If a convention needs a plugin to be useful, I don't want it.
+- **Dataview queries, plugins, graph views.** Beyond bare `[[wikilinks]]`, the vault should work in a plain text editor. If a convention needs a plugin or a renderer to be useful, I don't want it. (Wikilinks themselves are widely supported across modern markdown note tools — Obsidian, Logseq, Foam, Dendron, Bear, GitHub previews — and their main practical advantage is rename-tracking and `[[target|alias]]` syntax. They're a low-cost dependency.)
 - **Numbered headers (1., 2., 3.).** They imply an order that usually isn't meaningful. Headers are navigation, not chapters.
 - **"Last modified: auto"**. Autostamps drift and lie. A manual `Last verified` is a commitment.
 - **Categorical directory structure beyond shallow grouping.** Deep directory trees are a losing battle against how ideas actually cross-pollinate. Flat-ish is better.
 
+### Wikilink style
+
+Bare `[[note-name]]` everywhere — no path prefix. This relies on the renderer resolving filenames vault-wide, which all the tools listed above do. The advantages: links survive rename if the tool supports rename-propagation, the syntax stays short, and `[[target|alias]]` lets the displayed text differ from the target. Cost: if two notes share a filename, resolution is ambiguous. I use specific filenames precisely so this doesn't happen.
+
 ## Companion files
 
-Full notes are for narratives I've understood. Four companion files at the vault root carry other kinds of knowledge that don't want to be narratives. Each has its own maintenance discipline — that's the bordering principle, not content type.
+Full notes are for narratives I've understood. Companion files at the vault root carry other kinds of knowledge that don't want to be narratives. Each has its own maintenance discipline — that's the bordering principle, not content type.
 
-- **[[facts]]** — atomic propositional facts. Numbers, dates, specific claims. One bullet each. Bolded noun phrase, inline `[Author Year]`, optional confidence tag, optional `→ [[notes/name]]` link. Shallow topical sections (≤10). Grep beats taxonomy. *Verified by re-reading the source.*
+- **[[facts]]** — atomic propositional facts. Numbers, dates, specific claims. One bullet each. Bolded noun phrase, inline `[Author Year]`, optional confidence tag, optional `→ [[name]]` link. Shallow topical sections (≤10). Grep beats taxonomy. *Verified by re-reading the source.*
 - **[[ops]]** — operational procedures. Commands, workflows, how-to. `[Last worked: YYYY-MM-DD]` tags, no confidence tags. *Verified by running it.*
 - **[[primers]]** — dense reference cards for complex systems. Shape + handles + traps + deeper-link per entry. One screen each. For consultation before making decisions about direction, design, or interpretation. *Maintained by updating-in-place when the system's shape changes.*
 - **[[lessons]]** — generalisable takeaways from specific experiences. Title is the lesson, not the event. Prose explanation + explicit `Generalization:` and `Doesn't apply when:` lines. *Confirmed by repetition.*
 
-The four have different verification disciplines and different failure modes. Keeping them separate is the point. When I audit facts for accuracy I do all of facts; when I verify ops I verify all of ops; when a system's shape changes I update the primer; when a new experience matches or breaks an existing lesson I revise it in place. Separation supports the rhythm.
+These four have different verification disciplines and different failure modes. Keeping them separate is the point. When I audit facts for accuracy I do all of facts; when I verify ops I verify all of ops; when a system's shape changes I update the primer; when a new experience matches or breaks an existing lesson I revise it in place. Separation supports the rhythm.
 
-If something doesn't fit any of the four, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
+A fifth content type sits in `raw/` rather than at the root, because its discipline is the opposite of the others:
+
+- **`raw/`** — scratch notes. In-progress thinking, "haven't read this yet" stubs, fragments I want to capture before they decay. Explicitly **not verified**, explicitly not for understanding. The format is loose: a title, a date, prose. The discipline is *promotion* — when a raw note settles into something I'd stand behind, I rewrite it as a real note under `notes/` and delete the raw original (or leave a one-line stub pointing forward). Raw notes age out: anything older than ~3 months that hasn't been promoted is either deleted or accepted as a permanent fragment. They are the antidote to a vault made entirely of polished essays.
+
+If something doesn't fit any of the five, it's probably a note. If it fits two, put it in the one whose discipline matches how I'll use it.
 
 ### Views (not companion files)
 
@@ -138,6 +154,10 @@ The test: *where does the content live?* If it lives in this file, it's a compan
 - **Filename rule.** Softened. See above.
 - **TL;DR length.** Tightened from "3–5 sentences" to "three, max five".
 - **`Last verified` discipline.** Added an explicit caveat that it only earns its place with ongoing maintenance.
+- **Confidence as single tier.** Widened. Annotated `<tier> for <scope>; <tier> for <scope>` is the working form; the original single-value rule was over-tight for survey notes.
+- **Plain-text portability.** Softened. Bare `[[wikilinks]]` are accepted as a low-cost dependency on tooling that nearly every modern markdown note tool provides.
+- **Atomicity.** Added a "one claim per note, when it earns it" rule for monolithic surveys that bundle several independently-citable claims.
+- **Scratch content.** Added `raw/` as a fifth content type — explicitly unpolished, explicitly not for understanding.
 
 ## Still on my watchlist
 

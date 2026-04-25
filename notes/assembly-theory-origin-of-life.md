@@ -4,7 +4,6 @@
 
 [Confidence: contested — strong on the empirical pitch, weak on the philosophical extension]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 

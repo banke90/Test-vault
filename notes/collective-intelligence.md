@@ -4,7 +4,6 @@
 
 [Confidence: established for the biology; my framing of the neural-parallel as substrate-independence is mine]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 

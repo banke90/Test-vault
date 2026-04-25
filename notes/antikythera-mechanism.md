@@ -4,11 +4,10 @@
 
 [Confidence: established for the basic facts; specific dating and planetary-gearing reconstructions are mixed]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 
-In 1900–1901, sponge divers found a Roman-era shipwreck off Antikythera (~70–60 BCE). Among the cargo: a corroded bronze lump that, over the next century, was revealed by X-ray and neutron tomography to be a hand-cranked mechanical computer with at least 30 (likely 37+) bronze gears, predicting solar/lunar/planetary positions, lunar phase, eclipses via the Saros cycle, the Metonic 19-year lunisolar cycle, and the 4-year Olympiad. The 2021 UCL reconstruction by **Tony Freeth** and colleagues [Freeth et al. 2021] proposes the most complete model to date for the front planetarium. The mechanism implements **epicyclic gearing** and a **pin-and-slot device** modelling the Moon's first anomaly — both centuries beyond surviving contemporary technology, and reproducing Hipparchus' lunar theory more faithfully than Ptolemy's later textual account does. Origin probably Rhodes, dating likely between ~205 and ~100 BCE. The instrument breaks the gradualist narrative of Mediterranean mechanical technology and is best understood as a rare-survivor of a craft tradition we mostly cannot see.
+A corroded bronze lump pulled from a Roman-era shipwreck off Antikythera in 1900–1901 turned out, over a century of X-ray and neutron tomography, to be a hand-cranked mechanical computer with 30+ bronze gears predicting solar, lunar, and planetary positions, eclipse possibilities (Saros), the 19-year Metonic cycle, and the 4-year Olympiad. The 2021 UCL reconstruction [Freeth et al. 2021] is the most complete current model of the front planetarium; the mechanism implements **epicyclic gearing** and a **pin-and-slot device** for the Moon's first anomaly, centuries beyond anything else surviving from the period and reproducing Hipparchus' lunar theory more faithfully than Ptolemy's later textual account. Origin probably Rhodes, dating likely 205–100 BCE. The instrument breaks the gradualist story of Mediterranean mechanical technology and is best read as a rare survivor of a craft tradition we mostly cannot see.
 
 ## Discovery and salvage
 

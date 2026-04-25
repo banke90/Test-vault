@@ -4,11 +4,10 @@
 
 [Confidence: mixed — established for the physiology, contested for the strong claims]
 [Last verified: 2026-04-21]
-[Kind: survey]
 
 ## TL;DR
 
-Plants are sophisticated signal-processing organisms — hormones, electrical action potentials [Farmer et al.], VOC communication [Karban et al. 2014], circadian clocks — with genuine internal and external communication mechanisms. Mycorrhizal fungi connect many plants into common mycorrhizal networks (CMNs), and nutrients do move through them. **Suzanne Simard**'s 1997 carbon-transfer experiments are robust [Simard et al. 1997]. But the subsequent narrative of "mother trees" communicating and preferentially nurturing kin — popularised by Wohlleben's *The Hidden Life of Trees* and Simard's own *Finding the Mother Tree* — substantially overstates the evidence [Karst, Jones, Hoeksema 2023]. Claims of associative learning in pea plants [Gagliano et al. 2016] failed to replicate [Markel 2020]. The honest position is: plants do real and interesting things; *most* of the headline popular claims are not well supported; whether to use "cognition" for what remains is largely a definitional choice.
+Plants are sophisticated signal-processing organisms — hormones, electrical action potentials [Farmer et al.], VOC communication [Karban et al. 2014], circadian clocks — with genuine internal and external communication mechanisms. Mycorrhizal fungi connect many plants into common mycorrhizal networks (CMNs), and nutrients do move through them. **Suzanne Simard**'s 1997 carbon-transfer experiments are robust [Simard et al. 1997]. But the subsequent narrative of "mother trees" communicating and preferentially nurturing kin — popularised by Wohlleben's *The Hidden Life of Trees* and Simard's own *Finding the Mother Tree* — substantially overstates the evidence [Karst et al. 2023]. Claims of associative learning in pea plants [Gagliano et al. 2016] failed to replicate [Markel 2020]. The honest position is: plants do real and interesting things; *most* of the headline popular claims are not well supported; whether to use "cognition" for what remains is largely a definitional choice.
 
 ## What plants demonstrably do
 

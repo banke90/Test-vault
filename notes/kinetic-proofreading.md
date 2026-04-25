@@ -45,7 +45,7 @@ Ninio independently proposed essentially the same mechanism in 1975 [Ninio 1975]
 
 Kinetic proofreading is a specific instance of a more general principle: **reducing the entropy of a "correct vs incorrect" bit costs dissipation**. This is formally analogous to Landauer erasure. At the start of the discrimination, the C-vs-I bit has some entropy; at the end, the system has collapsed that bit into a high-fidelity outcome; the difference has to go into the bath as heat, with the GTP hydrolysis as the thermodynamic source.
 
-Modern stochastic thermodynamics [Seifert 2012] has formalised this — the rate of information reduction is bounded by the rate of dissipation — and has given rigorous finite-time bounds that Hopfield's 1974 argument anticipated in a specific case. See [[notes/landauer-thermodynamics-computation]] for the general framework and [[notes/why-biology-runs-near-the-landauer-bound]] for the broader comparison between biological and engineered computation.
+Modern stochastic thermodynamics [Seifert 2012] has formalised this — the rate of information reduction is bounded by the rate of dissipation — and has given rigorous finite-time bounds that Hopfield's 1974 argument anticipated in a specific case. See [[landauer-thermodynamics-computation]] for the general framework and [[why-biology-runs-near-the-landauer-bound]] for the broader comparison between biological and engineered computation.
 
 There is a sharper version of the claim: kinetic proofreading is not the *only* way to beat the equilibrium bound. Any scheme with an irreversible energy-consuming step that branches the pathway can work. But proofreading is the simplest and the most commonly realised in biology.
 

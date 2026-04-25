@@ -1,12 +1,12 @@
 # Facts
 
-Raw facts, numbers, and specific claims I want to be able to look up later. One bullet = one fact. Bold the key noun or phrase. Cite inline in `[Author Year]` form. Confidence tag where useful. Link to full notes where relevant with `→ [[notes/name]]`.
+Raw facts, numbers, and specific claims I want to be able to look up later. One bullet = one fact. Bold the key noun or phrase. Cite inline in `[Author Year]` form. Confidence tag where useful. Link to full notes where relevant with `→ [[name]]`.
 
-Format rules in [[conventions]] under "Raw facts — the companion file".
+Format rules in [[conventions]] under "Companion files".
 
 ## Cosmology and information
 
-- **Bekenstein bound.** S ≤ 2π k_B R E / (ħc) for any system of radius R and total energy E. [Bekenstein 1973] *(established)*. → [[notes/bekenstein-bound-and-holographic-information]]
+- **Bekenstein bound.** S ≤ 2π k_B R E / (ħc) for any system of radius R and total energy E. [Bekenstein 1973] *(established)*. → [[bekenstein-bound-and-holographic-information]]
 - **Bekenstein–Hawking entropy.** A black hole has entropy S_BH = k_B A / (4 ℓ_P²) — proportional to *area*, not volume. ℓ_P ≈ 1.6 × 10⁻³⁵ m.
 - **Planck length.** ℓ_P = √(ħG/c³) ≈ 1.6 × 10⁻³⁵ m.
 - **Hawking temperature.** T_H = ħc³ / (8π G M k_B) for a Schwarzschild black hole.
@@ -17,9 +17,9 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 ## Physics and thermodynamics
 
 - **k_B T at 300 K.** ≈ 4.1 × 10⁻²¹ J ≈ 0.025 eV. Standard.
-- **Landauer bound at 300 K.** k_B T ln 2 ≈ 2.85 × 10⁻²¹ J per erased bit ≈ 0.017 eV. [Landauer 1961], experimentally verified [Bérut et al. 2012] *(established)*. → [[notes/landauer-thermodynamics-computation]]
+- **Landauer bound at 300 K.** k_B T ln 2 ≈ 2.85 × 10⁻²¹ J per erased bit ≈ 0.017 eV. [Landauer 1961], experimentally verified [Bérut et al. 2012] *(established)*. → [[landauer-thermodynamics-computation]]
 - **Modern CMOS energy per switch.** ~10⁻¹⁵ J ≈ 2.5 × 10⁵ k_B T ≈ 10⁶ × the Landauer bound. *(established for ~2024 nodes)*
-- **ATP energy budget.** One ATP hydrolysis delivers ~20 k_B T ≈ 8 × 10⁻²⁰ J at 300 K. Enough for ~29 Landauer bits of erasure if Landauer-optimal. [biochemistry standard] *(established)*. → [[notes/why-biology-runs-near-the-landauer-bound]]
+- **ATP energy budget.** One ATP hydrolysis delivers ~20 k_B T ≈ 8 × 10⁻²⁰ J at 300 K. Enough for ~29 Landauer bits of erasure if Landauer-optimal. [biochemistry standard] *(established)*. → [[why-biology-runs-near-the-landauer-bound]]
 - **Bennett closed Maxwell's demon.** The demon must erase its memory to run the cycle again; erasure dissipates exactly the work the engine extracted [Bennett 1982]. *(established)*
 - **Bennett's reversible computing trick.** Any computation can in principle be done with arbitrarily small energy dissipation if it is logically reversible [Bennett 1973] *(established in theory; not commercialised)*.
 - **Brain power.** Adult human brain ~20 W for ~10¹⁵ synaptic operations per second → ~10⁻¹⁴ J per synaptic op, similar order to CMOS. Brain efficiency per bit is not as good as a ribosome's.
@@ -27,18 +27,18 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 ## Biology at the molecular and cellular level
 
 - **Ribosome energetics.** ~5 ATP per amino acid addition → ~100 k_B T per peptide bond plus ~5–10 k_B T proofreading overhead. A few dozen Landauer bits for selecting one amino acid from 20. [Hopfield 1974; biochemistry standard] *(established)*
-- **Ribosome error rate.** ~10⁻⁴ per amino acid. Achievable only with kinetic proofreading — equilibrium binding-energy discrimination would give ~10⁻² *(established)*. → [[notes/kinetic-proofreading]]
-- **Kinetic proofreading.** Hopfield 1974, Ninio 1975: ribosomes and DNA polymerases spend ATP to reduce error rates beyond the equilibrium Boltzmann bound. Formally analogous to Landauer: reducing entropy of correct-vs-incorrect bit requires dissipation [Hopfield 1974] *(established)*. → [[notes/kinetic-proofreading]]
+- **Ribosome error rate.** ~10⁻⁴ per amino acid. Achievable only with kinetic proofreading — equilibrium binding-energy discrimination would give ~10⁻² *(established)*. → [[kinetic-proofreading]]
+- **Kinetic proofreading.** Hopfield 1974, Ninio 1975: ribosomes and DNA polymerases spend ATP to reduce error rates beyond the equilibrium Boltzmann bound. Formally analogous to Landauer: reducing entropy of correct-vs-incorrect bit requires dissipation [Hopfield 1974] *(established)*. → [[kinetic-proofreading]]
 - **Hopfield squaring.** Proofreading multiplies equilibrium selectivity by roughly itself: a factor-100 equilibrium becomes ~10⁴ at cost of the GTP hydrolysis per rejected substrate *(established as schematic; exact gain depends on rate constants)*.
 - **DNA polymerase III error rate.** ~10⁻⁷ per base in *E. coli* — three orders of magnitude better than ribosomal translation because replication can tolerate higher ATP cost per decision.
 - **V(D)J recombination.** The RAG1/RAG2 enzymes that diversify antibodies are evolutionarily descended from an ancient transposase — a domesticated transposon. *(established)*.
-- **Tardigrade water loss in anhydrobiosis.** Up to ~99% body water loss; reversible. [Guidetti 2011] *(established)*. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
-- **Tardigrade glass state.** CAHS, MAHS, SAHS proteins vitrify the cytoplasm; Dsup protein physically shields DNA from radicals. Unique to phylum Tardigrada. → [[notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]
-- **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[notes/octopus-cognition]]
+- **Tardigrade water loss in anhydrobiosis.** Up to ~99% body water loss; reversible. [Guidetti 2011] *(established)*. → [[tardigrades-vitrify-themselves-to-survive-desiccation]]
+- **Tardigrade glass state.** CAHS, MAHS, SAHS proteins vitrify the cytoplasm; Dsup protein physically shields DNA from radicals. Unique to phylum Tardigrada. → [[tardigrades-vitrify-themselves-to-survive-desiccation]]
+- **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[octopus-cognition]]
 
 ## Eyes and vision (comparative)
 
-- **Camera-type eyes evolved independently** at least 5 times: vertebrates, cephalopods, box jellyfish, alciopid annelids, some snails. *(established)*. → [[notes/camera-eyes-evolved-independently-with-different-design-choices]]
+- **Camera-type eyes evolved independently** at least 5 times: vertebrates, cephalopods, box jellyfish, alciopid annelids, some snails. *(established)*. → [[camera-eyes-evolved-independently-with-different-design-choices]]
 - **Vertebrate retina is inverted.** Photoreceptors point away from incoming light; axons exit through the optic disc producing the blind spot. Developmental constraint from evagination of the diencephalon.
 - **Cephalopod retina is everted.** Photoreceptors face the light; no blind spot. Developmental route via invagination of surface ectoderm.
 - **Box jellyfish eye count.** 24 eyes total in 4 rhopalia of 6 each; 2 of the 6 in each rhopalium are camera-type with a lens. No conventional brain. [Garm et al. 2007] *(established and remarkable)*.
@@ -48,7 +48,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Octopus, specifically
 
-- **Neuron count.** ~500 M neurons, roughly 2/3 in the arms, 1/3 in central brain plus very large optic lobes. [Hochner 2012] *(widely cited estimate, not high precision)*. → [[notes/octopus-cognition]]
+- **Neuron count.** ~500 M neurons, roughly 2/3 in the arms, 1/3 in central brain plus very large optic lobes. [Hochner 2012] *(widely cited estimate, not high precision)*. → [[octopus-cognition]]
 - **Arm motor program.** A surgically isolated arm still produces the "fetch" reach when stimulated; motor program lives in the axial nerve cord [Sumbre et al. 2001] *(established)*.
 - **Colour blindness vs skin photoreception.** Retina typically has single rhodopsin; skin expresses opsins and contracts chromatophores in response to light [Ramirez & Oakley 2015] *(established that skin is photosensitive; its role in behaviour is open)*.
 - **Chromatic-aberration colour vision hypothesis.** [Stubbs & Stubbs 2016] proposes the U-shaped pupil enables colour discrimination via defocus. *(speculative but not dismissed)*
@@ -56,7 +56,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Slime mould (Physarum polycephalum)
 
-- **Oscillation period.** ~60–120 seconds for actomyosin contractions driving cytoplasmic streaming. *(established)*. → [[notes/slime-mold-computation]]
+- **Oscillation period.** ~60–120 seconds for actomyosin contractions driving cytoplasmic streaming. *(established)*. → [[slime-mold-computation]]
 - **Maze result.** *Physarum* retracts from dead ends leaving a single tube on the shortest path between two food sources [Nakagaki et al. 2000] *(established)*.
 - **Tokyo network result.** Approximates real Tokyo rail network's efficiency/fault-tolerance tradeoff with oat flakes at city positions [Tero et al. 2010] *(established, though "matches human engineering" is overstated in popular coverage)*.
 - **Physarum solver.** Continuous flow equation proven to converge to shortest path under certain conditions [Bonifaci et al. 2012].
@@ -64,7 +64,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Collective intelligence
 
-- **Honeybee nest-choice quorum.** ~15–20 scouts co-located at a candidate site trigger the piping signal. [Seeley 2010]. → [[notes/collective-intelligence]]
+- **Honeybee nest-choice quorum.** ~15–20 scouts co-located at a candidate site trigger the piping signal. [Seeley 2010]. → [[collective-intelligence]]
 - **Bee stop-signals = cross-inhibition.** Scouts dancing for A send stop-signals to scouts dancing for B [Seeley et al. 2012] *(established)*.
 - **Starling neighbour rule.** Each bird attends to ~7 nearest neighbours regardless of absolute distance — topological, not metric [Ballerini et al. 2008] *(established)*.
 - **Starling correlation length.** Scale-free: grows with flock size → signature of operation near a critical point [Cavagna et al. 2010].
@@ -74,7 +74,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## AI / mechanistic interpretability
 
-- **Superposition in small nets.** Networks pack more features than dimensions by using nearly-orthogonal directions [Elhage et al. 2022] *(established in toy models)*. → [[notes/mechanistic-interpretability]]
+- **Superposition in small nets.** Networks pack more features than dimensions by using nearly-orthogonal directions [Elhage et al. 2022] *(established in toy models)*. → [[mechanistic-interpretability]]
 - **Induction heads.** Pair of attention heads (previous-token + match-and-copy) implements in-context `A B ... A → B`; emerges abruptly during training [Olsson et al. 2022] *(established and replicated)*.
 - **Golden Gate Claude.** Produced by clamping a specific SAE feature in Claude 3 Sonnet [Templeton et al. 2024].
 - **IOI circuit in GPT-2 Small.** Reverse-engineered handful of attention heads doing name-duplication detection, S-inhibition, name-moving [Wang et al. 2022].
@@ -82,7 +82,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Astronomy and history
 
-- **Antikythera wreck date.** ~70–60 BCE (coins, amphorae). → [[notes/agent-antikythera-mechanism]]
+- **Antikythera wreck date.** ~70–60 BCE (coins, amphorae). → [[antikythera-mechanism]]
 - **Antikythera construction date.** Between ~205 and ~100 BCE. [Carman & Evans 2014] argued 205 BCE from eclipse-prediction back-calculation. *(contested within that window)*
 - **Antikythera gearing.** ≥30 gears identified directly, 37+ in full reconstruction [Freeth et al. 2021]. Teeth ~1 mm hand-cut triangles.
 - **Metonic cycle.** 19 tropical years ≈ 235 synodic months; device for reconciling lunar/solar calendars. Used on the Antikythera back face.
@@ -92,7 +92,7 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Consciousness
 
-- **Hard problem phrase.** Coined by [Chalmers 1995]. → [[notes/hard-problem-consciousness]]
+- **Hard problem phrase.** Coined by [Chalmers 1995]. → [[hard-problem-consciousness]]
 - **PCI (Perturbational Complexity Index).** TMS pulse + EEG response + complexity measure; reliably discriminates wakeful / dreaming / unresponsive states [Casali et al. 2013] *(established)*.
 - **COGITATE collaboration.** Templeton-funded adversarial IIT-vs-GNWT collaboration, 2019–2025. Posterior-cortex-sustained signatures favoured IIT; prefrontal ignition weaker than GNWT predicted. *(mixed; neither decisively confirmed)*
 - **Butlin et al. 2023 AI-consciousness report.** Indicator-property approach; no current AI clearly satisfies enough indicators [Butlin et al. 2023].
@@ -100,22 +100,22 @@ Format rules in [[conventions]] under "Raw facts — the companion file".
 
 ## Assembly theory
 
-- **MA > 15 biosignature claim.** Molecular assembly index above ~15 in tandem MS data reliably found only in biotic samples [Marshall et al. 2021] *(mixed; provisional)*. → [[notes/assembly-theory-origin-of-life]]
+- **MA > 15 biosignature claim.** Molecular assembly index above ~15 in tandem MS data reliably found only in biotic samples [Marshall et al. 2021] *(mixed; provisional)*. → [[assembly-theory-origin-of-life]]
 - **Sharma et al. 2023.** *Nature* paper extending AT into a unifying framework for selection and evolution. Reception sharply divided.
 
 ## Language and misc
 
-- **Voynich manuscript vellum date.** Radiocarbon 1404–1438 [Hodgins 2011] *(established)*. → [[notes/agent-1-voynich-statistics-look-like-language]]
+- **Voynich manuscript vellum date.** Radiocarbon 1404–1438 [Hodgins 2011] *(established)*. → [[voynich-statistics-look-like-language]]
 - **Voynich Zipf and Heaps.** Word frequencies and vocabulary growth match natural-language curves [Montemurro & Zanette 2013].
-- **Finnish "15 cases".** Mostly agglutinative postpositions; six locative cases form a 2×3 spatial/directional matrix. → [[notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]]
-- **Pirahã phoneme count.** 10 or 11 phonemes depending on count — one of the smallest inventories known. Two tones. Language survives as whistled and hummed registers. *(established)*. → [[notes/does-piraha-lack-recursion]]
+- **Finnish "15 cases".** Mostly agglutinative postpositions; six locative cases form a 2×3 spatial/directional matrix. → [[finnish-cases-are-mostly-postpositions]]
+- **Pirahã phoneme count.** 10 or 11 phonemes depending on count — one of the smallest inventories known. Two tones. Language survives as whistled and hummed registers. *(established)*. → [[does-piraha-lack-recursion]]
 - **Gordon 2004 Pirahã number study.** Speakers fail exact-match tasks above ~3 items; suggests no exact-number cognition without exact-number words. [Gordon 2004] *(established finding; interpretation contested)*.
 - **Hauser-Chomsky-Fitch 2002.** Proposed **recursion** as the unique defining feature of the human language faculty (FLN — Faculty of Language in the Narrow Sense). The 2005 Everett Pirahã paper is its most prominent empirical challenge.
-- **Mycorrhizal critique.** [Karst et al. 2023] documents citation drift on "mother tree" claims. → [[notes/plant-cognition-mycorrhizal-networks]]
+- **Mycorrhizal critique.** [Karst et al. 2023] documents citation drift on "mother tree" claims. → [[plant-cognition-mycorrhizal-networks]]
 
 ## History of science
 
-- **McClintock Ac/Ds.** Ac (Activator) and Ds (Dissociation) — maize transposon system, discovered 1944–1950 by Barbara McClintock. First identified transposable elements [McClintock 1950] *(established)*. → [[notes/mcclintock-and-the-forty-year-delay]]
+- **McClintock Ac/Ds.** Ac (Activator) and Ds (Dissociation) — maize transposon system, discovered 1944–1950 by Barbara McClintock. First identified transposable elements [McClintock 1950] *(established)*. → [[mcclintock-and-the-forty-year-delay]]
 - **Transposon fraction of human genome.** ~45% recognisably transposon-derived; higher estimates include more degraded ancient elements [IHGSC 2001] *(established; lower bound)*.
 - **Maize genome transposons.** ~85% transposon-derived — the organism where they were first discovered has among the highest fractions known.
 - **Active human transposons.** LINE-1 (autonomous), SINE/Alu (non-autonomous, ~1M copies), HERV-K. LINE-1 activity in neuronal progenitors documented [Muotri & Gage 2010] *(established; functional significance mixed)*.

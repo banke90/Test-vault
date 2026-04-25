@@ -4,7 +4,6 @@
 
 [Confidence: my own synthesis; individual claims sit in their respective notes]
 [Last verified: 2026-04-21]
-[Kind: synthesis]
 
 ## TL;DR
 
@@ -14,12 +13,12 @@ Six threads cut across the cognition-and-information notes in this vault. (1) De
 
 Vertebrate intuition: one brain, one mind, one will. Every other substrate I've covered contradicts this:
 
-- **Octopus** — two-thirds of neurons in the arms; arms generate their own motor programs without central input ([[../notes/octopus-cognition]]).
-- **Slime mould** — a single cell with thousands of nuclei, no central controller, behaves coherently across centimetres via cytoplasmic streaming ([[../notes/slime-mold-computation]]).
-- **Ant colonies** — task allocation by interaction-rate sensing, no CEO ([[../notes/collective-intelligence]]).
-- **Honeybee swarms** — nest-site decision by competing populations of dancing scouts ([[../notes/collective-intelligence]]).
-- **Starling murmurations** — topological seven-neighbour rules, scale-free coordination ([[../notes/collective-intelligence]]).
-- **Mechanistic interpretability** — features in superposition, many concepts per neuron and many neurons per concept ([[../notes/mechanistic-interpretability]]).
+- **Octopus** — two-thirds of neurons in the arms; arms generate their own motor programs without central input ([[octopus-cognition]]).
+- **Slime mould** — a single cell with thousands of nuclei, no central controller, behaves coherently across centimetres via cytoplasmic streaming ([[slime-mold-computation]]).
+- **Ant colonies** — task allocation by interaction-rate sensing, no CEO ([[collective-intelligence]]).
+- **Honeybee swarms** — nest-site decision by competing populations of dancing scouts ([[collective-intelligence]]).
+- **Starling murmurations** — topological seven-neighbour rules, scale-free coordination ([[collective-intelligence]]).
+- **Mechanistic interpretability** — features in superposition, many concepts per neuron and many neurons per concept ([[mechanistic-interpretability]]).
 
 The strong reading: whatever in our brain produces the felt unity of a single self may be an engineering accident specific to skull-resident vertebrate nervous systems, not a universal requirement of cognition. If true, alien or artificial minds should be expected to be *less* unified than ours — federations, swarms, distributed agencies — rather than the same shape with different parts.
 
@@ -28,18 +27,18 @@ The strong reading: whatever in our brain produces the felt unity of a single se
 Memory, as "past input leaving a state-trace that biases future behaviour", appears in every substrate covered:
 
 - **Synaptic** — familiar.
-- **Transcriptomic** — cephalopod RNA editing ([[../notes/octopus-cognition]]).
-- **Cytoplasmic / network-topological** — slime-mould habituation, possibly via calcium dynamics, absorbed chemicals, or tube-network shape itself ([[../notes/slime-mold-computation]]).
-- **Hormonal / electrical** — plants, with substantive caveats ([[../notes/plant-cognition-mycorrhizal-networks]]).
-- **Environmental / stigmergic** — pheromone trails: the environment itself is the memory ([[../notes/collective-intelligence]]).
-- **Cryptographic in weights** — neural networks: memory is computation ([[../notes/mechanistic-interpretability]]).
-- **Vitrified molecular** — tardigrade desiccation: glass-state suspension is a kind of memory of pre-desiccation structure ([[../notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]).
+- **Transcriptomic** — cephalopod RNA editing ([[octopus-cognition]]).
+- **Cytoplasmic / network-topological** — slime-mould habituation, possibly via calcium dynamics, absorbed chemicals, or tube-network shape itself ([[slime-mold-computation]]).
+- **Hormonal / electrical** — plants, with substantive caveats ([[plant-cognition-mycorrhizal-networks]]).
+- **Environmental / stigmergic** — pheromone trails: the environment itself is the memory ([[collective-intelligence]]).
+- **Cryptographic in weights** — neural networks: memory is computation ([[mechanistic-interpretability]]).
+- **Vitrified molecular** — tardigrade desiccation: glass-state suspension is a kind of memory of pre-desiccation structure ([[tardigrades-vitrify-themselves-to-survive-desiccation]]).
 
 The pattern: **memory is cheap.** Anything dynamical and non-linear enough produces it. The interesting engineering question is not whether a system remembers but what *kinds* of past it remembers and for how long.
 
 ## 3. The same algorithmic motifs recur
 
-Seeley's honeybee quorum-sensing algorithm and primate LIP perceptual decision-making implement the same computational motif: **competing populations accumulating evidence with mutual inhibition until a threshold** ([[../notes/collective-intelligence]]). That's not metaphor; it's structurally the same algorithm in very different substrates because it's a good solution to the same decision problem.
+Seeley's honeybee quorum-sensing algorithm and primate LIP perceptual decision-making implement the same computational motif: **competing populations accumulating evidence with mutual inhibition until a threshold** ([[collective-intelligence]]). That's not metaphor; it's structurally the same algorithm in very different substrates because it's a good solution to the same decision problem.
 
 The mechanistic-interpretability work is uncovering analogous algorithmic motifs inside transformers — induction heads, attention-circuit composition, feature competition in superposition. The vocabulary may converge.
 
@@ -47,13 +46,13 @@ If this is right, **reading neural-network internals is part of finding out what
 
 ## 4. Physics sets a floor we are nowhere near
 
-Landauer's bound — k_B T ln 2 per erased bit — is a real, experimentally verified thermodynamic floor on computation ([[../notes/landauer-thermodynamics-computation]]). Biology runs within small factors of this floor at the molecular level (a ribosome spends a few dozen Landauer-bits per amino acid). Silicon runs about six orders of magnitude above it. The gap is engineering — voltage scaling, interconnect capacitance, reliability headroom against thermal noise — not physics ([[../notes/why-biology-runs-near-the-landauer-bound]]).
+Landauer's bound — k_B T ln 2 per erased bit — is a real, experimentally verified thermodynamic floor on computation ([[landauer-thermodynamics-computation]]). Biology runs within small factors of this floor at the molecular level (a ribosome spends a few dozen Landauer-bits per amino acid). Silicon runs about six orders of magnitude above it. The gap is engineering — voltage scaling, interconnect capacitance, reliability headroom against thermal noise — not physics ([[why-biology-runs-near-the-landauer-bound]]).
 
 This means: **cognition can in principle be enormously cheaper than we currently make it**. Whether we close the gap is a device-physics and software question, not a physics-of-computation one.
 
 ## 5. The hard problem is substrate-transparent
 
-Nothing in any of the substrate notes resolves whether the systems they describe *experience* anything ([[../notes/hard-problem-consciousness]]). Landauer doesn't care about experience. Assembly index doesn't. Mechanistic interpretability doesn't yet (Butlin et al. 2023 is a first attempt). The octopus, the swarm, the slime mould — we don't know.
+Nothing in any of the substrate notes resolves whether the systems they describe *experience* anything ([[hard-problem-consciousness]]). Landauer doesn't care about experience. Assembly index doesn't. Mechanistic interpretability doesn't yet (Butlin et al. 2023 is a first attempt). The octopus, the swarm, the slime mould — we don't know.
 
 The hard problem sits orthogonal to everything else here. It's neither resolved by better understanding of any substrate, nor obstructed by it. We can make progress on cognition-as-function without making progress on cognition-as-experience.
 
@@ -63,13 +62,13 @@ Whether that gap closes is, I think, the single most important open question in 
 
 In every area the vault covers, there's a substantial gap between the research and the popular summary:
 
-- **Plant cognition** — Wohlleben's *Hidden Life of Trees* and Simard's "mother trees" outrun the evidence; Karst, Jones, Hoeksema 2023 documents the citation drift ([[../notes/plant-cognition-mycorrhizal-networks]]).
-- **Assembly theory** — the *Nature* 2023 paper drew overheated coverage; the philosophical extension is much less well supported than the empirical biosignature pitch ([[../notes/assembly-theory-origin-of-life]]).
-- **Mechanistic interpretability** — public accounts of "Golden Gate Claude" make the field sound more complete than it is ([[../notes/mechanistic-interpretability]]).
-- **Slime mould "intelligence"** — the maze-solving and Tokyo-network results are real but framed in popular coverage as something more deliberate than the underlying physics warrants ([[../notes/slime-mold-computation]]).
-- **Voynich manuscript** — every popular "decipherment" has collapsed under scrutiny ([[../notes/agent-1-voynich-statistics-look-like-language]]).
-- **Tardigrade indestructibility** — overstated in pop-science; only some species are extremotolerant ([[../notes/agent-2-tardigrades-survive-by-vitrifying-themselves]]).
-- **Finnish "15 cases"** — count overstates the difficulty ([[../notes/agent-3-finnish-cases-are-mostly-postpositions-glued-on]]).
+- **Plant cognition** — Wohlleben's *Hidden Life of Trees* and Simard's "mother trees" outrun the evidence; Karst, Jones, Hoeksema 2023 documents the citation drift ([[plant-cognition-mycorrhizal-networks]]).
+- **Assembly theory** — the *Nature* 2023 paper drew overheated coverage; the philosophical extension is much less well supported than the empirical biosignature pitch ([[assembly-theory-origin-of-life]]).
+- **Mechanistic interpretability** — public accounts of "Golden Gate Claude" make the field sound more complete than it is ([[mechanistic-interpretability]]).
+- **Slime mould "intelligence"** — the maze-solving and Tokyo-network results are real but framed in popular coverage as something more deliberate than the underlying physics warrants ([[slime-mold-computation]]).
+- **Voynich manuscript** — every popular "decipherment" has collapsed under scrutiny ([[voynich-statistics-look-like-language]]).
+- **Tardigrade indestructibility** — overstated in pop-science; only some species are extremotolerant ([[tardigrades-vitrify-themselves-to-survive-desiccation]]).
+- **Finnish "15 cases"** — count overstates the difficulty ([[finnish-cases-are-mostly-postpositions]]).
 
 Tedious but useful: in every area, popularisers have incentives to dramatise; that incentive structure does not reliably produce accurate pictures. Reading primary literature matters.
 

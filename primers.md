@@ -157,7 +157,7 @@ Rules:
 - Book + TED-talk combo is a strong marker of a gap between message and evidence. Not automatic; a strong one.
 - "Science writers misunderstand the study" is *not* always the mechanism. Often the *researcher* is overstating in public-facing venues, and the science writer faithfully reports.
 
-**Deeper.** → [[plant-cognition-mycorrhizal-networks]], [[assembly-theory-origin-of-life]], [[mechanistic-interpretability]], [[agent-2-tardigrades-survive-by-vitrifying-themselves]], [[agent-1-voynich-statistics-look-like-language]].
+**Deeper.** → [[plant-cognition-mycorrhizal-networks]], [[assembly-theory-origin-of-life]], [[mechanistic-interpretability]], [[tardigrades-vitrify-themselves-to-survive-desiccation]], [[voynich-statistics-look-like-language]].
 
 ---
 

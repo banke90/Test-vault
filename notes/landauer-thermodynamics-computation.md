@@ -4,11 +4,10 @@
 
 [Confidence: established for the central claim; contested on philosophical boundaries]
 [Last verified: 2026-04-21]
-[Kind: concept]
 
 ## TL;DR
 
-Rolf Landauer proved in 1961 that erasing one bit in a system at temperature T must dissipate at least k_B T ln 2 of heat — about 3 × 10⁻²¹ J at 300 K [Landauer 1961]. The argument: erasure reduces the logical system's entropy, and by the second law that entropy has to go somewhere, so it goes to the bath. Bennett used this to exorcise Maxwell's demon: the demon must eventually erase its memory, and that erasure dissipates exactly the work it extracted [Bennett 1982]. Logically reversible computation has no Landauer floor and can in principle dissipate arbitrarily little [Bennett 1973]. Bérut et al. verified the bound experimentally in 2012 [Bérut et al. 2012]. Current CMOS runs about six orders of magnitude above the Landauer floor; biology runs within a small factor of it. The bound is real, verified, and nowhere close to binding for current engineering.
+Rolf Landauer proved in 1961 that erasing one bit at temperature T must dissipate at least k_B T ln 2 of heat — about 3 × 10⁻²¹ J at 300 K [Landauer 1961] — because erasure reduces the logical system's entropy and the second law sends that entropy to the bath. Bennett used this to exorcise Maxwell's demon (the demon must eventually erase its memory) and noted that *logically reversible* computation has no Landauer floor [Bennett 1973; Bennett 1982]; Bérut et al. verified the bound experimentally in 2012. Current CMOS runs about six orders of magnitude above the floor; biology runs within a small factor of it. The bound is real, verified, and nowhere close to binding for current engineering.
 
 ## The 1961 argument
 

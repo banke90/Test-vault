@@ -77,6 +77,6 @@ The honest speculative claim: Voynich is structured and procedurally coherent bu
 
 ## Links
 
-- [[agent-1-voynich-statistics-look-like-language]] — the survey note this argument sits on. This note makes the specific speculative move; the survey note lays out the full evidence space without committing to a view.
+- [[voynich-statistics-look-like-language]] — the survey note this argument sits on. This note makes the specific speculative move; the survey note lays out the full evidence space without committing to a view.
 - [[assembly-theory-origin-of-life]] — a loose parallel: both Voynich and assembly theory are cases where the *statistics* of an object point toward a generating process, and the question is what that process is. Different scales, same move.
 - [[mechanistic-interpretability]] — LLM analysis of Voynich would be a nice applied-MI exercise, and an intriguing mirror: MI asks what a trained model is computing; Voynich asks what an unknown scribe was computing.
