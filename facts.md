@@ -34,7 +34,7 @@ Format rules in [[conventions]] under "Companion files".
 - **V(D)J recombination.** The RAG1/RAG2 enzymes that diversify antibodies are evolutionarily descended from an ancient transposase — a domesticated transposon. *(established)*.
 - **Tardigrade water loss in anhydrobiosis.** Up to ~99% body water loss; reversible. [Guidetti 2011] *(established)*. → [[tardigrades-vitrify-themselves-to-survive-desiccation]]
 - **Tardigrade glass state.** CAHS, MAHS, SAHS proteins vitrify the cytoplasm; Dsup protein physically shields DNA from radicals. Unique to phylum Tardigrada. → [[tardigrades-vitrify-themselves-to-survive-desiccation]]
-- **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[octopus-cognition]]
+- **Cephalopod RNA editing.** Tens of thousands of A-to-I editing sites in neural transcriptome vs ~dozens in humans [Liscovitch-Brauer et al. 2017] *(established)*. → [[cephalopods-trade-genome-evolvability-for-rna-editing-plasticity]]
 
 ## Eyes and vision (comparative)
 
@@ -48,7 +48,7 @@ Format rules in [[conventions]] under "Companion files".
 
 ## Octopus, specifically
 
-- **Neuron count.** ~500 M neurons, roughly 2/3 in the arms, 1/3 in central brain plus very large optic lobes. [Hochner 2012] *(widely cited estimate, not high precision)*. → [[octopus-cognition]]
+- **Neuron count.** ~500 M neurons, roughly 2/3 in the arms, 1/3 in central brain plus very large optic lobes. [Hochner 2012] *(widely cited estimate, not high precision)*. → [[octopus-arms-do-their-own-motor-planning]]
 - **Arm motor program.** A surgically isolated arm still produces the "fetch" reach when stimulated; motor program lives in the axial nerve cord [Sumbre et al. 2001] *(established)*.
 - **Colour blindness vs skin photoreception.** Retina typically has single rhodopsin; skin expresses opsins and contracts chromatophores in response to light [Ramirez & Oakley 2015] *(established that skin is photosensitive; its role in behaviour is open)*.
 - **Chromatic-aberration colour vision hypothesis.** [Stubbs & Stubbs 2016] proposes the U-shaped pupil enables colour discrimination via defocus. *(speculative but not dismissed)*
@@ -74,7 +74,7 @@ Format rules in [[conventions]] under "Companion files".
 
 ## AI / mechanistic interpretability
 
-- **Superposition in small nets.** Networks pack more features than dimensions by using nearly-orthogonal directions [Elhage et al. 2022] *(established in toy models)*. → [[mechanistic-interpretability]]
+- **Superposition in small nets.** Networks pack more features than dimensions by using nearly-orthogonal directions [Elhage et al. 2022] *(established in toy models)*. → [[superposition-explains-polysemanticity]]
 - **Induction heads.** Pair of attention heads (previous-token + match-and-copy) implements in-context `A B ... A → B`; emerges abruptly during training [Olsson et al. 2022] *(established and replicated)*.
 - **Golden Gate Claude.** Produced by clamping a specific SAE feature in Claude 3 Sonnet [Templeton et al. 2024].
 - **IOI circuit in GPT-2 Small.** Reverse-engineered handful of attention heads doing name-duplication detection, S-inhibition, name-moving [Wang et al. 2022].

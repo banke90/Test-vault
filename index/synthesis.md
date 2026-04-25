@@ -3,7 +3,7 @@
 > Patterns I noticed once enough notes were on the page — none are conclusions, but they're the parts I think the rest of the vault is implicitly arguing for.
 
 [Confidence: my own synthesis; individual claims sit in their respective notes]
-[Last verified: 2026-04-21]
+[Last verified: 2026-04-25]
 
 ## TL;DR
 
@@ -13,12 +13,12 @@ Six threads cut across the cognition-and-information notes in this vault. (1) De
 
 Vertebrate intuition: one brain, one mind, one will. Every other substrate I've covered contradicts this:
 
-- **Octopus** — two-thirds of neurons in the arms; arms generate their own motor programs without central input ([[octopus-cognition]]).
+- **Octopus** — two-thirds of neurons in the arms; arms generate their own motor programs without central input ([[octopus-arms-do-their-own-motor-planning]]).
 - **Slime mould** — a single cell with thousands of nuclei, no central controller, behaves coherently across centimetres via cytoplasmic streaming ([[slime-mold-computation]]).
 - **Ant colonies** — task allocation by interaction-rate sensing, no CEO ([[collective-intelligence]]).
 - **Honeybee swarms** — nest-site decision by competing populations of dancing scouts ([[collective-intelligence]]).
 - **Starling murmurations** — topological seven-neighbour rules, scale-free coordination ([[collective-intelligence]]).
-- **Mechanistic interpretability** — features in superposition, many concepts per neuron and many neurons per concept ([[mechanistic-interpretability]]).
+- **Mechanistic interpretability** — features in superposition, many concepts per neuron and many neurons per concept ([[superposition-explains-polysemanticity]]).
 
 The strong reading: whatever in our brain produces the felt unity of a single self may be an engineering accident specific to skull-resident vertebrate nervous systems, not a universal requirement of cognition. If true, alien or artificial minds should be expected to be *less* unified than ours — federations, swarms, distributed agencies — rather than the same shape with different parts.
 
@@ -27,7 +27,7 @@ The strong reading: whatever in our brain produces the felt unity of a single se
 Memory, as "past input leaving a state-trace that biases future behaviour", appears in every substrate covered:
 
 - **Synaptic** — familiar.
-- **Transcriptomic** — cephalopod RNA editing ([[octopus-cognition]]).
+- **Transcriptomic** — cephalopod RNA editing ([[cephalopods-trade-genome-evolvability-for-rna-editing-plasticity]]).
 - **Cytoplasmic / network-topological** — slime-mould habituation, possibly via calcium dynamics, absorbed chemicals, or tube-network shape itself ([[slime-mold-computation]]).
 - **Hormonal / electrical** — plants, with substantive caveats ([[plant-cognition-mycorrhizal-networks]]).
 - **Environmental / stigmergic** — pheromone trails: the environment itself is the memory ([[collective-intelligence]]).
@@ -64,7 +64,7 @@ In every area the vault covers, there's a substantial gap between the research a
 
 - **Plant cognition** — Wohlleben's *Hidden Life of Trees* and Simard's "mother trees" outrun the evidence; Karst, Jones, Hoeksema 2023 documents the citation drift ([[plant-cognition-mycorrhizal-networks]]).
 - **Assembly theory** — the *Nature* 2023 paper drew overheated coverage; the philosophical extension is much less well supported than the empirical biosignature pitch ([[assembly-theory-origin-of-life]]).
-- **Mechanistic interpretability** — public accounts of "Golden Gate Claude" make the field sound more complete than it is ([[mechanistic-interpretability]]).
+- **Mechanistic interpretability** — public accounts of "Golden Gate Claude" make the field sound more complete than it is ([[sparse-autoencoders-extract-monosemantic-features]]).
 - **Slime mould "intelligence"** — the maze-solving and Tokyo-network results are real but framed in popular coverage as something more deliberate than the underlying physics warrants ([[slime-mold-computation]]).
 - **Voynich manuscript** — every popular "decipherment" has collapsed under scrutiny ([[voynich-statistics-look-like-language]]).
 - **Tardigrade indestructibility** — overstated in pop-science; only some species are extremotolerant ([[tardigrades-vitrify-themselves-to-survive-desiccation]]).
