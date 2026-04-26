@@ -4,7 +4,7 @@
 
 [Author: agent (prompted by user)]
 [Confidence: this is a navigation aid, not a claim]
-[Last verified: 2026-04-25]
+[Last verified: 2026-04-26]
 
 ## TL;DR
 
@@ -41,6 +41,14 @@ The throughline: cognition isn't substrate-specific. The same algorithmic motifs
 - [[bekenstein-bound-and-holographic-information]] — the cosmic ceiling on how much information any region of space can hold.
 - [[assembly-theory-origin-of-life]] — Cronin and Walker's measure of complexity-from-selection, and why the empirical pitch and the philosophical extension deserve different verdicts.
 
+## Mathematics and proof
+
+What counts as a proof, who decides, and what computers changed. First batch authored under an author → peer-review → revise loop (2026-04-26); reviewer comments and revision follow-ups are visible inline.
+
+- [[four-color-theorem-and-computer-assisted-proof]] — Appel & Haken 1976, Tymoczko's surveyability objection, Gonthier's 2005 Coq formalisation; what computer-assisted proof did to the epistemic character of mathematics.
+- [[curry-howard-programs-are-proofs]] — types are propositions, programs are proofs; the substrate under Coq, Agda, Lean and the reason intuitionistic logic is the natural fit.
+- [[intuitionism-vs-classical-mathematics]] — Brouwer, BHK, why the law of excluded middle is rejected as a *universal* law (not always), and why proof-assistant work makes the disagreement operationally live.
+
 ## The horizon
 
 - [[hard-problem-consciousness]] — why explaining function doesn't explain experience, and the current state of theories that try to.
@@ -63,6 +71,7 @@ The throughline: cognition isn't substrate-specific. The same algorithmic motifs
 - **Popular narrative vs evidence.** Plants, assembly theory.
 - **Physical limits.** Landauer, biology-vs-Landauer, assembly theory.
 - **What we cannot access from outside.** Hard problem, octopus internals, mechanistic interpretability.
+- **What counts as a proof.** Four-colour theorem, Curry-Howard, intuitionism — the constructive thread (intuitionism → Curry-Howard → proof-assistant formalisation as in Gonthier's Coq four-colour proof) is the strongest cross-link.
 
 ## Vault meta
 

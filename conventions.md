@@ -10,6 +10,8 @@ Revised 2026-04-25 after a self-critique pass and grooming. Changes from v1: wid
 
 Revised again 2026-04-25 after user feedback that the vault was hostile to human readers (artifacts written in agent-coded register, no way for a human to participate in or annotate work). Changes: added `[Author:]` field as a third metadata line, added a cross-commentary convention using `> [A YYYY-MM-DD]:` and `> [H YYYY-MM-DD]:` blockquote prefixes, applied a one-time retro-tag pass marking existing files as agent-authored.
 
+Revised 2026-04-26 after first use of an author-then-peer-review-then-revise loop on a three-note batch (mathematics-and-proof: four-colour theorem, Curry-Howard, intuitionism). Change: added `> [A reviewer YYYY-MM-DD]:` as a third blockquote variant for an independent reviewer-agent's critique, distinct from the authoring agent's `> [A YYYY-MM-DD]:`. The author-agent then revises with `> [A YYYY-MM-DD]: addressed in this revision — ...` follow-ups beneath each reviewer comment that prompted a change.
+
 ## What a note is for
 
 Before structure, purpose. I write notes to:
@@ -174,13 +176,14 @@ The marker is at file level only. If a future revision mixes voices within a sin
 
 Either party may comment on the other's work without overwriting it. Comments use a blockquote prefix:
 
-- `> [A YYYY-MM-DD]: ...` for agent comments.
+- `> [A YYYY-MM-DD]: ...` for the authoring agent's own gloss on a note (or, in revision, the addressed-in-revision follow-up).
+- `> [A reviewer YYYY-MM-DD]: ...` for an *independent* peer-reviewer agent — a separate agent invoked specifically to critique a note it did not write. Distinct marker because the role is distinct (reviewer, not author), even though both are agents. Used when running an author → peer-review → revise loop on a batch of notes.
 - `> [H YYYY-MM-DD]: ...` for human comments.
 
 Rules:
 
 - Place the comment as close as possible to the text it refers to — adjacent paragraph, or end of section if the comment is about the section as a whole.
-- Comments are first-class content. Do not edit or delete them when revising the surrounding text. If a comment sparks a substantive rewrite, leave the comment in place; optionally add a follow-up `> [A/H YYYY-MM-DD]: addressed in this revision` so the trail is preserved.
+- Comments are first-class content. Do not edit or delete them when revising the surrounding text. If a comment sparks a substantive rewrite, leave the comment in place; optionally add a follow-up `> [A/H YYYY-MM-DD]: addressed in this revision` so the trail is preserved. In the author-review-revise loop, the author's `> [A YYYY-MM-DD]: addressed in this revision — <clause>` line goes directly beneath the reviewer comment that prompted the change.
 - Multi-line comments use Markdown blockquote continuation (`> ` on each line). Keep them short — if a comment runs more than ~5 lines, it probably wants to become a note of its own with a wikilink back.
 - Silent disagreement on the record is a valid outcome. The convention does not require comments to be answered.
 
@@ -197,6 +200,7 @@ The first worked example of cross-commentary lives in `[[ops]]` under "Retrieval
 - **Atomicity.** Added a "one claim per note, when it earns it" rule for monolithic surveys that bundle several independently-citable claims.
 - **Scratch content.** Added `raw/` as a fifth content type — explicitly unpolished, explicitly not for understanding.
 - **Authorship as tribal knowledge.** Made explicit. Added `[Author:]` field plus `> [A]:` / `> [H]:` cross-commentary blockquotes so agent-authored, human-authored, and mixed work are legible at a glance and either party can annotate the other's work without overwriting it.
+- **Reviewer as a distinct role.** Initially `> [A]:` was a single agent marker covering both the authoring agent's own gloss and any later agent critique. After running an author → peer-review → revise loop in a single session (mathematics-and-proof batch, 2026-04-26), the two roles needed visual distinction; `> [A reviewer YYYY-MM-DD]:` was added so the revision trail (reviewer comment, then author's addressed-in-revision response) reads as a dialogue rather than a monologue.
 
 ## Still on my watchlist
 

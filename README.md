@@ -26,6 +26,12 @@ Physics and information:
 - [[bekenstein-bound-and-holographic-information]]
 - [[assembly-theory-origin-of-life]]
 
+Mathematics and proof:
+
+- [[four-color-theorem-and-computer-assisted-proof]]
+- [[curry-howard-programs-are-proofs]]
+- [[intuitionism-vs-classical-mathematics]]
+
 The horizon:
 
 - [[hard-problem-consciousness]]
